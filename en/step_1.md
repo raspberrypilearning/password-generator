@@ -1,59 +1,18 @@
---- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## Introduction: 
 
-![screenshot](images/passwords-13000.png)
+It's important to protect your personal information online, and in this project you'll create a program to generate passwords for you.
 
-Remember that your password is harder to guess if it's:
+The passwords will be random, so no one will be able to guess them!
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="images/passwords-finished.png">
+</div>
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+### Additional information for club leaders
 
-
-## Step 2: Random characters
-
-Let's create a program to choose a random character for your password.
-
-
-
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
-+ Create a list of characters, stored in a variable called `chars`.
-
-	![screenshot](images/passwords-chars.png)
-
-+ To choose a random character, you'll need to `import` the `random` module.
-
-	![screenshot](images/passwords-import.png)
-
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
-
-	![screenshot](images/passwords-choose.png)
-
-+ Finally, you can print your (very short!) password to the screen.
-
-	![screenshot](images/passwords-print.png)
-
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
-
-	![screenshot](images/passwords-test-letters.png)
-
-	If you run your program a few times, you should see different characters appear.
-
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
-
-	![screenshot](images/passwords-numbers.png)
-
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
-
-
-
-
---- /challenge ---### Additional information for club leaders
-
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/password-generator/print).
 
 
 --- collapse ---
