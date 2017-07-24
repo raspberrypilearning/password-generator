@@ -13,8 +13,14 @@ interests: ''
 technologies: python
 site_areas: codeclub, python
 steps:
+- title: 'Introduction: '
+- title: How secure is your password?
 - title: 'Challenge: Creating a better password'
+- title: Random characters
 - title: 'Challenge: Using numbers and punctuation'
+- title: A random password
 - title: 'Challenge: A longer password'
+- title: Choosing a password length
+- title: Lots of passwords
 - title: 'Challenge: Choosing the number of passwords'
 

@@ -1,46 +1,28 @@
---- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## How secure is your password?
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
+A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+Let's find out how long it would take a computer to guess your password.
 
 
 
-## Step 3: A random password
++ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
 
-A single character isn't very useful - let's improve your program to create a longer password.
+	![screenshot](images/passwords-secure.png)
 
++ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
 
+	![screenshot](images/passwords-letmein.png)
 
-+ To create a password, you will add random characters to it, one at a time.
+	You'll also see some reasons why "letmein" isn't a good password to use:
 
-	To start with, your `password` variable should be empty. Add this line to your code:
+	+ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-	![screenshot](images/passwords-empty.png)
+	+ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-+ You want to choose a random character 10 times. To do this, add the following code:
+	+ It's very __short__. It would take a computer more time to guess a longer password.
 
-	![screenshot](images/passwords-repeat.png)
+	+ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ Try entering a dictionary word. How long would it take a computer to guess that password? 
 
-	To indent, press the 'tab' key.
-
-	![screenshot](images/passwords-indent.png)
-
-+ You need to use `+=` to __add__ the new character to the password each time.
-
-	![screenshot](images/passwords-add.png)
-
-+ Test your new code and you should see a password that's 10 characters long.
-
-	![screenshot](images/passwords-10-test.png)
-
-
-
-
---- /challenge ---
