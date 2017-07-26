@@ -12,7 +12,7 @@ The passwords will be random, so no one will be able to guess them!
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/password-generator/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
 
 
 --- collapse ---
