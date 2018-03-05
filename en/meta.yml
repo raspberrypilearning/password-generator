@@ -1,5 +1,5 @@
 hero_image: images/banner.png
-theme: red
+theme: blue
 duration: 2
 listed: true
 ingredient: false
@@ -22,4 +22,3 @@ steps:
 - title: Choosing a password length
 - title: Lots of passwords
 - title: 'Challenge: Choosing the number of passwords'
-
