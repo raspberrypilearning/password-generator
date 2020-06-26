@@ -1,8 +1,8 @@
-## Introduction:
+## Inleiding
 
-It's important to protect your personal information online, and in this project you'll create a program to generate passwords for you.
+Het is belangrijk om je persoonlijke informatie online te beschermen, en in dit project maak je een programma om wachtwoorden voor je te genereren.
 
-The passwords will be random, so no one will be able to guess them!
+De wachtwoorden zijn willekeurig, dus niemand zal ze kunnen raden!
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,71 +10,71 @@ The passwords will be random, so no one will be able to guess them!
   <img src="images/passwords-finished.png">
 </div>
 
-### Additional information for club leaders
+### Aanvullende informatie voor clubleiders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/password-generator/print).
 
 
 --- collapse ---
 ---
-title: Club leader notes
+title: Opmerkingen voor docenten
 ---
 
 
-## Introduction:
+## Inleiding
 
-In this project, children will learn what makes a good password, and how to make a program that creates randomly generated passwords.
+In dit project leren kinderen wat een goed wachtwoord is en hoe ze een programma kunnen maken dat willekeurig gegenereerde wachtwoorden maakt.
 
-This project has been written for Safer Internet Day 2017, which is on 7th February 2017. The aim of Safer Internet Day is to promote the safe and responsible use of technology for young people. For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
+Dit project is geschreven voor Safer Internet Day 2017, dat was op 7 februari 2017. Het doel van een veiliger internetdag is het bevorderen van het veilige en verantwoorde gebruik van technologie voor jongeren. Ga voor meer informatie naar [saferinternet.org.uk](https://www.saferinternet.org.uk/) waar je een [onderwijspakket voor 7-11-jarigen](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) kunt vinden met aanvullende bronnen.
 
-## Online Resources
+## Online bronnen
 
-__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__Dit project maakt gebruik van Python 3.__ We raden aan om [Trinket](https://trinket.io/) te gebruiken om Python online te schrijven. Dit project bevat de volgende Trinkets:
 
-+ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
++ [Nieuwe (lege) Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Er is ook een trinket met het voltooide project:
 
-+ [‘Password Creator’ Finished -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
++ [‘Wachtwoordgenerator’ voltooid - trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
 
-## Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+## Offline bronnen
+Dit project kan [offline worden voltooid](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) als dit de voorkeur heeft.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Je kunt een voltooide versie van dit project vinden in de sectie 'Vrijwilligersbronnen', die het volgende bevat:
 
 + password-creator-finished/passwords.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Alle bovenstaande bronnen kunnen ook worden gedownload als project en als vrijwilliger `.zip` bestanden.)
 
-## Learning Objectives
-+ Repetition;
-+ The `random.choice()` method;
+## Leerdoelen
++ Herhaling;
++ De `random.choice()`methode;
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Combineer programmeerconstructies om een ​​probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
-+ "Creating a better password" - using <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> to create secure passwords.
-+ "Using numbers and punctuation" - adding text to a string variable, giving a wider choice of random characters.
-+ "A longer password" - modifying the number of times a random character is chosen.
-+ "Choosing the number of passwords" - using a variable to specify the number of passwords required.
+## Uitdagingen
++ "Een beter wachtwoord maken" - gebruik <a href="https://howsecureismypassword.net/" target="_blank">howsecuremypassword.net</a> om veilige wachtwoorden te maken.
++ "Gebruik van cijfers en leesteken" - voeg tekst toe aan een tekenreeksvariabele, wat een bredere keuze van willekeurige tekens geeft.
++ "Een langer wachtwoord" - wijzig het aantal keren dat een willekeurig teken wordt gekozen.
++ "Het aantal wachtwoorden kiezen" - met behulp van een variabele om het aantal vereiste wachtwoorden op te geven.
 
 --- /collapse ---
 
 
 --- collapse ---
 ---
-title: Project materials
+title: Projectmaterialen
 ---
-## Project resources
-* [.zip file containing all project resources](resources/password-generator-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+## Projectbronnen
+* [.zip-bestand met alle projectbronnen](resources/password-generator-resources.zip)
+* [Online lege Python Trinket](http://jumpto.cc/python-new)
+* [Offline leeg Python-bestand](resources/new-new.py)
 
-## Club leader resources
-* [.zip file containing all completed project resources](resources/password-generator-finished.zip)
-* [Online completed Trinket project](https://trinket.io/python/08c0ad3359)
-* [Offline completed project](resources/password-generator-finished-passwords.py)
+## Clubleider middelen
+* [.zip-bestand met alle voltooide projectbronnen](resources/password-generator-finished.zip)
+* [Online voltooid Trinket-project](https://trinket.io/python/08c0ad3359)
+* [Offline voltooid project](resources/password-generator-finished-passwords.py)
 
 --- /collapse ---
