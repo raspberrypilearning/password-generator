@@ -1,24 +1,24 @@
-## Choosing a password length
+## पासवर्ड की लंबाई चुनना
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+कुछ वेबसाइटों को एक निश्चित लंबाई के पासवर्ड की आवश्यकता होती है। आइए उपयोगकर्ता को उसके पासवर्ड की लंबाई चुनने की अनुमति दें।
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ सबसे पहले, उपयोगकर्ता से पासवर्ड लंबाई इनपुट करने के लिए कहें, और इसे `length `नामक वेरिएबल(variable) में सेव करें।
 
-    ![screenshot](images/passwords-length.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ उपयोगकर्ता के इनपुट को संख्या में बदलने के लिये `int()`का उपयोग करें|
 
-    ![screenshot](images/passwords-cast.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ उपयोगकर्ता जितनी बार डाले उतनी बार अपने `length` वेरिएबल(variable) का उपयोग करें।
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ अपने कोड का परीक्षण(Test) करें। बनाया गया पासवर्ड उपयोगकर्ता द्वारा डाली गइ लंबाई जितना होना चाहिए।
 
-    ![screenshot](images/passwords-length-test.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-length-test.png)
 
 
 
