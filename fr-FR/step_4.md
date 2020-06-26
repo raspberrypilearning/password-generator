@@ -1,37 +1,37 @@
-## Random characters
+## Caractères aléatoires
 
-Let's create a program to choose a random character for your password.
+Créons un programme pour choisir un caractère aléatoire pour ton mot de passe.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ Ouvre le modèle de Trinket Python vierge : <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Crée une liste de caractères, stockés dans une variable appelée `caracteres`.
 
-    ![screenshot](images/passwords-chars.png)
+    ![capture d'écran](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ Pour choisir un caractère aléatoire, tu devras `importer` le module `random`.
 
-    ![screenshot](images/passwords-import.png)
+    ![capture d'écran](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ Tu peux maintenant choisir un caractère aléatoire dans la liste, et le stocker dans une variable appelée `motdepasse`.
 
-    ![screenshot](images/passwords-choose.png)
+    ![capture d'écran](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ Enfin, tu peux imprimer ton mot de passe (très court !) à l'écran.
 
-    ![screenshot](images/passwords-print.png)
+    ![capture d'écran](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Teste ton projet en cliquant sur « exécuter». Tu devrais voir un seul caractère aléatoire à l'écran.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![capture d'écran](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    Si tu exécutes ton programme à plusieurs reprises, tu devrais voir apparaître différents caractères.
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ Un mot de passe n'est pas très sûr s'il ne contient que des lettres. Ajoute quelques chiffres à ta variable `caracteres`.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![capture d'écran](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ Teste ton code à nouveau quelques fois, et tu devrais voir que parfois un nombre est choisi.
 
 
 
