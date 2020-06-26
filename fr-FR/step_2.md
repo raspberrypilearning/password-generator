@@ -1,28 +1,28 @@
-## How secure is your password?
+## Quel est le niveau de sécurité de ton mot de passe ?
 
-A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
+Un ordinateur pourrait essayer de deviner ton mot de passe en utilisant la « force brute » -- cela signifie d'essayer beaucoup de mots de passe jusqu'à ce qu'il devine le bon.
 
-Let's find out how long it would take a computer to guess your password.
+Voyons combien de temps il faudrait à un ordinateur pour deviner ton mot de passe.
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ Vas sur <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, qui est un site Web pour savoir à quel point tes mots de passe sont sécurisés.
 
-    ![screenshot](images/passwords-secure.png)
+    ![capture d'écran](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ Tape « letmein » (let me in = laissez-moi entrer) comme mot de passe. Tu verras qu'un ordinateur devinerait ce mot de passe __instantanément__ !
 
-    ![screenshot](images/passwords-letmein.png)
+    ![capture d'écran](images/passwords-letmein.png)
 
-    You'll also see some reasons why "letmein" isn't a good password to use:
+    Tu verras également quelques raisons pour lesquelles « letmein » n'est pas un bon mot de passe à utiliser :
 
-    + It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
+    + C'est un mot de passe très __commun__ (un des 15 mots de passe les plus utilisés). Un ordinateur les devinerait en premier.
 
-    + It contains words from the __dictionary__. A computer would also try these passwords first.
+    + Il contient des mots du __dictionnaire__. Un ordinateur essayerait également ces mots de passe en premier.
 
-    + It's very __short__. It would take a computer more time to guess a longer password.
+    + C'est très __court__. Il faudrait plus de temps à un ordinateur pour deviner un mot de passe plus long.
 
-    + It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
+    + Il ne contient que des __lettres__. Les mots de passe sont plus sécurisés s'ils contiennent aussi des chiffres et de la ponctuation.
 
-+ Try entering a dictionary word. How long would it take a computer to guess that password? 
++ Essaie d'entrer un mot du dictionnaire. Combien de temps prendra-t-il un ordinateur pour deviner ce mot de passe ? 
 
