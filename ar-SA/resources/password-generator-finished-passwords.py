@@ -3,22 +3,22 @@
 import random
 
 print('''
-Password Generator
+مولد كلمة السر
 ==================
 ''')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-number = input('number of passwords?')
-number = int(number)
+العدد=input('عدد كلمة المرور؟')
+العدد = int(العدد)
 
-length = input('password length?')
-length = int(length)
+الطول = input('طول كلمة المرور؟')
+الطول = int(الطول)
 
-print('\nhere are your passwords:')
+print('\nهنا كلمات المرور الخاصة بك:')
 
-for pwd in range(number):
-  password = ''
-  for c in range(length):
-    password += random.choice(chars)
-  print(password)
+(العدد): for pwd in range:
+  كلمة المرور = ''
+  for c in range(الطول):
+    كلمة المرور + = random.choice (chars)
+  print(كلمة المرور)
