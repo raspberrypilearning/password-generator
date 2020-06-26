@@ -1,16 +1,16 @@
 --- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## التحدي: إنشاء كلمة مرور أفضل
+هل يمكنك إدخال كلمة مرور تستغرق الكمبيوتر أكثر من 1000 عام لإختراقها ولكنها ليست طويلة جدًا للكتابة؟
 
-![screenshot](images/passwords-13000.png)
+![لقطة شاشة](images/passwords-13000.png)
 
-Remember that your password is harder to guess if it's:
+تذكر أنه من الصعب تخمين كلمة المرور الخاصة بك إذا كانت:
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
++ طويلة
++ ليست كلمة في القاموس
++ تحتوي على أحرف وأرقام وعلامات ترقيم
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+ستقوم بإنشاء كلمات مرور يصعب على الكمبيوتر اختراقها. هذه مفيدة لحماية الحسابات الهامة. لاحظ أن العديد من البالغين يستخدمون برنامج إدارة كلمات المرور لمساعدتهم على تذكر الكثير من كلمات المرور الصعبة.
 
 
 
