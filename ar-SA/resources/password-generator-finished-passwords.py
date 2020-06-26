@@ -9,7 +9,7 @@ print('''
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-number = إدخال ("عدد كلمات المرور؟")
+number = input("عدد كلمات المرور؟")
 number = int(number)
 
 length = input('طول كلمة المرور؟')
