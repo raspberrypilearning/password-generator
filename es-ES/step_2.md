@@ -1,28 +1,28 @@
-## How secure is your password?
+## ¿Como es de segura tu contraseña?
 
-A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
+Un ordenador podría intentar adivinar tu contraseña usando 'fuerza bruta' -- esto significa probar muchas contraseñas hasta que se adivine la correcta.
 
-Let's find out how long it would take a computer to guess your password.
+Vamos a averiguar cuánto tardaría un ordenador en adivinar tu contraseña.
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ Ve a <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, que es un sitio web para conocer la seguridad de tus contraseñas.
 
-    ![screenshot](images/passwords-secure.png)
+    ![captura de pantalla](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ Escribe "letmein" (Déjame entrar) como contraseña. ¡Verás que un ordenador adivinaría esta contraseña __instantáneamente__!
 
-    ![screenshot](images/passwords-letmein.png)
+    ![captura de pantalla](images/passwords-letmein.png)
 
-    You'll also see some reasons why "letmein" isn't a good password to use:
+    También verás algunas de las razones por las que "letmein" no es una buena contraseña para utilizar:
 
-    + It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
+    + Es una contraseña muy __común__ (una de las 15 contraseñas más utilizadas. Nota: en inglés). Un ordenador las adivinaría primero.
 
-    + It contains words from the __dictionary__. A computer would also try these passwords first.
+    + Contiene palabras del __diccionario__. Un ordenador también intentaría estas contraseñas primero.
 
-    + It's very __short__. It would take a computer more time to guess a longer password.
+    + Es muy __corta__. Le llevaría más tiempo a un ordenador adivinar una contraseña más larga.
 
-    + It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
+    + Sólo contiene __letras__. Las contraseñas son más seguras si también contienen números y signos de puntuación.
 
-+ Try entering a dictionary word. How long would it take a computer to guess that password? 
++ Intenta introducir una palabra del diccionario. ¿Cuánto tiempo tardaría un ordenador en adivinar esa contraseña? 
 
