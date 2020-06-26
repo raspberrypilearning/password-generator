@@ -1,20 +1,20 @@
-## Lots of passwords
+## बहुत सारे पासवर्ड
 
-Let's allow the user to create 3 passwords at once.
+आइए उपयोगकर्ता को एक साथ 3 पासवर्ड बनाने की अनुमति दें।
 
 
 
-+ Add this code to create 3 passwords:
++ 3 पासवर्ड बनाने के लिए इस कोड को जोड़ें:
 
-    ![screenshot](images/passwords-num-loop.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-num-loop.png)
 
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
++ पासवर्ड बनाने के लिए कोड को हाइलाइट करें, और इंडेंट(indent) करने के लिए Tab को दबाएं ताकि वह 3 बार दोहराए।
 
-    ![screenshot](images/passwords-num-indent.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-num-indent.png)
 
-+ Test your new code. You should now see 3 passwords of your chosen password length.
++ अपने नए कोड का परीक्षण(Test) करें। अब आपको अपनी चुनी हुई पासवर्ड लंबाई के 3 पासवर्ड दिखाइ देंगे।
 
-    ![screenshot](images/passwords-num-test.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-num-test.png)
 
 
 
