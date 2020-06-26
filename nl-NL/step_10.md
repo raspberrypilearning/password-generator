@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## Uitdaging: het aantal wachtwoorden kiezen
+Kun je, in plaats van altijd 3 wachtwoorden af te drukken, de gebruiker toestaan het aantal wachtwoorden in te voeren dat hij wil?
 
-Here's how your program should work:
+Zo zou je programma moeten werken:
 
-![screenshot](images/passwords-choose-number.png)
+![schermafbeelding](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+De code die je nodig hebt is __erg__ vergelijkbaar met de code voor het invoeren van de `lengte` van het wachtwoord.
 
 
 
