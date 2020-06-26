@@ -1,32 +1,32 @@
-## A random password
+## एक अनोखा पासवर्ड
 
-A single character isn't very useful - let's improve your program to create a longer password.
+एकमात्र करैक्टर(character) बहुत उपयोगी नहीं है - एक लंबा पासवर्ड बनाने के लिए अपने प्रोग्राम में सुधार करें।
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ एक पासवर्ड बनाने के लिए, आप को एक बार में एक अनोखा करैक्ट(random characters) जोड़ना होगा।
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    शुरू करने के लिए, आपका ` password ` वेरिएबल(variable) खाली होना चाहिए। इस लाइन को अपने कोड में जोड़ें:
 
-    ![screenshot](images/passwords-empty.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ आपको 10 बार अनोखे करैक्टर्स (random characters) चुनने हैं। ऐसा करने के लिए, निम्न कोड जोड़ें:
 
-    ![screenshot](images/passwords-repeat.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ आपकोअनोखे करैक्टर्स (random characters) का चयन करने के लिए लाइन को भी indent करना (स्थानांतरित करना) चाहिए, ताकि ऐसा 10 बार हो।
 
-    To indent, press the 'tab' key.
+    Indent करने के लिए Tab key दबाएं।
 
-    ![screenshot](images/passwords-indent.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ हर बार पासवर्ड के लिए नया करैक्टर (character) __ जोड़ने__ के लिये आपको ` + = `का उपयोग करने की जरुरत है ।
 
-    ![screenshot](images/passwords-add.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ अपने नए कोड का परीक्षण(Test) करें और आपको एक पासवर्ड दिखाई देंगा जो 10 करैक्टर्स (characters) लंबा होगा।
 
-    ![screenshot](images/passwords-10-test.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-10-test.png)
 
 
 
