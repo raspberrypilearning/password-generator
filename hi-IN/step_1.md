@@ -12,7 +12,7 @@
 
 ### क्लब लीडरों के लिए अतिरिक्त जानकारी
 
-यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print) का उपयोग करें।
+यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/password-generator/print) का उपयोग करें।
 
 
 --- collapse ---
