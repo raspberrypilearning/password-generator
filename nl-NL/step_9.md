@@ -1,20 +1,20 @@
-## Lots of passwords
+## Veel wachtwoorden
 
-Let's allow the user to create 3 passwords at once.
+Laten we de gebruiker in staat stellen om 3 wachtwoorden tegelijk te maken.
 
 
 
-+ Add this code to create 3 passwords:
++ Voeg deze code toe om 3 wachtwoorden te maken:
 
-    ![screenshot](images/passwords-num-loop.png)
+    ![schermafbeelding](images/passwords-num-loop.png)
 
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
++ Markeer de code voor het maken van een wachtwoord en druk op tab om te inspringen zodat deze 3 keer herhaalt.
 
-    ![screenshot](images/passwords-num-indent.png)
+    ![schermafbeelding](images/passwords-num-indent.png)
 
-+ Test your new code. You should now see 3 passwords of your chosen password length.
++ Test je nieuwe code. Je zou nu 3 wachtwoorden van jouw gekozen wachtwoordlengte moeten zien.
 
-    ![screenshot](images/passwords-num-test.png)
+    ![schermafbeelding](images/passwords-num-test.png)
 
 
 
