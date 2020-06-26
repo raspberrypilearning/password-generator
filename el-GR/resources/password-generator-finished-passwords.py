@@ -2,20 +2,20 @@
 
 import random
 
-print('''
-Password Generator
-==================
-''')
+print("
+Γεννήτρια Κωδικών Πρόσβασης
+========================
+'')
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ! @ £ $% ^ & * ()., 0123456789'
 
-number = input('number of passwords?')
-number = int(number)
+number = input ("πλήθος κωδικών πρόσβασης;")
+number = int (number)
 
-length = input('password length?')
+length = input ('μήκος κωδικού πρόσβασης;')
 length = int(length)
 
-print('\nhere are your passwords:')
+print('\n'+'να οι κωδικοί πρόσβασης:')
 
 for pwd in range(number):
   password = ''
