@@ -1,8 +1,8 @@
 --- challenge ---
-## Challenge: A longer password
-Can you change your program so that it creates a verrrrrrrry long password?
+## Πρόκληση: Κωδικός πρόσβασης με περισσότερους χαρακτήρες
+Μπορείς να αλλάξεις το πρόγραμμά σου έτσι ώστε να δημιουργεί έναν κωδικό πρόσβασης με πάρα-πάρα-πάρα-πολλούς χαρακτήρες;
 
-![screenshot](images/passwords-long.png)
+![στιγμιότυπο οθόνης](images/passwords-long.png)
 
 
 
