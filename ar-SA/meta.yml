@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Password Generator
-description: Create your own passwords that no one will be able to guess!
+title: مولد كلمة المرور
+description: قم بإنشاء كلمات المرور الخاصة بك التي لن يتمكن أي شخص من تخمينها!
 original_url: https://codeclubprojects.org/en-GB/python/password-generator
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -18,22 +18,22 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'المقدمة: '
   - 
-    title: How secure is your password?
+    title: ما مدى أمان كلمة المرور الخاصة بك؟
   - 
-    title: 'Challenge: Creating a better password'
+    title: 'التحدي: إنشاء كلمة مرور أفضل'
   - 
-    title: Random characters
+    title: أحرف عشوائية
   - 
-    title: 'Challenge: Using numbers and punctuation'
+    title: 'التحدي: استخدام الأرقام وعلامات الترقيم'
   - 
-    title: A random password
+    title: كلمة مرور عشوائية
   - 
-    title: 'Challenge: A longer password'
+    title: 'التحدي: كلمة مرور أطول'
   - 
-    title: Choosing a password length
+    title: إختيار طول كلمة المرور
   - 
-    title: Lots of passwords
+    title: الكثير من كلمات المرور
   - 
-    title: 'Challenge: Choosing the number of passwords'
+    title: 'التحدي: إختيار عدد كلمات المرور'
