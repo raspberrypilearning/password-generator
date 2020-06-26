@@ -2,7 +2,7 @@
 ## Herausforderung: Ein besseres Passwort erstellen
 Kannst du ein Passwort eingeben, für das einen Computer mehr als 1.000 Jahre braucht, um es zu knacken?
 
-![screenshot](images/passwords-13000.png)
+![Screenshot](images/passwords-13000.png)
 
 Denke daran, dass dein Passwort schwieriger zu erraten ist, wenn es so ist:
 
