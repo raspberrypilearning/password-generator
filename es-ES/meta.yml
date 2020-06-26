@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Password Generator
-description: Create your own passwords that no one will be able to guess!
+title: Generador de contraseñas
+description: '¡Crea tus propias contraseñas que nadie podrá adivinar!'
 original_url: https://codeclubprojects.org/en-GB/python/password-generator
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -18,22 +18,22 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'Introducción'
   - 
-    title: How secure is your password?
+    title: '¿Como es de segura tu contraseña?'
   - 
-    title: 'Challenge: Creating a better password'
+    title: 'Desafío: crear una contraseña mejor'
   - 
-    title: Random characters
+    title: Caracteres aleatorios
   - 
-    title: 'Challenge: Using numbers and punctuation'
+    title: 'Desafío: uso de números y signos de puntuación'
   - 
-    title: A random password
+    title: Una contraseña aleatoria
   - 
-    title: 'Challenge: A longer password'
+    title: 'Desafío: una contraseña más larga'
   - 
-    title: Choosing a password length
+    title: Escogiendo una longitud para la contraseña
   - 
-    title: Lots of passwords
+    title: Muchas contraseñas
   - 
-    title: 'Challenge: Choosing the number of passwords'
+    title: 'Reto: elegir el número de contraseñas'
