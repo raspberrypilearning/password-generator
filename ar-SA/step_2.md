@@ -1,28 +1,28 @@
-## How secure is your password?
+## ما مدى أمان كلمة المرور الخاصة بك؟
 
-A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
+يمكن للكمبيوتر محاولة تخمين كلمة المرور الخاصة بك باستخدام "brute force" - وهذا يعني تجربة الكثير من كلمات المرور حتى تخمن كلمة المرور الصحيحة.
 
-Let's find out how long it would take a computer to guess your password.
+دعنا نكتشف كم من الوقت سيستغرق جهاز الكمبيوتر لتخمين كلمة المرور الخاصة بك.
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ انتقل إلى <a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net </a> ، وهو موقع إلكتروني لمعرفة مدى أمان كلمات المرور الخاصة بك.
 
-    ![screenshot](images/passwords-secure.png)
+    ![لقطة الشاشة](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ اكتب "letmein" (اسمح لي بالدخول) ككلمة المرور. سترى أن الكمبيوتر سيخمن كلمة المرور هذه __ على الفور __!
 
-    ![screenshot](images/passwords-letmein.png)
+    ![لقطة شاشة](images/passwords-letmein.png)
 
-    You'll also see some reasons why "letmein" isn't a good password to use:
+    سترى أيضًا بعض الأسباب التي تجعل "letmein" ليست كلمة مرور جيدة للاستخدام:
 
-    + It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
+    + إنها كلمة مرور __عادية__ (واحدة من كلمات المرور الخمسة عشر الأكثر استخداماً). سوف يخمن الكمبيوتر هذه أولاً.
 
-    + It contains words from the __dictionary__. A computer would also try these passwords first.
+    + يحتوي على كلمات من القاموس __ __. سيحاول الكمبيوتر أيضًا استخدام كلمات المرور هذه أولاً.
 
-    + It's very __short__. It would take a computer more time to guess a longer password.
+    + إنها قصيرة ____. سيستغرق الكمبيوتر وقتًا أطول لتخمين كلمة مرور أطول.
 
-    + It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
+    + تحتوي فقط على __ حروف __. تكون كلمات المرور أكثر أمانًا إذا كانت تحتوي أيضًا على أرقام وعلامات ترقيم.
 
-+ Try entering a dictionary word. How long would it take a computer to guess that password? 
++ حاول إدخال كلمة القاموس. كم من الوقت يستغرق الكمبيوتر لتخمين كلمة المرور هذه؟ 
 
