@@ -1,20 +1,20 @@
-## Lots of passwords
+## Πολλοί κωδικοί πρόσβασης
 
-Let's allow the user to create 3 passwords at once.
+Ας επιτρέψουμε στον χρήστη να δημιουργήσει 3 κωδικούς ταυτόχρονα.
 
 
 
-+ Add this code to create 3 passwords:
++ Πρόσθεσε αυτόν τον κώδικα για να δημιουργήσεις 3 κωδικούς πρόσβασης:
 
-    ![screenshot](images/passwords-num-loop.png)
+    ![στιγμιότυπο οθόνης](images/passwords-num-loop.png)
 
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
++ Επίλεξε τον κώδικα για τη δημιουργία κωδικού πρόσβασης και πάτησε το πλήκτρο tab για να μπει με εσοχή, έτσι ώστε να επαναληφθεί 3 φορές.
 
-    ![screenshot](images/passwords-num-indent.png)
+    ![στιγμιότυπο οθόνης](images/passwords-num-indent.png)
 
-+ Test your new code. You should now see 3 passwords of your chosen password length.
++ Δοκίμασε το νέο σου κώδικα. Τώρα θα πρέπει να βλέπεις 3 κωδικούς πρόσβασης με μήκος αυτό που επέλεξες για τους κωδικούς σου.
 
-    ![screenshot](images/passwords-num-test.png)
+    ![στιγμιότυπο οθόνης](images/passwords-num-test.png)
 
 
 
