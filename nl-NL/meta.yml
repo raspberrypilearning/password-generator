@@ -1,0 +1,39 @@
+---
+hero_image: images/banner.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Wachtwoordgenerator
+description: Maak je eigen wachtwoorden die niemand kan raden!
+original_url: https://codeclubprojects.org/en-GB/python/password-generator
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 'Inleiding'
+  - 
+    title: Hoe veilig is je wachtwoord?
+  - 
+    title: 'Uitdaging: een beter wachtwoord maken'
+  - 
+    title: Willekeurige tekens
+  - 
+    title: 'Uitdaging: cijfers en leestekens gebruiken'
+  - 
+    title: Een willekeurig wachtwoord
+  - 
+    title: 'Uitdaging: een langer wachtwoord'
+  - 
+    title: Een wachtwoordlengte kiezen
+  - 
+    title: Veel wachtwoorden
+  - 
+    title: 'Uitdaging: het aantal wachtwoorden kiezen'
