@@ -1,37 +1,37 @@
-## Random characters
+## Willekeurige tekens
 
-Let's create a program to choose a random character for your password.
+Laten we een programma maken om een willekeurig teken voor je wachtwoord te kiezen.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ Open de lege Python-sjabloon Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Maak een lijst met tekens, opgeslagen in een variabele met de naam `tekens`.
 
-    ![screenshot](images/passwords-chars.png)
+    ![schermafbeelding](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ Om een willekeurig teken te kiezen, moet je een `import` doen van de `random` module.
 
-    ![screenshot](images/passwords-import.png)
+    ![schermafbeelding](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ Nu kun je een willekeurig teken uit de lijst kiezen en het opslaan in een variabele met de naam `wachtwoord`.
 
-    ![screenshot](images/passwords-choose.png)
+    ![schermafbeelding](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ Tot slot kun je je (zeer korte!) wachtwoord op het scherm afdrukken.
 
-    ![screenshot](images/passwords-print.png)
+    ![schermafbeelding](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Test je project door op 'Run' te klikken. Je zou een enkel willekeurig teken op het scherm moeten zien.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![schermafbeelding](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    Als je het programma een paar keer uitvoert, moet je verschillende tekens zien verschijnen.
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ Een wachtwoord is niet erg veilig als het alleen letters bevat. Voeg wat cijfers toe aan je `tekens` variabele.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![schermafbeelding](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ Test je code een paar keer opnieuw en je zou moeten zien dat er soms een cijfer wordt gekozen.
 
 
 
