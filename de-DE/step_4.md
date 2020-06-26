@@ -11,11 +11,11 @@ Lass uns ein Programm erstellen, um ein zufälliges Zeichen für dein Passwort z
 
 + Um ein zufälliges Zeichen auszuwählen, musst du das Modul `random` (Zufall) `importieren`.
 
-    ![screenshot](images/passwords-import.png)
+    ![Screenshot](images/passwords-import.png)
 
 + Nun kannst du ein zufälliges Zeichen aus der Liste auswählen und es in einer Variable mit dem Namen `passwort` speichern.
 
-    ![screenshot](images/passwords-choose.png)
+    ![Screenshot](images/passwords-choose.png)
 
 + Schließlich kannst du dein (sehr kurzes!) Passwort auf dem Bildschirm ausgeben.
 
@@ -23,13 +23,13 @@ Lass uns ein Programm erstellen, um ein zufälliges Zeichen für dein Passwort z
 
 + Teste dein Projekt, indem du auf 'run' klickst. Du solltest ein einzelnes zufälliges Zeichen auf dem Bildschirm sehen.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![Screenshot](images/passwords-test-letters.png)
 
     Wenn du dein Programm ein paar Mal ausführst, solltest du verschiedene Zeichen sehen.
 
 + Ein Passwort ist nicht sehr sicher, wenn es nur Buchstaben enthält. Füge deiner `zeichen` Variable einige Zahlen hinzu.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![Screenshot](images/passwords-numbers.png)
 
 + Teste deinen Code ein paar Male, und du solltest sehen, dass manchmal eine Zahl ausgewählt wird.
 
