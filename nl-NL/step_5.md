@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## Uitdaging: cijfers en leestekens gebruiken
+Kun je je programma verbeteren, zodat het ook kiest uit:
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
++ Hoofdletters (A-Z)
++ Cijfers (0-9)
++ Leestekens (!?,-)
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+Je moet deze toevoegen aan je `tekens` variabele. Vergeet niet om je verbeterde programma te testen!
 
 
 
