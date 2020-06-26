@@ -1,32 +1,32 @@
-## A random password
+## Un mot de passe aléatoire
 
-A single character isn't very useful - let's improve your program to create a longer password.
+Un seul caractère n'est pas très utile - améliorons ton programme pour créer un mot de passe plus long.
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ Pour créer un mot de passe, tu y ajouteras des caractères aléatoires, un à la fois.
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    Pour commencer, ta variable `motdepasse` doit être vide. Ajoute cette ligne à ton code :
 
-    ![screenshot](images/passwords-empty.png)
+    ![capture d'écran](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ Tu veux choisir un caractère aléatoire 10 fois. Pour faire cela, ajoute le code suivant :
 
-    ![screenshot](images/passwords-repeat.png)
+    ![capture d'écran](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ Tu devras également indenter (déplacer) la ligne pour choisir un caractère aléatoire, afin que cela se produise 10 fois.
 
-    To indent, press the 'tab' key.
+    Pour indenter, appuie sur la touche « tab ».
 
-    ![screenshot](images/passwords-indent.png)
+    ![capture d'écran](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ Tu dois utiliser `+=` pour __ajouter__ le nouveau caractère au mot de passe à chaque fois.
 
-    ![screenshot](images/passwords-add.png)
+    ![capture d'écran](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ Teste ton nouveau code et tu devrais voir un mot de passe de 10 caractères.
 
-    ![screenshot](images/passwords-10-test.png)
+    ![capture d'écran](images/passwords-10-test.png)
 
 
 
