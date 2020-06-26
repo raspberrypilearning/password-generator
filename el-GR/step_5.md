@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## Πρόκληση: Χρήση αριθμών και σημείων στίξης
+Μπορείς να βελτιώσεις το πρόγραμμά σου, έτσι ώστε να επιλέγει επίσης από:
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
++ Κεφαλαία γράμματα (A-Z)
++ Αριθμούς (0-9)
++ Σημεία στίξης (!?.,-)
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+Θα πρέπει να κάνεις προσθήκες στη μεταβλητή `chars`. Θυμήσου να δοκιμάσεις το βελτιωμένο σου πρόγραμμα!
 
 
 
