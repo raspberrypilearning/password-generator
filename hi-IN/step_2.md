@@ -1,28 +1,28 @@
-## How secure is your password?
+## आपका पासवर्ड कितना सुरक्षित है?
 
-A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
+कंप्यूटर 'ब्रूट फ़ोर्स' का उपयोग करके आपके पासवर्ड का अनुमान लगाने की कोशिश कर सकता है - इसका मतलब है कि बहुत सारे पासवर्ड आजमाना जब तक कि वह सही अनुमान न लगा ले।
 
-Let's find out how long it would take a computer to guess your password.
+आइए जानते है कि आपके पासवर्ड का अनुमान लगाने में कंप्यूटर को कितना समय लगेगा।
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ यह जानने के लिए कि आपके पासवर्ड कितने सुरक्षित हैं<a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net </a>पर जाएं, जो एक वेबसाइट है ।
 
-    ![screenshot](images/passwords-secure.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ पासवर्ड के रूप में "letmein" (मुझे अंदर आने दें) टाइप करें। आप देखेंगे कि कंप्यूटर इस पासवर्ड का __ तुरन्त __ अनुमान लगाता है!
 
-    ![screenshot](images/passwords-letmein.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-letmein.png)
 
-    You'll also see some reasons why "letmein" isn't a good password to use:
+    आपको कुछ कारण भी दिखाई देंगे कि क्यों "letmein" उपयोग करने के लिए अच्छा पासवर्ड नहीं है:
 
-    + It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
+    + यह बहुत __ सामान्य __ पासवर्ड है (15 सबसे अधिक इस्तेमाल किए जाने वाले पासवर्ड में से एक)। एक कंप्यूटर इनका सबसे पहले अनुमान लगाएगा।
 
-    + It contains words from the __dictionary__. A computer would also try these passwords first.
+    + इसमें __ शब्दकोश__ के शब्द हैं । एक कंप्यूटर इन पासवर्डों को भी पहले आज़माएगा।
 
-    + It's very __short__. It would take a computer more time to guess a longer password.
+    + यह बहुत __ छोटा(short)__ है। एक लंबे(long) पासवर्ड का अनुमान लगाने में कंप्यूटर को अधिक समय लगेगा।
 
-    + It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
+    + इसमें केवल __ अक्षर __ होते हैं। यदि वे नंबर और विराम चिह्न(punctuation) भी रखते हैं, तो पासवर्ड अधिक सुरक्षित होते हैं।
 
-+ Try entering a dictionary word. How long would it take a computer to guess that password? 
++ एक शब्दकोश के शब्द उपयोग करने का प्रयास करें। उस पासवर्ड का अनुमान लगाने में कंप्यूटर को कितना समय लगेगा? 
 
