@@ -1,24 +1,24 @@
-## Choosing a password length
+## إختيار طول كلمة المرور
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+بعض المواقع تتطلب أن تكون كلمات المرور بطول معين. دعونا نسمح للمستخدم باختيار طول كلمة المرور الخاصة به.
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ أولاً ، اطلب من المستخدم إدخال طول كلمة المرور وتخزينها في متغير يسمى ` length `.
 
-    ![screenshot](images/passwords-length.png)
+    ![لقطة الشاشة](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ استخدم ` int () ` لتحويل إدخال المستخدم إلى عدد صحيح.
 
-    ![screenshot](images/passwords-cast.png)
+    ![لقطة شاشة](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ استخدم متغير ` length` لتكرار عدة مرات كما أدخل المستخدم.
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![لقطة الشاشة](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ اختبر التعليمة البرمجية الخاص بك. يجب أن تكون كلمة المرور التي تم إنشاؤها هي الطول الذي أدخله المستخدم.
 
-    ![screenshot](images/passwords-length-test.png)
+    ![لقطة للشاشة](images/passwords-length-test.png)
 
 
 
