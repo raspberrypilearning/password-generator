@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## चुनौती: पासवर्ड की संख्या चुनना
+हमेशा 3 पासवर्ड प्रिंट करने के बजाय, क्या आप उपयोगकर्ता को उनके इच्छित पासवर्ड की संख्या डालने की अनुमति दे सकते हैं?
 
-Here's how your program should work:
+यहां बताया गया है कि आपका प्रोग्राम कैसे काम करेगा:
 
-![screenshot](images/passwords-choose-number.png)
+![स्क्रीनशॉट(screenshot)](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+आपको जिस कोड की आवश्यकता होगी वह पासवर्ड डालने वाले कोड की लंबाई सें__बहुत__ `समान` होगी।
 
 
 
