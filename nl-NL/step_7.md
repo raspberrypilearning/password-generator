@@ -1,8 +1,8 @@
 --- challenge ---
-## Challenge: A longer password
-Can you change your program so that it creates a verrrrrrrry long password?
+## Uitdaging: een langer wachtwoord
+Kun je je programma zo veranderen dat het een heeeeeeel lang wachtwoord creëert?
 
-![screenshot](images/passwords-long.png)
+![schermafbeelding](images/passwords-long.png)
 
 
 
