@@ -1,32 +1,32 @@
-## A random password
+## Een willekeurig wachtwoord
 
-A single character isn't very useful - let's improve your program to create a longer password.
+Een enkel teken is niet erg nuttig - laten we je programma verbeteren om een langer wachtwoord te maken.
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ Om een wachtwoord te maken, voeg je er willekeurige karakters aan toe, één tegelijk.
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    Om te beginnen moet je `wachtwoord` variabele leeg zijn. Voeg deze regel toe aan je code:
 
-    ![screenshot](images/passwords-empty.png)
+    ![schermafbeelding](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ Je wilt 10 keer een willekeurig teken kiezen. Om dit te doen, voeg de volgende code toe:
 
-    ![screenshot](images/passwords-repeat.png)
+    ![schermafbeelding](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ Je moet ook de regel om een willekeurige teken te kiezen laten inspringen (naar rechts), zodat het 10 keer gebeurt.
 
-    To indent, press the 'tab' key.
+    Druk op de 'tab'-toets om in te springen.
 
-    ![screenshot](images/passwords-indent.png)
+    ![schermafbeelding](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ Je moet telkens `+=` gebruiken om het nieuwe teken __toe te voegen__ aan het wachtwoord.
 
-    ![screenshot](images/passwords-add.png)
+    ![schermafbeelding](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ Test je nieuwe code en je zou een wachtwoord moeten zien dat 10 tekens lang is.
 
-    ![screenshot](images/passwords-10-test.png)
+    ![schermafbeelding](images/passwords-10-test.png)
 
 
 
