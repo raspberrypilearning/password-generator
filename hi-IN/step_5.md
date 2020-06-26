@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## चुनौती: संख्याओं(numbers) और विराम चिह्नों(punctuation) का उपयोग करना
+क्या आप अपने प्रोग्राम में सुधार कर सकते हैं, ताकि यह भी चूना जाए:
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
++ बड़े अक्षर(Capital letters) (A-Z)
++ संख्या (0-9)
++ विराम चिह्न(Punctuation) (।।, -)
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+फिर आपको अपने `chars` वेरिएबल(variable) में जोडने कि जरुरत पङेगी। अपने बेहतर प्रोग्राम की जाँच(test) करना याद रखें!
 
 
 
