@@ -1,37 +1,37 @@
-## Random characters
+## अनोखे करैक्टर्स (random characters)
 
-Let's create a program to choose a random character for your password.
+आइए अपने पासवर्ड के लिए अनोखे करैक्टर्स (random characters) चुनने के लिए एक प्रोग्राम बनाएं।
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ Trinket मे खाली Python टेंपलेट(template) खोलें: <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new </a>.
++ करैक्टर्स (characters) की एक सूची बनाएं, जिसे एक वेरिएबल(variable) में सेव किया जाता है जिसे ` chars ` कहा जाता है।
 
-    ![screenshot](images/passwords-chars.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ अनोखे करैक्टर्स (random characters) चुनने के लिए, आपको ` random ` module` import ` करना होगा।
 
-    ![screenshot](images/passwords-import.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ अब आप सूची से एक अनोखा करैक्टर(random character) चुन सकते हैं, और इसे एक वेरिएबल(variable) में सेव करे जिसे` पासवर्ड(password) ` कहते है।
 
-    ![screenshot](images/passwords-choose.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ आखिरकार, आप स्क्रीन पर अपना (बहुत छोटा!) पासवर्ड प्रिंट कर सकते हैं।
 
-    ![screenshot](images/passwords-print.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Run पर क्लिक करके अपने कोड का परीक्षण(Test) करें । आपको स्क्रीन पर अकेला अनोखा करैक्टर(random character) दिखना चाहिए।
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    यदि आप अपना प्रोग्राम कुछ बार चलाते हैं, तो आपको अलग-अलग करैक्टर्स (characters) दिखाई देगें।
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ एक पासवर्ड बहुत सुरक्षित नहीं है अगर उसमें केवल अक्षर(Letters) हैं। अपने ` chars` वेरिएबल(variable) में कुछ संख्याएँ(numbers) जोडे ।
 
-    ![screenshot](images/passwords-numbers.png)
+    ![स्क्रीनशॉट(screenshot)](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ अपने कोड को कुछ बार फिर से परीक्षण(Test) करें, और आप देख सकते है कि कभी-कभी संख्या(number) चुनी जाती है।
 
 
 
