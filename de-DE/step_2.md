@@ -8,7 +8,7 @@ Lass uns herausfinden, wie lange es dauern würde, bis ein Computer dein Passwor
 
 + Gehe zu <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, einer Website, auf der man herausfinden kann, wie sicher deine Passwörter sind.
 
-    ![screenshot](images/passwords-secure.png)
+    ![Screenshot](images/passwords-secure.png)
 
 + Gib "letmein" (Lass mich rein) als Passwort ein. Du wirst sehen, dass ein Computer dieses Passwort __sofort__ erraten würde!
 
