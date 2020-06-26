@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## Herausforderung: Zahlen und Satzzeichen verwenden
+Kannst du dein Programm verbessern, so dass es auch Folgendes wählen kann:
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
++ Großbuchstaben (A-Z)
++ Zahlen (0-9)
++ Satzzeichen (!?,-)
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+Du musst diese zu deiner `zeichen`-Variable hinzufügen. Denke daran, dein verbessertes Programm zu testen!
 
 
 
