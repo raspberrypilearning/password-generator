@@ -1,37 +1,37 @@
-## Random characters
+## أحرف عشوائية
 
-Let's create a program to choose a random character for your password.
+لنقم بإنشاء برنامج لاختيار حرف عشوائي لكلمة المرور الخاصة بك.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ افتح الـ Trinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ أنشئ قائمة بالأحرف ، مخزنة في متغير يسمى chars` `.
 
-    ![screenshot](images/passwords-chars.png)
+    ![لقطة شاشة](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ لاختيار حرف عشوائي ، ستحتاج إلى وحدة ` import` ` random`.
 
-    ![screenshot](images/passwords-import.png)
+    ![لقطة الشاشة](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ الآن يمكنك اختيار حرف عشوائي من القائمة ، وتخزينه في متغير يسمى ` password`.
 
-    ![screenshot](images/passwords-choose.png)
+    ![لقطة للشاشة](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ أخيرًا ، يمكنك طباعة كلمة المرور (القصيرة جدًا!) على الشاشة.
 
-    ![screenshot](images/passwords-print.png)
+    ![لقطة الشاشة](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ اختبر مشروعك بالنقر فوق "تشغيل". يجب أن تشاهد حرف عشوائي واحد على الشاشة.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![لقطة الشاشة](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    إذا قمت بتشغيل البرنامج الخاص بك عدة مرات ، يجب أن تشاهد أحرف مختلفة تظهر.
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ كلمة المرور ليست آمنة للغاية إذا كانت تحتوي على أحرف فقط. أضف بعض الأرقام إلى متغير `chars` الخاص بك.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![لقطة الشاشة](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ اختبر التعليمات البرمجية الخاصة بك مرة أخرى بضع مرات، ويجب أن ترى أنه يتم اختيار رقم في بعض الأحيان.
 
 
 
