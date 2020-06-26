@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## Défi : choisir le nombre de mots de passe
+Au lieu d'imprimer toujours 3 mots de passe, peux-tu autoriser l'utilisateur à entrer le nombre de mots de passe qu'il souhaite ?
 
-Here's how your program should work:
+Voici comment ton programme devrait fonctionner :
 
-![screenshot](images/passwords-choose-number.png)
+![capture d'écran](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+Le code dont tu auras besoin est __ très __ similaire au code pour saisir la ` longueur` du mot de passe.
 
 
 
