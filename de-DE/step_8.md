@@ -1,24 +1,24 @@
-## Choosing a password length
+## Wähle eine Passwortlänge
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+Einige Websites erfordern, dass Passwörter eine bestimmte Länge haben. Lass' uns dem Benutzer erlauben, die Länge seines Passworts zu wählen.
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ Bitte den Benutzer eine Passwortlänge einzugeben, und speichere sie in einer Variable namens `laenge`.
 
-    ![screenshot](images/passwords-length.png)
+    ![Screenshot](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ Verwende `int()` um die Benutzereingabe in eine ganze Zahl umzuwandeln.
 
     ![screenshot](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ Verwende deine `laenge` Variable um so oft zu wiederholen, wie der Benutzer es eingegeben hat.
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![Screenshot](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ Teste deinen Code. Das erstellte Passwort sollte der vom Benutzer eingegebenen Länge entsprechen.
 
-    ![screenshot](images/passwords-length-test.png)
+    ![Screenshot](images/passwords-length-test.png)
 
 
 
