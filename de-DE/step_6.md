@@ -1,22 +1,22 @@
-## A random password
+## Ein zufälliges Passwort
 
-A single character isn't very useful - let's improve your program to create a longer password.
+Ein einzelnes Zeichen ist nicht sehr nützlich - lass' uns dein Programm verbessern, um ein längeres Passwort zu erstellen.
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ Um ein Passwort zu erstellen, füge zufällige Zeichen nach und nach hinzu.
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    Zunächst sollte deine `Passwort` Variable leer sein. Füge deinem Code die folgende Zeile hinzu:
 
     ![screenshot](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ Du möchtest 10 mal einen zufälliges Zeichen auswählen. Gib hierzu folgenden Code ein:
 
     ![screenshot](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ Du solltest auch die Zeile einrücken, um ein zufälliges Zeichen auszuwählen, damit es 10 Mal passiert.
 
-    To indent, press the 'tab' key.
+    Zum Einrücken drücke die Tab-Taste.
 
     ![screenshot](images/passwords-indent.png)
 
