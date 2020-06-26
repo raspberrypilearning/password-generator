@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## Πρόκληση: Επιλογή του πλήθους των κωδικών πρόσβασης
+Αντί να εμφανίζεις πάντα 3 κωδικούς πρόσβασης, μπορείς να επιτρέψεις στο χρήστη να εισάγει το πλήθος των κωδικών πρόσβασης που θέλει;
 
-Here's how your program should work:
+Έτσι πρέπει να λειτουργεί το πρόγραμμά σου:
 
-![screenshot](images/passwords-choose-number.png)
+![στιγμιότυπο οθόνης](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+Ο κώδικας που θα χρειαστείς είναι __πολύ__ παρόμοιος με τον κώδικα για την εισαγωγή του `μήκους` του κωδικού πρόσβασης.
 
 
 
