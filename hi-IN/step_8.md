@@ -8,7 +8,7 @@
 
     ![स्क्रीनशॉट(screenshot)](images/passwords-length.png)
 
-+ उपयोगकर्ता के इनपुट को संख्या में बदलने के लिये `int()`का उपयोग करें|
++ उपयोगकर्ता के इनपुट को संख्या में बदलने के लिये `int()`का उपयोग करें।
 
     ![स्क्रीनशॉट(screenshot)](images/passwords-cast.png)
 

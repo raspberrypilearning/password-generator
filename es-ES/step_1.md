@@ -64,7 +64,7 @@ Este proyecto trata elementos de los siguientes aspectos del [Currículo de crea
 
 --- collapse ---
 ---
-title: materiales del proyecto
+title: Materiales del proyecto
 ---
 ## Recursos del proyecto
 * [archivo .zip que contiene todos los recursos del proyecto](resources/password-generator-resources.zip)
