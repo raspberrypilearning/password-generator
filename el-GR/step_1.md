@@ -1,8 +1,8 @@
-## Introduction:
+## Εισαγωγή:
 
-It's important to protect your personal information online, and in this project you'll create a program to generate passwords for you.
+Είναι σημαντικό να προστατεύεις τα προσωπικά σου στοιχεία στο διαδίκτυο. Σε αυτό το έργο θα δημιουργήσεις ένα πρόγραμμα που παράγει κωδικούς πρόσβασης για σένα.
 
-The passwords will be random, so no one will be able to guess them!
+Οι κωδικοί πρόσβασης θα είναι τυχαίοι, οπότε κανείς δε θα μπορεί να τους μαντέψει!
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,71 +10,71 @@ The passwords will be random, so no one will be able to guess them!
   <img src="images/passwords-finished.png">
 </div>
 
-### Additional information for club leaders
+### Πρόσθετες πληροφορίες για τους αρχηγούς των ομάδων (clubs)
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/password-generator/print).
 
 
 --- collapse ---
 ---
-title: Club leader notes
+τίτλος: Σημειώσεις για το/τη συντονιστή/στρια της ομάδας
 ---
 
 
-## Introduction:
+## Εισαγωγή:
 
-In this project, children will learn what makes a good password, and how to make a program that creates randomly generated passwords.
+Σε αυτό το έργο, τα παιδιά θα μάθουν τι κάνει έναν κωδικό πρόσβασης καλό και πώς θα κάνουν ένα πρόγραμμα που δημιουργεί τυχαίους κωδικούς πρόσβασης.
 
-This project has been written for Safer Internet Day 2017, which is on 7th February 2017. The aim of Safer Internet Day is to promote the safe and responsible use of technology for young people. For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
+Αυτό το έργο γράφτηκε για την Ημέρα Ασφαλούς Διαδικτύου 2017, που είναι στις 7 Φεβρουαρίου 2017. Ο στόχος της Ημέρας Ασφαλούς Διαδικτύου είναι η προώθηση της ασφαλούς και υπεύθυνης χρήσης της τεχνολογίας για τους νέους. Για περισσότερες πληροφορίες μπορείς να επισκεφτείς το [saferinternet.org.uk](https://www.saferinternet.org.uk/) όπου θα βρεις ένα πακέτο εκπαίδευσης [για παιδιά ηλικίας 7-11 ετών](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) που περιέχει πρόσθετους πόρους.
 
-## Online Resources
+## Online Πόροι
 
-__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__Αυτό το έργο χρησιμοποιεί Python 3.__ Συνιστούμε να χρησιμοποιήσεις το [trinket](https://trinket.io/) για να γράψεις Python online. Το έργο αυτό περιλαμβάνει τα ακόλουθα Trinkets:
 
-+ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
++ [Νέο (κενό) Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Υπάρχει επίσης ένα trinket που περιέχει το τελικό έργο:
 
-+ [‘Password Creator’ Finished -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
++ [Ολοκληρωμένο ‘Password Creator’ -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
 
-## Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+## Offline Πόροι
+Το έργο αυτό μπορεί να [ολοκληρωθεί χωρίς σύνδεση](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) αν προτιμάς.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Μπορείς να βρεις το ολοκληρωμένο έργο στο τμήμα «Πόροι εθελοντών», το οποίο περιέχει:
 
-+ password-creator-finished/passwords.py
++ password-creator-finish / passwords.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Όλοι οι παραπάνω πόροι μπορούν επίσης να κατέβουν ως συμπιεσμένα `.zip` αρχεία.)
 
-## Learning Objectives
-+ Repetition;
-+ The `random.choice()` method;
+## Μαθησιακοί στόχοι
++ Επανάληψη;
++ Η method `random.choice()`˙
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Αυτό το έργο καλύπτει στοιχεία από την παρακάτω ενότητα του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Συνδύασε δομές προγραμματισμού για να λύσεις ένα πρόβλημα.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
-+ "Creating a better password" - using <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> to create secure passwords.
-+ "Using numbers and punctuation" - adding text to a string variable, giving a wider choice of random characters.
-+ "A longer password" - modifying the number of times a random character is chosen.
-+ "Choosing the number of passwords" - using a variable to specify the number of passwords required.
+## Προκλήσεις
++ "Δημιουργία καλύτερου κωδικού πρόσβασης" - χρησιμοποιώντας το <a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net </a> για να δημιουργήσεις ασφαλείς κωδικούς πρόσβασης.
++ "Χρήση αριθμών και σημείων στίξης" - προσθήκη κειμένου σε μια μεταβλητή τύπου συμβολοσειράς (string), δίνοντας μια ευρύτερη επιλογή από τυχαίους χαρακτήρες.
++ "Ένας κωδικός πρόσβασης με περισσότερους χαρακτήρες" - τροποποιώντας το πλήθος των φορών που επιλέγεται ένας τυχαίος χαρακτήρας.
++ "Επιλογή του πλήθους των κωδικών πρόσβασης" - χρήση μεταβλητής για να καθορίσεις τον απαιτούμενο αριθμό κωδικών πρόσβασης.
 
 --- /collapse ---
 
 
 --- collapse ---
 ---
-title: Project materials
+title: Υλικό έργου
 ---
-## Project resources
-* [.zip file containing all project resources](resources/password-generator-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+## Πόροι έργου
+* [Το αρχείο.zip περιέχει όλους τους πόρους του έργου](resources/password-generator-resources.zip)
+* [Online κενό Python Trinket](http://jumpto.cc/python-new)
+* [Offline κενό αρχείο Python](resources/new-new.py)
 
-## Club leader resources
-* [.zip file containing all completed project resources](resources/password-generator-finished.zip)
-* [Online completed Trinket project](https://trinket.io/python/08c0ad3359)
-* [Offline completed project](resources/password-generator-finished-passwords.py)
+## Πόροι για τον/την συντονιστή/στρια ομάδας
+* [Αρχείο .zip που περιέχει όλους τους ολοκληρωμένους πόρους του έργου](resources/password-generator-finished.zip)
+* [Online ολοκληρωμένο έργο Trinket](https://trinket.io/python/08c0ad3359)
+* [Off Ολοκληρωμένο έργο](resources/password-generator-finished-passwords.py)
 
 --- /collapse ---
