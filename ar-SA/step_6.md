@@ -1,32 +1,32 @@
-## A random password
+## كلمة مرور عشوائية
 
-A single character isn't very useful - let's improve your program to create a longer password.
+الحرف الواحد ليس مفيدًا جدًا - دعنا نحسن برنامجك لإنشاء كلمة مرور أطول.
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ لإنشاء كلمة مرور ، ستضيف إليها أحرفًا عشوائية ، واحدة تلو الأخرى.
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    في البداية ، المتغير الخاصة بك ` password` يجب أن يكون فارغًا. أضف هذه التعليمات البرمجية إلى برنامجك:
 
-    ![screenshot](images/passwords-empty.png)
+    ![لقطة الشاشة](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ لإختيار حرف عشوائي 10 مرات. أضف التعليمات البرمجية التالية:
 
-    ![screenshot](images/passwords-repeat.png)
+    ![لقطة شاشة](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ يجب عليك أيضًا وضع مسافة بادئة (نقل) الخط لاختيار حرف عشوائي ، بحيث يحدث 10 مرات.
 
-    To indent, press the 'tab' key.
+    للمسافة البادئة ، اضغط على مفتاح "tab".
 
-    ![screenshot](images/passwords-indent.png)
+    ![لقطة الشاشة](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ تحتاج إلى استخدام ` + = ` لإضافة __ __ الحرف الجديد لكلمة المرور في كل مرة.
 
-    ![screenshot](images/passwords-add.png)
+    ![لقطة للشاشة](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ اختبر الكود الجديد الخاص بك ويجب أن ترى كلمة مرور بطول 10 أحرف.
 
-    ![screenshot](images/passwords-10-test.png)
+    ![لقطة الشاشة](images/passwords-10-test.png)
 
 
 
