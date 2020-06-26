@@ -1,24 +1,24 @@
-## Choosing a password length
+## Een wachtwoordlengte kiezen
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+Sommige websites vereisen dat wachtwoorden een bepaalde lengte hebben. Laten we ervoor zorgen dat de gebruiker de lengte van zijn wachtwoord kiest.
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ Vraag eerst de gebruiker om een wachtwoordlengte in te voeren en op te slaan in een variabele met de naam `lengte`.
 
-    ![screenshot](images/passwords-length.png)
+    ![schermafbeelding](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ Gebruik `int()` om de invoer van de gebruiker om te zetten in een geheel getal.
 
-    ![screenshot](images/passwords-cast.png)
+    ![schermafbeelding](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ Gebruik de variabele `lengte` om zoveel keer te herhalen als de gebruiker heeft ingevoerd.
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![schermafbeelding](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ Test je code. Het wachtwoord dat wordt aangemaakt, moet de lengte hebben die de gebruiker heeft ingevoerd.
 
-    ![screenshot](images/passwords-length-test.png)
+    ![schermafbeelding](images/passwords-length-test.png)
 
 
 
