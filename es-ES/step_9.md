@@ -1,20 +1,20 @@
-## Lots of passwords
+## Muchas contraseñas
 
-Let's allow the user to create 3 passwords at once.
+Permitamos que el usuario cree 3 contraseñas a la vez.
 
 
 
-+ Add this code to create 3 passwords:
++ Agrega este código para crear 3 contraseñas:
 
-    ![screenshot](images/passwords-num-loop.png)
+    ![captura de pantalla](images/passwords-num-loop.png)
 
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
++ Resalta el código para crear una contraseña, y presiona tabulador para sangrarlo y hacer que se repita 3 veces.
 
-    ![screenshot](images/passwords-num-indent.png)
+    ![captura de pantalla](images/passwords-num-indent.png)
 
-+ Test your new code. You should now see 3 passwords of your chosen password length.
++ Pon a prueba tu código. Ahora deberías ver 3 contraseñas de la longitud elegida.
 
-    ![screenshot](images/passwords-num-test.png)
+    ![captura de pantalla](images/passwords-num-test.png)
 
 
 
