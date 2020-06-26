@@ -8,7 +8,7 @@ Ein einzelnes Zeichen ist nicht sehr nützlich - lass' uns dein Programm verbess
 
     Zunächst sollte deine `Passwort` Variable leer sein. Füge deinem Code die folgende Zeile hinzu:
 
-    ![screenshot](images/passwords-empty.png)
+    ![Screenshot](images/passwords-empty.png)
 
 + Du möchtest 10 mal einen zufälliges Zeichen auswählen. Gib hierzu folgenden Code ein:
 
@@ -18,13 +18,13 @@ Ein einzelnes Zeichen ist nicht sehr nützlich - lass' uns dein Programm verbess
 
     Zum Einrücken drücke die Tab-Taste.
 
-    ![screenshot](images/passwords-indent.png)
+    ![Screenshot](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ Du musst `+=` verwenden, um das neue Zeichen zum Passwort jedes Mal __hinzuzufügen__.
 
-    ![screenshot](images/passwords-add.png)
+    ![Screenshot](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ Teste deinen neuen Code und du solltest ein Passwort sehen, das 10 Zeichen lang ist.
 
     ![screenshot](images/passwords-10-test.png)
 
