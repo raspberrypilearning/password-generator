@@ -3,22 +3,22 @@
 import random
 
 print('''
-Password Generator
-==================
+Wachtwoordgenerator
+===================
 ''')
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+tekens = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-number = input('number of passwords?')
-number = int(number)
+aantal = input('aantal wachtwoorden?')
+aantal = int(aantal)
 
-length = input('password length?')
-length = int(length)
+lengte = input('wachtwoordlengte?')
+lengte = int(lengte)
 
-print('\nhere are your passwords:')
+print('\nhier zijn je wachtwoorden:')
 
-for pwd in range(number):
-  password = ''
-  for c in range(length):
-    password += random.choice(chars)
-  print(password)
+for ww in range(aantal):
+  wachtwoord = ''
+  for c in range(lengte):
+    wachtwoord += random.choice(tekens)
+  print(wachtwoord)
