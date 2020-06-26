@@ -1,0 +1,29 @@
+---
+hero_image: images/banner.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: पासवर्ड जनरेटर
+description: अपना खुद का पासवर्ड बनाएं जिसका कोई अनुमान ना लगा पाए!
+original_url: https://codeclubprojects.org/en-GB/python/password-generator
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'परिचय: '
+  - title: आपका पासवर्ड कितना सुरक्षित है?
+  - title: 'चुनौती: एक बेहतर पासवर्ड बनाना'
+  - title: अनोखे करैक्टर्स (random characters)
+  - title: 'चुनौती: संख्याओं(numbers) और विराम चिह्नों(punctuation) का उपयोग करना'
+  - title: एक अनोखा पासवर्ड
+  - title: 'चुनौती: एक लंबा पासवर्ड'
+  - title: पासवर्ड की लंबाई चुनना
+  - title: बहुत सारे पासवर्ड
+  - title: 'चुनौती: पासवर्ड की संख्या चुनना'
