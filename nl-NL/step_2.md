@@ -1,28 +1,28 @@
-## How secure is your password?
+## Hoe veilig is je wachtwoord?
 
-A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
+Een computer zou kunnen proberen jouw wachtwoord te raden met 'brute kracht' -- dit betekent veel wachtwoorden uitproberen totdat het de juiste raadt.
 
-Let's find out how long it would take a computer to guess your password.
+Laten we erachter komen hoe lang het een computer duurt om je wachtwoord te raden.
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ Ga naar <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, een website om erachter te komen hoe veilig je wachtwoorden zijn.
 
-    ![screenshot](images/passwords-secure.png)
+    ![schermafbeelding](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ Typ "letmein" (Let me in, laat me binnen) als wachtwoord. Je zult zien dat een computer dit wachtwoord __instantly (onmiddellijk)__ zou raden!
 
-    ![screenshot](images/passwords-letmein.png)
+    ![schermafbeelding](images/passwords-letmein.png)
 
-    You'll also see some reasons why "letmein" isn't a good password to use:
+    Je zult ook enkele redenen zien waarom "letmein" geen goed wachtwoord is om te gebruiken:
 
-    + It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
+    + Het is een zeer __vaak__ gebruikt wachtwoord (een van de 15 meest gebruikte wachtwoorden). Een computer zou deze eerst raden.
 
-    + It contains words from the __dictionary__. A computer would also try these passwords first.
+    + Het bevat woorden uit het __(Engelse) woordenboek__. Een computer zou deze wachtwoorden eerst ook proberen.
 
-    + It's very __short__. It would take a computer more time to guess a longer password.
+    + Het is erg __kort__. Het zou een computer meer tijd kosten om een langer wachtwoord te raden.
 
-    + It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
+    + Het bevat alleen __letters__. Wachtwoorden zijn veiliger als ze ook cijfers en leestekens bevatten.
 
-+ Try entering a dictionary word. How long would it take a computer to guess that password? 
++ Probeer een woord uit het woordenboek in te voeren. Hoe lang duurt het voordat een computer dat wachtwoord raadt? 
 
