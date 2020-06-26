@@ -1,16 +1,16 @@
 --- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## Herausforderung: Ein besseres Passwort erstellen
+Kannst du ein Passwort eingeben, für das einen Computer mehr als 1.000 Jahre braucht, um es zu knacken?
 
 ![screenshot](images/passwords-13000.png)
 
-Remember that your password is harder to guess if it's:
+Denke daran, dass dein Passwort schwieriger zu erraten ist, wenn es so ist:
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
++ Lang
++ Kein Wort im Wörterbuch
++ Enthält Buchstaben, Zahlen und Satzzeichen
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+Du wirst Passwörter generieren, die für einen Computer schwer zu knacken sind. Diese sind nützlich, um wichtige Konten zu schützen. Beachte, dass viele Erwachsene ein Passwort-Manager-Programm verwenden, um ihnen zu helfen, viele schwierige Passwörter zu speichern.
 
 
 
