@@ -1,16 +1,16 @@
 --- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## चुनौती: एक बेहतर पासवर्ड बनाना
+क्या आप एक पासवर्ड बना सकते हैं जो एक कंप्यूटर को क्रैक करने में 1,000 साल से अधिक समय लगे लेकिन टाइप करने के लिए बहुत लंबा नहीं होना चाहिये?
 
-![screenshot](images/passwords-13000.png)
+![स्क्रीनशॉट(screenshot)](images/passwords-13000.png)
 
-Remember that your password is harder to guess if it's:
+याद रखें कि आपका पासवर्ड अनुमान लगाने में कठिन होगा जब वो:
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
++ लंबा
++ शब्दकोश का शब्द नहीं हो
++ जिसमें अक्षर, संख्या और विराम चिह्न(punctuation) शामिल हो
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+आप ऐसे पासवर्ड बनाने जा रहे हैं जो कंप्यूटर के लिए क्रैक करना मुश्किल हो। ये महत्वपूर्ण खातो की सुरक्षा के लिए उपयोगी हैं। ध्यान दें कि बहुत से आदमी(adults) पासवर्ड मैनेजर प्रोग्राम का उपयोग करते हैं ताकि उन्हें बहुत सारे मुश्किल पासवर्ड को याद रखने में मदद मिल सके।
 
 
 
