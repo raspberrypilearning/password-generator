@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## チャレンジ: パスワードの数を選ぶ
+いつも3つのパスワードを表示するのではなく、ユーザーが希望するパスワードの数を入力できるようにすることはできますか？
 
-Here's how your program should work:
+Run をおすと、このように表示されます。
 
-![screenshot](images/passwords-choose-number.png)
+![スクリーンショット](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+必要なコードは、パスワードの`文字数`を入力するコードに__とても__似ています。
 
 
 
