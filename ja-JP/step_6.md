@@ -1,32 +1,32 @@
-## A random password
+## ランダムなパスワード
 
-A single character isn't very useful - let's improve your program to create a longer password.
+パスワードは1文字だけではあまり意味がありません。プログラムを改良して、より長いパスワードを作成するようにしましょう。
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ パスワードを作成するには、ランダムな文字を1つずつ追加します。
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    まず、`password` 変数は空でなければなりません。 コードにこの行を追加します。
 
-    ![screenshot](images/passwords-empty.png)
+    ![スクリーンショット](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ ランダムな文字を10回選ぶようにします。 これを行うには、次のコードを追加します。
 
-    ![screenshot](images/passwords-repeat.png)
+    ![スクリーンショット](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ ランダムな文字を10回選ぶようにするには、行をインデント（字下げ）する必要があります。
 
-    To indent, press the 'tab' key.
+    インデントするには、「tab」キーをおします。
 
-    ![screenshot](images/passwords-indent.png)
+    ![スクリーンショット](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ パスワードに新しい文字列を__追加__していくには、`+=`を使います。
 
-    ![screenshot](images/passwords-add.png)
+    ![スクリーンショット](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ 新しいコードをテストすると、10文字のパスワードが表示されます。
 
-    ![screenshot](images/passwords-10-test.png)
+    ![スクリーンショット](images/passwords-10-test.png)
 
 
 
