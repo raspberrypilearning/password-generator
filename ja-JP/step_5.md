@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## チャレンジ: 数字と記号を使う
+文字だけでなく、以下からも選ぶようにプログラムを改良できますか？
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
++ 英文字の大文字 (A～Z)
++ 数字 (0～9)
++ 記号 (!?.,-）
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+`chars` 変数に追加します。 改良したプログラムをわすれずにテストしましょう！
 
 
 
