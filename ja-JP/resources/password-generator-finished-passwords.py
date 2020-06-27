@@ -3,19 +3,19 @@
 import random
 
 print('''
-Password Generator
+パスワード生成ツール
 ==================
 ''')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-number = input('number of passwords?')
+number = input('パスワードの数は?')
 number = int(number)
 
-length = input('password length?')
+length = input('パスワードの文字数は?')
 length = int(length)
 
-print('\nhere are your passwords:')
+print('\n'+'これがあなたのパスワードです。')
 
 for pwd in range(number):
   password = ''
