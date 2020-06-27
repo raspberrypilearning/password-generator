@@ -1,6 +1,6 @@
 --- challenge ---
-## Challenge: A longer password
-Can you change your program so that it creates a verrrrrrrry long password?
+## チャレンジ: 長いパスワード
+プログラムを変えて、とーーーーっても長いパスワードを作成するようにできますか？
 
 ![screenshot](images/passwords-long.png)
 
