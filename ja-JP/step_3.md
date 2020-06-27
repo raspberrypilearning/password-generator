@@ -1,16 +1,16 @@
 --- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## チャレンジ: もっと安全なパスワードを作る
+入力するには長すぎないけれども、コンピュータが解読するのに1,000年以上かかるパスワードを入力できますか？
 
-![screenshot](images/passwords-13000.png)
+![スクリーンショット](images/passwords-13000.png)
 
-Remember that your password is harder to guess if it's:
+このようなパスワードが当てられにくいパスワードです。
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
++ 長い
++ 辞書にない単語
++ 文字、数字、記号をふくむ
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+コンピューターが解読しにくいパスワードを生成します。 このようなパスワードは重要なアカウントを守るのに役立ちます。 大人の多くは、たくさんのむずかしいパスワードを覚えるのにパスワードマネージャーというプログラムを使っています。
 
 
 
