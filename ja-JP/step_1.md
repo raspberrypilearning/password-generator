@@ -1,8 +1,8 @@
-## Introduction:
+## はじめに
 
-It's important to protect your personal information online, and in this project you'll create a program to generate passwords for you.
+インターネットを使う上で、自分の個人情報を守ることは大切です。このプロジェクトでは、パスワードを生成するツールを作ります。
 
-The passwords will be random, so no one will be able to guess them!
+パスワードはランダムに作られるので、だれにも当てられません。
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,71 +10,71 @@ The passwords will be random, so no one will be able to guess them!
   <img src="images/passwords-finished.png">
 </div>
 
-### Additional information for club leaders
+### クラブリーダーのための追加情報
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/password-generator/print)を使用してください。
 
 
 --- collapse ---
 ---
-title: Club leader notes
+title: クラブリーダー用ノート
 ---
 
 
-## Introduction:
+## はじめに
 
-In this project, children will learn what makes a good password, and how to make a program that creates randomly generated passwords.
+このプロジェクトでは、子どもたちはどんなパスワードが良いパスワードなのかを学びます。そして、ランダムに生成されたパスワードを作成するプログラムの作り方を学びます。
 
-This project has been written for Safer Internet Day 2017, which is on 7th February 2017. The aim of Safer Internet Day is to promote the safe and responsible use of technology for young people. For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
+このプロジェクトは、2017年2月7日に開催された Safer Internet Day 2017 向けに作成されました。 Safer Internet Day の目的は、子どもや若者のための安全で責任あるテクノロジーの使用の促進です。 詳細については、[saferinternet.org.uk](https://www.saferinternet.org.uk/) (英語) をご覧ください。 [7〜11歳向けの教材](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) (英語) には、追加のリソースが含まれています。
 
-## Online Resources
+## オンライン・リソース
 
-__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__このプロジェクトではPython 3を使います。__オンライン上でPythonを書ける[Trinket](https://trinket.io/)を使うことをおすすめします。 本プロジェクトには、以下のTrinketが用意されています。
 
-+ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
++ [新しい（空白の）Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+また、完成したプログラムが入力済みのtrinketもあります。
 
-+ [‘Password Creator’ Finished -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
++ [完成した「パスワード生成ツール」- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
 
-## Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+## オフライン・リソース
+このプロジェクトは[オフラインで完成させる](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)こともできます。
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+完成したプロジェクトは、「ボランティアリソース」セクションにあり、以下を含んでいます。
 
 + password-creator-finished/passwords.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+（上記の全リソースはプロジェクト用およびボランティア用に`.zip` ファイルとしてダウンロードできます。）
 
-## Learning Objectives
-+ Repetition;
-+ The `random.choice()` method;
+## 学習のねらい
++ 繰り返し
++ `random.choice()`メソッド
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+このプロジェクトでは [Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)（英語）の柱の一つである、プログラミングの以下の要素を含みます。
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
-+ "Creating a better password" - using <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> to create secure passwords.
-+ "Using numbers and punctuation" - adding text to a string variable, giving a wider choice of random characters.
-+ "A longer password" - modifying the number of times a random character is chosen.
-+ "Choosing the number of passwords" - using a variable to specify the number of passwords required.
+## チャレンジ
++ 「もっと安全なパスワードを作る」 <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> (英語) を使って安全なパスワードを作る
++ 「数字と記号を使う」 文字列変数に数字と記号を追加して、より広い範囲からパスワードに使う文字を選択できるようにする
++ 「長いパスワード」文字をランダムに選択する回数を変更する
++ 「パスワードの数を選ぶ」変数を使用して必要なパスワードの数を指定できるようにする
 
 --- /collapse ---
 
 
 --- collapse ---
 ---
-title: Project materials
+title: プロジェクト資料
 ---
-## Project resources
-* [.zip file containing all project resources](resources/password-generator-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+## プロジェクトリソース
+* [全プロジェクトリソースの入った.zipファイル](resources/password-generator-resources.zip)
+* [オンラインの Python Trinket (空白)](http://jumpto.cc/python-new)
+* [オフラインの Python ファイル (空白)](resources/new-new.py)
 
-## Club leader resources
-* [.zip file containing all completed project resources](resources/password-generator-finished.zip)
-* [Online completed Trinket project](https://trinket.io/python/08c0ad3359)
-* [Offline completed project](resources/password-generator-finished-passwords.py)
+## クラブリーダー用資料
+* [全ての完成版プロジェクトリソースの入った.zipファイル](resources/password-generator-finished.zip)
+* [完成した Trinket プロジェクト (オンライン)](https://trinket.io/python/08c0ad3359)
+* [完成したプロジェクト (オフライン)](resources/password-generator-finished-passwords.py)
 
 --- /collapse ---
