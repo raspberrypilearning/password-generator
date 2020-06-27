@@ -1,24 +1,24 @@
-## Choosing a password length
+## パスワードの文字数を選ぶ
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+ウェブサイトによっては、パスワードを一定の文字数にする必要があります。 ユーザーがパスワードの文字数を選べるようにしましょう。
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ まずユーザーにパスワードの文字数を入力してもらい、それを `length` (長さ) という変数に格納します。
 
-    ![screenshot](images/passwords-length.png)
+    ![スクリーンショット](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ `int()`を使用して、ユーザーの入力を整数にします。
 
-    ![screenshot](images/passwords-cast.png)
+    ![スクリーンショット](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ `length` 変数を使い、ユーザーが入力した回数だけくり返します。
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![スクリーンショット](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ コードをテストしましょう。 作成されたパスワードは、ユーザーが入力した文字数である必要があります。
 
-    ![screenshot](images/passwords-length-test.png)
+    ![スクリーンショット](images/passwords-length-test.png)
 
 
 
