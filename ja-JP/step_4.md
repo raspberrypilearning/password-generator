@@ -1,37 +1,37 @@
-## Random characters
+## ランダムな文字
 
-Let's create a program to choose a random character for your password.
+パスワードにランダムな文字を選ぶプログラムを作りましょう。
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ 空白のPythonテンプレートTrinketを開きます。 <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
++ `chars` (『文字』という英単語を短くしたもの) という名前の変数に格納 (かくのう) する、英文字のリストを作成します。
 
-    ![screenshot](images/passwords-chars.png)
+    ![スクリーンショット](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ ランダムな文字を選ぶようにするには、`random` (ランダム) モジュールを`import` (インポート) する必要があります。
 
-    ![screenshot](images/passwords-import.png)
+    ![スクリーンショット](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ リストからランダムな文字を選び、`password` (パスワード) という名前の変数に格納することができます。
 
-    ![screenshot](images/passwords-choose.png)
+    ![スクリーンショット](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ そして、（とても短い）パスワードを画面に表示できます。
 
-    ![screenshot](images/passwords-print.png)
+    ![スクリーンショット](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Run をクリックして、プロジェクトをテストしましょう。 画面にランダムな文字が1つ表示されます。
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![スクリーンショット](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    プログラムを数回実行すると、別の文字が表示されるはずです。
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ パスワードは文字だけではあまり安全ではありません。 `chars` 変数に数字を追加しましょう。
 
-    ![screenshot](images/passwords-numbers.png)
+    ![スクリーンショット](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ コードを何回かテストすると、パスワードに数字が選ばれることがあります。
 
 
 
