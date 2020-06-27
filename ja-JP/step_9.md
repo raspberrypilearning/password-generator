@@ -1,20 +1,20 @@
-## Lots of passwords
+## たくさんのパスワード
 
-Let's allow the user to create 3 passwords at once.
+ユーザーが一度に3つのパスワードを作成できるようにしましょう。
 
 
 
-+ Add this code to create 3 passwords:
++ このコードを追加して、3つのパスワードを作成するようにします。
 
-    ![screenshot](images/passwords-num-loop.png)
+    ![スクリーンショット](images/passwords-num-loop.png)
 
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
++ 3回くり返されるようにするには、パスワードを作成するコードを反転表示し、Tabキーをおしてインデントします。
 
-    ![screenshot](images/passwords-num-indent.png)
+    ![スクリーンショット](images/passwords-num-indent.png)
 
-+ Test your new code. You should now see 3 passwords of your chosen password length.
++ 新しいコードをテストしましょう。 選んだ文字数のパスワードが3つ分表示されます。
 
-    ![screenshot](images/passwords-num-test.png)
+    ![スクリーンショット](images/passwords-num-test.png)
 
 
 
