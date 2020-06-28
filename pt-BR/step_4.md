@@ -1,37 +1,37 @@
-## Random characters
+## Caracteres aleatórios
 
-Let's create a program to choose a random character for your password.
+Vamos criar um programa para escolher um caractere aleatório para sua senha.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ No Trinket abra um modelo em branco do Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Crie uma lista de caracteres, armazenados em uma variável chamada `caracteres`.
 
-    ![screenshot](images/passwords-chars.png)
+    ![captura de tela](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ Para escolher um caractere aleatório, você precisará `importar` o módulo `aleatório`.
 
-    ![screenshot](images/passwords-import.png)
+    ![captura de tela](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ Agora você pode escolher um caractere aleatório da lista e armazená-lo em uma variável chamada `senha`.
 
-    ![screenshot](images/passwords-choose.png)
+    ![captura de tela](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ Finalmente, você pode imprimir sua (muito curta!) senha na tela.
 
-    ![screenshot](images/passwords-print.png)
+    ![captura de tela](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Teste seu código clicando em 'Run'. Você deve ver um único caractere aleatório na tela.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![captura de tela](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    Se você executar o programa algumas vezes, deverá aparecer caracteres diferentes.
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ Uma senha não é muito segura se tiver apenas letras. Adicione alguns números a sua variável `caracteres`.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![captura de tela](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ Teste seu código novamente algumas vezes e você verá que algumas vezes um número é escolhido.
 
 
 
