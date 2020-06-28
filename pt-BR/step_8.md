@@ -1,24 +1,24 @@
-## Choosing a password length
+## Escolhendo um tamanho de senha
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+Alguns sites exigem que as senhas tenham um determinado tamanho. Vamos permitir que o usuário escolha o tamanho de sua senha.
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ Primeiro, peça ao usuário para inserir um tamanho de senha e armazene-o em uma variável chamada `comprimento`.
 
-    ![screenshot](images/passwords-length.png)
+    ![captura de tela](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ Use `int()` para transformar a entrada do usuário em um número inteiro.
 
-    ![screenshot](images/passwords-cast.png)
+    ![captura de tela](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ Use sua variável `comprimento` para repetir o número de vezes determinado pelo usuário.
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![captura de tela](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ Teste seu código. A senha criada deve ter o tamanho digitado pelo usuário.
 
-    ![screenshot](images/passwords-length-test.png)
+    ![captura de tela](images/passwords-length-test.png)
 
 
 
