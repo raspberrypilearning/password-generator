@@ -1,8 +1,8 @@
-## Introduction:
+## 介绍：
 
-It's important to protect your personal information online, and in this project you'll create a program to generate passwords for you.
+网络上个人信息保护十分重要。在这个项目中，你将创建一个程序来帮你生成密码。
 
-The passwords will be random, so no one will be able to guess them!
+密码是随机生成的，所以不会被人猜到！
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -12,69 +12,69 @@ The passwords will be random, so no one will be able to guess them!
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
+如果你需要打印此项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/password-generator/print)。
 
 
 --- collapse ---
 ---
-title: Club leader notes
+标题: 俱乐部导师说明
 ---
 
 
-## Introduction:
+## 介绍
 
-In this project, children will learn what makes a good password, and how to make a program that creates randomly generated passwords.
+在这个项目中，孩子们将学习什么样的密码是好密码，以及如何编写一个程序随机生成密码。
 
-This project has been written for Safer Internet Day 2017, which is on 7th February 2017. The aim of Safer Internet Day is to promote the safe and responsible use of technology for young people. For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
+该项目是为2017年2月7日互联网安全日编写的。 其目的是宣传推动年轻人安全、负责任地使用互联网。 For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
 
-## Online Resources
+## 在线资源
 
-__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__本项目使用 Python 3__ 我们建议使用 [Trinket](https://trinket.io/) 在线编写Python代码。 这个项目包含如下 Trinkets 代码:
 
-+ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
++ [新建（空白）Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+还有一个包括已完成项目的Trinket：
 
 + [‘Password Creator’ Finished -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
 
-## Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+## 离线资源
+如果你愿意，本项目可以[离线完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)。
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+你也可以在 “志愿者资源'”部分找到该项目的完成版本，里面包含：
 
 + password-creator-finished/passwords.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(上述所有资源也可以以`.zip`压缩包的形式下载。)
 
-## Learning Objectives
-+ Repetition;
-+ The `random.choice()` method;
+## 学习目标
++ 重复;
++ `random.choice()`方法
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [综合利用编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
-+ "Creating a better password" - using <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> to create secure passwords.
-+ "Using numbers and punctuation" - adding text to a string variable, giving a wider choice of random characters.
-+ "A longer password" - modifying the number of times a random character is chosen.
-+ "Choosing the number of passwords" - using a variable to specify the number of passwords required.
+## 挑战
++ “创建更好的密码” - 利用<a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>网站创建安全的密码。
++ “使用数字和标点符号” - 在字符串变量中添加文本，提供更广泛的随机字符选择。
++ “让密码更长” - 修改选择随机字符的次数。
++ “选择密码数量” - 使用变量指定需要的密码数量。
 
 --- /collapse ---
 
 
 --- collapse ---
 ---
-title: Project materials
+标题: 项目材料
 ---
-## Project resources
-* [.zip file containing all project resources](resources/password-generator-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+## 项目资源
+* [包含所有项目资源的.zip压缩包](resources/password-generator-resources.zip)
+* [在线空白Python Trinket项目](http://jumpto.cc/python-new)
+* [离线空白Python文件](resources/new-new.py)
 
-## Club leader resources
-* [.zip file containing all completed project resources](resources/password-generator-finished.zip)
-* [Online completed Trinket project](https://trinket.io/python/08c0ad3359)
-* [Offline completed project](resources/password-generator-finished-passwords.py)
+## 俱乐部导师资源
+* [包含所有完整版项目资源的.zip压缩包](resources/password-generator-finished.zip)
+* [在线完整版Trinket项目](https://trinket.io/python/08c0ad3359)
+* [已完成的离线项目](resources/password-generator-finished-passwords.py)
 
 --- /collapse ---
