@@ -1,32 +1,32 @@
-## A random password
+## 随机密码
 
-A single character isn't very useful - let's improve your program to create a longer password.
+单个字符没有什么用 - 我们来改进你的程序，创建一个长一些的密码。
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ 你要每次添加一个随机字符来创建密码。
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    首先，你的`password`变量应该是空的。 将这一行添加到您的代码中：
 
-    ![screenshot](images/passwords-empty.png)
+    ![截屏](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ 你想选择一个随机字符10次。 为此我们添加下面这行代码：
 
-    ![screenshot](images/passwords-repeat.png)
+    ![截屏](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ 你还应缩进选择随机字符的这行代码，这样它就可以发生10次了。
 
-    To indent, press the 'tab' key.
+    按‘tab’键缩进。
 
-    ![screenshot](images/passwords-indent.png)
+    ![截屏](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ 你需要用`+=`符号来给password变量每次__add__ (添加) 新字符。
 
-    ![screenshot](images/passwords-add.png)
+    ![截屏](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ 测试你的新代码就应该能看到一个10个字符长的密码了。
 
-    ![screenshot](images/passwords-10-test.png)
+    ![截屏](images/passwords-10-test.png)
 
 
 
