@@ -1,0 +1,29 @@
+---
+hero_image: images/banner.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Gerador de Senhas
+description: Crie suas próprias senhas que ninguém será capaz de adivinhar!
+original_url: https://codeclubprojects.org/en-GB/python/password-generator
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'Introdução: '
+  - title: Quão segura é sua senha?
+  - title: 'Desafio: Criando uma senha melhor'
+  - title: Caracteres aleatórios
+  - title: 'Desafio: Usando números e pontuação'
+  - title: Uma senha aleatória
+  - title: 'Desafio: Uma senha mais longa'
+  - title: Escolhendo um tamanho de senha
+  - title: Muitas senhas
+  - title: 'Desafio: Escolhendo o número de senhas'

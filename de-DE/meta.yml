@@ -1,0 +1,29 @@
+---
+hero_image: images/banner.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Passwortgenerator
+description: Erstelle deine eigenen Passwörter, die niemand erraten kann!
+original_url: https://codeclubprojects.org/en-GB/python/password-generator
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'Einleitung: '
+  - title: Wie sicher ist dein Passwort?
+  - title: 'Herausforderung: Ein besseres Passwort erstellen'
+  - title: Zufällige Zeichen
+  - title: 'Herausforderung: Zahlen und Satzzeichen verwenden'
+  - title: Ein zufälliges Passwort
+  - title: 'Herausforderung: Ein längeres Passwort'
+  - title: Wähle eine Passwortlänge
+  - title: Viele Passwörter
+  - title: 'Herausforderung: Anzahl der Passwörter auswählen'
