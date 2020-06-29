@@ -2,15 +2,15 @@
 ## 挑战：创建更好的密码
 您能输入一个键入时间不会太长，但会让计算机花费1000年才能破解的密码吗？
 
-![screenshot](images/passwords-13000.png)
+![截图](images/passwords-13000.png)
 
-Remember that your password is harder to guess if it's:
+要记得，你的密码若符合下列情况会比较难被猜中：
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
++ 长度长
++ 不是词典中的一个单词
++ 包含字母，数字和标点符号
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+你将创建让计算机难以破解的密码。 这些密码对保护重要账户信息很有帮助。 要知道，很多成年人都在使用密码管理程序来帮助他们记住大量的复杂密码。
 
 
 
