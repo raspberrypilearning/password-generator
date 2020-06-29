@@ -1,6 +1,6 @@
 --- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## 挑战：创建更好的密码
+您能输入一个键入时间不会太长，但会让计算机花费1000年才能破解的密码吗？
 
 ![screenshot](images/passwords-13000.png)
 
