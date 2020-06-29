@@ -1,24 +1,24 @@
-## Choosing a password length
+## 选择密码长度
 
-Some websites require passwords to be a certain length. Let's allow the user to choose the length of their password.
+有些网站要求对密码的长度有一定的要求。 我们来让用户可以自定义他们的密码长度。
 
 
 
-+ First, ask the user to input a password length, and store it in a variable called `length`.
++ 首先，请用户输入密码的长度，把用户输入的信息存到一个名为`length`的变量中。
 
-    ![screenshot](images/passwords-length.png)
+    ![截屏](images/passwords-length.png)
 
-+ Use `int()` to turn the user's input into a whole number.
++ 使用`int()`将用户输入的信息转换成一个整数。
 
-    ![screenshot](images/passwords-cast.png)
+    ![截屏](images/passwords-cast.png)
 
-+ Use your `length` variable to repeat as many times as the user entered.
++ 使用你的`length`变量重复用户输入的次数。
 
-    ![screenshot](images/passwords-length-loop.png)
+    ![截屏](images/passwords-length-loop.png)
 
-+ Test your code. The password created should be the length entered by the user.
++ 测试你的代码。 创建的密码应该是用户输入的长度。
 
-    ![screenshot](images/passwords-length-test.png)
+    ![截屏](images/passwords-length-test.png)
 
 
 
