@@ -29,7 +29,7 @@ Este projeto foi escrito para o Dia da Internet Mais Segura 2017, que foi em 7 d
 
 ## Recursos Online
 
-__Este projeto usa Python 3.__Recomendamos usar o [Trinket](https://trinket.io/) para programar Python online. Este projeto contém os seguintes Trinkets:
+__Este projeto usa Python 3.__ Recomendamos usar o [Trinket](https://trinket.io/) para programar Python online. Este projeto contém os seguintes Trinkets:
 
 + [Novo Trinket Python (em branco) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 

@@ -29,7 +29,7 @@ title: クラブリーダー用ノート
 
 ## オンライン・リソース
 
-__このプロジェクトではPython 3を使います。__オンライン上でPythonを書ける[Trinket](https://trinket.io/)を使うことをおすすめします。 本プロジェクトには、以下のTrinketが用意されています。
+__このプロジェクトではPython 3を使います。__ オンライン上でPythonを書ける[Trinket](https://trinket.io/)を使うことをおすすめします。 本プロジェクトには、以下のTrinketが用意されています。
 
 + [新しい（空白の）Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
 

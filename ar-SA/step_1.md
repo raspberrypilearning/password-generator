@@ -29,7 +29,7 @@ title: ملاحظات قادة النادي
 
 ## المصادر المتوفرة على الإنترنت
 
-__ يستخدم هذا المشروع لغة Python 3. __ نوصي بإستخدام محاكي [trinket](https://trinket.io/) للكتابة بلغة الـ Python عبر الانترنت. يحتوي هذا المشروع على الـ Trinket التالية:
+__يستخدم هذا المشروع لغة Python 3.__ نوصي بإستخدام محاكي [trinket](https://trinket.io/) للكتابة بلغة الـ Python عبر الانترنت. يحتوي هذا المشروع على الـ Trinket التالية:
 
 + [جديد (فارغ) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
