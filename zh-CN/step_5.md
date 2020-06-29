@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## 挑战：使用数字和标点符号
+你可以改进你的程序，让它也可以选择下面这些字符吗：
 
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
++ 大写字母(A-Z)
++ 数字(0-9)
++ 标点符号(!?.,-)
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+你需要将它们添加到你的`chars`变量中。 记得测试改进后的程序！
 
 
 
