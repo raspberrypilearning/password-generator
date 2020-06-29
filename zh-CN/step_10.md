@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## 挑战：选择密码数量
+你可以让用户输入他们想要的密码数量，而不是每次总打印三个密码吗？
 
-Here's how your program should work:
+你的程序应如下所示：
 
-![screenshot](images/passwords-choose-number.png)
+![截屏](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+你需要的代码__非常__类似于输入密码`长度` 的代码。
 
 
 
