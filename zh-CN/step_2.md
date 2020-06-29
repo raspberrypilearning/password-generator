@@ -1,28 +1,28 @@
-## How secure is your password?
+## 你的密码有多安全？
 
-A computer could try to guess your password by using 'brute force' -- this means trying out lots of passwords until it guesses the right one.
+计算机会试图通过“蛮力”来猜测你的密码 —— 这意味着它会尝试大量的密码直到猜中为止。
 
-Let's find out how long it would take a computer to guess your password.
+我们来看看计算机破解你的密码要花多长时间。
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ 点击访问<a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>，这个网站会帮你评估密码的安全性。
 
-    ![screenshot](images/passwords-secure.png)
+    ![截屏](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ 输入“letmein” (让我进) 作为密码。 你会看到电脑__立刻__就能破解这个密码！
 
-    ![screenshot](images/passwords-letmein.png)
+    ![截屏](images/passwords-letmein.png)
 
-    You'll also see some reasons why "letmein" isn't a good password to use:
+    你还会看到“letmein”不适合用作密码的几点原因：
 
-    + It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
+    + 它是一个非常__常见的__密码 (使用最多的15个密码之一)。 计算机会最先猜这些密码。
 
-    + It contains words from the __dictionary__. A computer would also try these passwords first.
+    + It contains words from the __dictionary__. 计算机也会先尝试这些密码。
 
-    + It's very __short__. It would take a computer more time to guess a longer password.
+    + 它长度很__短__。 猜测更长的密码会花费计算机更多的时间。
 
-    + It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
+    + 它只包含__字母__。 如果密码还包含数字和标点符号的话，它的安全性会更强。
 
-+ Try entering a dictionary word. How long would it take a computer to guess that password? 
++ 试着输入词典里的一个单词。 看看计算机需要多长时间破解这个密码？ 
 
