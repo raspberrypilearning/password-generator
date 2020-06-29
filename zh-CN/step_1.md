@@ -10,7 +10,7 @@
   <img src="images/passwords-finished.png">
 </div>
 
-### Additional information for club leaders
+### 俱乐部导师的附加信息
 
 如果你需要打印此项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/password-generator/print)。
 
@@ -25,7 +25,7 @@
 
 在这个项目中，孩子们将学习什么样的密码是好密码，以及如何编写一个程序随机生成密码。
 
-该项目是为2017年2月7日互联网安全日编写的。 其目的是宣传推动年轻人安全、负责任地使用互联网。 For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
+该项目是为2017年2月7日互联网安全日编写的。 其目的是宣传推动年轻人安全、负责任地使用互联网。 欲了解更多信息，请访问[saferinternet.org.uk](https://www.saferinternet.org.uk/)，其中可以找到[面向7-11岁小朋友的教育包](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip)，包含额外的资源。
 
 ## 在线资源
 
@@ -35,7 +35,7 @@ __本项目使用 Python 3__ 我们建议使用 [Trinket](https://trinket.io/) �
 
 还有一个包括已完成项目的Trinket：
 
-+ [‘Password Creator’ Finished -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
++ [已完成的“密码生成器” -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
 
 ## 离线资源
 如果你愿意，本项目可以[离线完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)。
