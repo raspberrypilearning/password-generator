@@ -1,37 +1,37 @@
-## Random characters
+## 随机字符
 
-Let's create a program to choose a random character for your password.
+我们来创建一个程序给你的密码选择一个随机的字符。
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ 单击链接<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>，打开空白的Python编码页面。
++ 创建一个字符串，存在一个名为`chars`的变量中。
 
-    ![screenshot](images/passwords-chars.png)
+    ![截屏](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ 要选择随机字符，你需要`import` (导入) `random`模块。
 
-    ![screenshot](images/passwords-import.png)
+    ![截屏](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ 现在你可以从字符串中选择一个随机的字符，把它存到一个名为 `password`的变量中。
 
-    ![screenshot](images/passwords-choose.png)
+    ![截屏](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ 最后一步，你可以在屏幕上打印你 (超短的) 密码啦！
 
-    ![screenshot](images/passwords-print.png)
+    ![截屏](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ 点击‘run’测试你的项目。 你应该能看到屏幕上一个随机字符。
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![截屏](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    如果你run这个程序几下，应该会发现每次都会显示不同的字符。
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ 只包含字母的密码不是很安全。 往你的`chars`变量中加一些数字吧。
 
-    ![screenshot](images/passwords-numbers.png)
+    ![截屏](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ 再次测试几下你的代码，你会看到有时候选择的是一个数字。
 
 
 
