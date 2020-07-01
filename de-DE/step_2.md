@@ -24,5 +24,5 @@ Lass uns herausfinden, wie lange es dauern würde, bis ein Computer dein Passwor
 
     + Es enthält nur __Buchstaben__. Passwörter sind sicherer, wenn sie auch Zahlen und Satzzeichen enthalten.
 
-+ Gib ein Wörterbuch ein. Wie lange braucht ein Computer, um dieses Passwort zu erraten? 
++ Gib ein Wort aus einem Wörterbuch ein. Wie lange braucht ein Computer, um dieses Passwort zu erraten? 
 
