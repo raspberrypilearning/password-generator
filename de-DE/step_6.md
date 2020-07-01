@@ -1,6 +1,6 @@
 ## Ein zufälliges Passwort
 
-Ein einzelnes Zeichen ist nicht sehr nützlich - lass' uns dein Programm verbessern, um ein längeres Passwort zu erstellen.
+Ein einzelnes Zeichen ist nicht sehr nützlich - lass uns dein Programm verbessern, um ein längeres Passwort zu erstellen.
 
 
 
