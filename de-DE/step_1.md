@@ -1,6 +1,6 @@
 ## Einleitung:
 
-Es ist wichtig deine persönlichen Daten online zu schützen. In diesem Projekt erstellst du ein Programm, um Kennwörter für dich zu generieren.
+Es ist wichtig, deine persönlichen Daten online zu schützen. In diesem Projekt erstellst du ein Programm, um Kennwörter für dich zu generieren.
 
 Die Passwörter werden zufällig sein, so dass niemand sie erraten kann!
 
