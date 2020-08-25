@@ -1,32 +1,32 @@
-## A random password
+## 랜덤 암호
 
-A single character isn't very useful - let's improve your program to create a longer password.
+단일 문자는 그다지 유용하지 않습니다. 더 긴 암호를 생성하도록 프로그램을 개선합시다.
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ 암호를 만들려면 한 번에 하나씩 랜덤 문자를 추가합니다.
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    먼저 `password` 변수는 비어있어야 합니다. 다음 코드를 프로그램에 추가해 보세요:
 
-    ![screenshot](images/passwords-empty.png)
+    ![스크린샷](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ 랜덤 문자를 10번 선택하고자 합니다. 다음 코드를 추가해보세요:
 
-    ![screenshot](images/passwords-repeat.png)
+    ![스크린샷](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ 줄을 들여써야만 랜덤 문자를 10번 반복해서 선택하게끔 할 수 있습니다.
 
-    To indent, press the 'tab' key.
+    들여 쓰려면 'tab' 키를 누르세요.
 
-    ![screenshot](images/passwords-indent.png)
+    ![스크린샷](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ 반복될 때마다 새로운 문자를 __더하기__ 위해서는 `+=`을 사용해야 합니다.
 
-    ![screenshot](images/passwords-add.png)
+    ![스크린샷](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ 새 코드를 테스트하면 10자 길이의 암호가 표시됩니다.
 
-    ![screenshot](images/passwords-10-test.png)
+    ![스크린샷](images/passwords-10-test.png)
 
 
 
