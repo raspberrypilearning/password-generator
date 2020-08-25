@@ -1,20 +1,20 @@
-## Lots of passwords
+## 많은 암호 생성하기
 
-Let's allow the user to create 3 passwords at once.
+사용자가 한 번에 3개의 비밀번호를 만들 수 있도록 합시다.
 
 
 
-+ Add this code to create 3 passwords:
++ 다음 코드를 추가하여 3개의 비밀번호를 만듭니다:
 
-    ![screenshot](images/passwords-num-loop.png)
+    ![스크린샷](images/passwords-num-loop.png)
 
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
++ 암호를 만들기 위한 코드를 선택하고 이 코드가 3회 반복되도록 tab 키를 눌러 들여씁니다.
 
-    ![screenshot](images/passwords-num-indent.png)
+    ![스크린샷](images/passwords-num-indent.png)
 
-+ Test your new code. You should now see 3 passwords of your chosen password length.
++ 새로워진 여러분의 코드를 테스트해 보세요. 이제 사용자가 선택한 비밀번호 길이를 가진 3 개의 비밀번호가 표시될 것입니다.
 
-    ![screenshot](images/passwords-num-test.png)
+    ![스크린샷](images/passwords-num-test.png)
 
 
 
