@@ -1,8 +1,8 @@
 --- challenge ---
-## Challenge: A longer password
-Can you change your program so that it creates a verrrrrrrry long password?
+## 도전과제: 더 긴 암호
+매우매우매우매우 긴 암호를 생성하도록 프로그램을 변경할 수 있나요?
 
-![screenshot](images/passwords-long.png)
+![스크린샷](images/passwords-long.png)
 
 
 
