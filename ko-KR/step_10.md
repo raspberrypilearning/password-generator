@@ -1,12 +1,12 @@
 --- challenge ---
-## Challenge: Choosing the number of passwords
-Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
+## 도전과제: 암호 개수 선택하기
+항상 3개의 암호를 생성하는 대신 사용자가 원하는 암호의 개수를 입력하게 할 수 있나요?
 
-Here's how your program should work:
+프로그램은 다음과 같이 동작해야 합니다:
 
-![screenshot](images/passwords-choose-number.png)
+![스크린샷](images/passwords-choose-number.png)
 
-The code you'll need is __very__ similar to the code for entering the `length` of the password.
+필요한 코드는 사용자가 암호의 `길이`를 입력하는 데 사용하는 코드와 __매우__ 비슷합니다.
 
 
 
