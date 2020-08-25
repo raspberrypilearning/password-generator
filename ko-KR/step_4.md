@@ -1,37 +1,37 @@
-## Random characters
+## 랜덤 문자
 
-Let's create a program to choose a random character for your password.
+암호에 사용할 임의의 문자를 선택하는 프로그램을 만들어 보겠습니다.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ 빈 파이썬 템플릿을 엽니다. <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new</a>.
++ `chars`라는 변수에 저장된 문자열을 만듭니다.
 
-    ![screenshot](images/passwords-chars.png)
+    ![스크린샷](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ 랜덤 문자를 선택하려면 `random` 모듈을 `import`합니다.
 
-    ![screenshot](images/passwords-import.png)
+    ![스크린샷](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ 이제 목록에서 랜덤 문자를 선택하고 `password`라는 변수에 저장할 수 있습니다.
 
-    ![screenshot](images/passwords-choose.png)
+    ![스크린샷](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ 마지막으로 (매우 짧은!) 암호를 화면에 인쇄할 수 있습니다.
 
-    ![screenshot](images/passwords-print.png)
+    ![스크린샷](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Run 을 클릭하여 프로그램을 테스트하세요. 화면에 하나의 랜덤 문자가 표시되어야 합니다.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![스크린샷](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    프로그램을 몇 번 실행하면 다른 문자가 나타납니다.
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ 문자만 포함된 암호는 그다지 안전하지 않습니다. `chars` 변수에 숫자 몇 개를 추가해보세요.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![스크린샷](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ 코드를 몇 번 다시 테스트하다보면 때때로 숫자가 선택되는 것을 볼 수 있습니다.
 
 
 
