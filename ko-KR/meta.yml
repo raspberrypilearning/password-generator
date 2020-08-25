@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Password Generator
-description: Create your own passwords that no one will be able to guess!
+title: 비밀번호 생성기
+description: 아무도 추측 할 수 없는 자신만의 비밀번호를 만들어보세요!
 original_url: https://codeclubprojects.org/en-GB/python/password-generator
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -18,22 +18,22 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: '들어가며: '
   - 
-    title: How secure is your password?
+    title: 당신의 비밀번호는 얼마나 안전한가요?
   - 
-    title: 'Challenge: Creating a better password'
+    title: '도전과제: 더 안전한 암호 만들기'
   - 
-    title: Random characters
+    title: 랜덤 문자
   - 
-    title: 'Challenge: Using numbers and punctuation'
+    title: '도전과제: 숫자와 특수문자 사용하기'
   - 
-    title: A random password
+    title: 랜덤 암호
   - 
-    title: 'Challenge: A longer password'
+    title: '도전과제: 더 긴 암호'
   - 
-    title: Choosing a password length
+    title: 암호 길이 선택하기
   - 
-    title: Lots of passwords
+    title: 많은 암호 생성하기
   - 
-    title: 'Challenge: Choosing the number of passwords'
+    title: '도전과제: 암호 개수 선택하기'
