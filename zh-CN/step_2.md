@@ -10,7 +10,7 @@
 
     ![截屏](images/passwords-secure.png)
 
-+ 输入“letmein” (让我进) 作为密码。 你会看到电脑__立刻__就能破解这个密码！
++ 输入“letmein” (让我进) 作为密码。 你会看到电脑 __立刻__ 就能破解这个密码！
 
     ![截屏](images/passwords-letmein.png)
 
