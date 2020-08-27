@@ -17,7 +17,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: '들어가며: '
+  - title: '소개: '
   - title: 당신의 비밀번호는 얼마나 안전한가요?
   - title: '도전과제: 더 안전한 암호 만들기'
   - title: 랜덤 문자
