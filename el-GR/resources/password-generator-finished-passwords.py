@@ -2,10 +2,10 @@
 
 import random
 
-print('''
+print("
 Γεννήτρια Κωδικών Πρόσβασης
 ========================
-''')
+'')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ! @ £ $% ^ & * ()., 0123456789'
 
