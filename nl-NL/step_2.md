@@ -2,7 +2,7 @@
 
 Een computer zou kunnen proberen jouw wachtwoord te raden met 'brute kracht' -- dit betekent veel wachtwoorden uitproberen totdat het de juiste raadt.
 
-Laten we erachter komen hoe lang het een computer duurt om je wachtwoord te raden.
+Laten we erachter komen hoe lang het duurt voor een computer je wachtwoord raadt.
 
 
 
