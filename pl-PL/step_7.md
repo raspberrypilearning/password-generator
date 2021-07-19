@@ -1,8 +1,8 @@
 --- challenge ---
-## Challenge: A longer password
-Can you change your program so that it creates a verrrrrrrry long password?
+## Wyzwanie: dłuższe hasło
+Czy możesz zmienić program tak, aby stworzył baaardzo długie hasło?
 
-![screenshot](images/passwords-long.png)
+![zrzut ekranu](images/passwords-long.png)
 
 
 
