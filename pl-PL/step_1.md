@@ -1,8 +1,8 @@
-## Introduction:
+## Wprowadzenie:
 
-It's important to protect your personal information online, and in this project you'll create a program to generate passwords for you.
+To ważne by chronić swoje dane osobowe w Internecie, a więc w tym projekcie stworzysz program, który będzie generował hasła dla Ciebie.
 
-The passwords will be random, so no one will be able to guess them!
+Hasła będą losowe, więc nikt nie będzie w stanie ich odgadnąć!
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,71 +10,71 @@ The passwords will be random, so no one will be able to guess them!
   <img src="images/passwords-finished.png">
 </div>
 
-### Additional information for club leaders
+### Dodatkowe informacje dla liderów klubów
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/password-generator/print).
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/password-generator/print).
 
 
 --- collapse ---
 ---
-title: Club leader notes
+title: Notatki dla liderów klubów
 ---
 
 
-## Introduction:
+## Wprowadzenie:
 
-In this project, children will learn what makes a good password, and how to make a program that creates randomly generated passwords.
+W tym projekcie dzieci dowiedzą się, co składa się na dobre hasło i jak stworzyć program, który losowo generuje hasła.
 
-This project has been written for Safer Internet Day 2017, which is on 7th February 2017. The aim of Safer Internet Day is to promote the safe and responsible use of technology for young people. For more information visit [saferinternet.org.uk](https://www.saferinternet.org.uk/) where you'll find an [education pack for 7-11 year-olds](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) containing additional resources.
+Ten projekt został przygotowany z okazji Dnia Bezpiecznego Internetu 2017, który przypada 7 lutego 2017 r. Celem Dnia Bezpiecznego Internetu jest promocja bezpiecznego i odpowiedzialnego korzystania z technologii przez młodych ludzi. Aby uzyskać więcej informacji, odwiedź stronę [saferinternet.org.uk](https://www.saferinternet.org.uk/) gdzie znajdziesz [pakiety edukacyjne dla dzieci w wieku 7-11 lat](https://d1afx9quaogywf.cloudfront.net/cdn/farfuture/_-EgL7dYtxtypvvDcNCE53bYE-OMfdH59vaJ5XPcoG4/mtime:1483547665/sites/default/files/SID2017%20Education%20Pack%20for%207-11%20year%20olds_0.zip) zawierające dodatkowe zasoby.
 
-## Online Resources
+## Zasoby Online
 
-__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__Ten projekt używa Python 3.__ Zalecamy użycie [Trinket](https://trinket.io/) do pisania kodu w Pythonie online. Ten projekt zawiera następujące szablony:
 
-+ [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
++ [Nowy (pusty) Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Dostępny jest też Trinket zawierający ukończony projekt:
 
-+ [‘Password Creator’ Finished -- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
++ [Ukończony „Generator haseł”- trinket.io/python/08c0ad3359](https://trinket.io/python/08c0ad3359)
 
-## Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+## Zasoby Offline
+Ten projekt można także [ukończyć offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Ukończony projekt można znaleźć w sekcji "Zasoby dla wolontariuszy", która zawiera:
 
 + password-creator-finished/passwords.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Wszystkie powyższe zasoby można również pobrać jako pliki `.zip`.)
 
-## Learning Objectives
-+ Repetition;
-+ The `random.choice()` method;
+## Cele dydaktyczne
++ Iteracja;
++ Metoda `random.choice()`;
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Połącz konstrukty programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
-+ "Creating a better password" - using <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> to create secure passwords.
-+ "Using numbers and punctuation" - adding text to a string variable, giving a wider choice of random characters.
-+ "A longer password" - modifying the number of times a random character is chosen.
-+ "Choosing the number of passwords" - using a variable to specify the number of passwords required.
+## Wyzwania
++ „Tworzenie lepszego hasła” - skorzystanie z <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, aby utworzyć bezpieczne hasło.
++ „Używanie liczb i znaków specjalnych” - dodawanie tekstu do zmiennej przechowującej łańcuch, co daje szerszy wybór losowych znaków.
++ „Dłuższe hasło” - modyfikacja liczby wybieranych losowych znaków.
++ „Wybór liczby haseł” - użycie zmiennej do określenia liczby wymaganych haseł.
 
 --- /collapse ---
 
 
 --- collapse ---
 ---
-title: Project materials
+title: Materiały do projektu
 ---
-## Project resources
-* [.zip file containing all project resources](resources/password-generator-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+## Zasoby
+* [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/password-generator-resources.zip)
+* [Pusty Trinket Python online](http://jumpto.cc/python-new)
+* [Pusty plik Python offline](resources/new-new.py)
 
-## Club leader resources
-* [.zip file containing all completed project resources](resources/password-generator-finished.zip)
-* [Online completed Trinket project](https://trinket.io/python/08c0ad3359)
-* [Offline completed project](resources/password-generator-finished-passwords.py)
+## Zasoby dla lidera klubu
+* [Plik .zip zawierający wszystkie zasoby ukończonego projektu](resources/password-generator-finished.zip)
+* [Ukończony Trinket online](https://trinket.io/python/08c0ad3359)
+* [Ukończony projekt offline](resources/password-generator-finished-passwords.py)
 
 --- /collapse ---
