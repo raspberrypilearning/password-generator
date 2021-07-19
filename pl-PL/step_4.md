@@ -1,37 +1,37 @@
-## Random characters
+## Losowe znaki
 
-Let's create a program to choose a random character for your password.
+Stwórzmy program, który wybierze losowy znak do Twojego hasła.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Create a list of characters, stored in a variable called `chars`.
++ Otwórz pusty szablon dla języka Python w edytorze Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Utwórz zbiór znaków, przechowywany w zmiennej o nazwie `znaki`.
 
-    ![screenshot](images/passwords-chars.png)
+    ![zrzut ekranu](images/passwords-chars.png)
 
-+ To choose a random character, you'll need to `import` the `random` module.
++ Aby wybrać losowy znak, musisz zaimportować moduł random poprzez wpisanie `import` `random`.
 
-    ![screenshot](images/passwords-import.png)
+    ![zrzut ekranu](images/passwords-import.png)
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
++ Teraz możesz wybrać losowy znak ze zbioru i zapisać go w zmiennej o nazwie `haslo`.
 
-    ![screenshot](images/passwords-choose.png)
+    ![zrzut ekranu](images/passwords-choose.png)
 
-+ Finally, you can print your (very short!) password to the screen.
++ Na koniec możesz wyświetlić swoje (bardzo krótkie!) hasło na ekranie.
 
-    ![screenshot](images/passwords-print.png)
+    ![zrzut ekranu](images/passwords-print.png)
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
++ Przetestuj swój projekt klikając przycisk „Run”. Na ekranie powinien pojawić się jeden losowy znak.
 
-    ![screenshot](images/passwords-test-letters.png)
+    ![zrzut ekranu](images/passwords-test-letters.png)
 
-    If you run your program a few times, you should see different characters appear.
+    Jeśli uruchomisz program kilka razy, zobaczysz różne znaki pojawiające się na ekranie.
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
++ Hasło nie jest zbyt bezpieczne, jeśli zawiera tylko litery. Dopisz kilka liczb do zmiennej `znaki`.
 
-    ![screenshot](images/passwords-numbers.png)
+    ![zrzut ekranu](images/passwords-numbers.png)
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
++ Jeżeli znów przetestujesz swój kod kilka razy, czasem na ekranie powinna pojawiać się liczba.
 
 
 
