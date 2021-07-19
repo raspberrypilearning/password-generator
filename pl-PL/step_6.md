@@ -1,32 +1,32 @@
-## A random password
+## Losowe hasło
 
-A single character isn't very useful - let's improve your program to create a longer password.
+Pojedynczy znak nie jest zbyt przydatny - ulepszmy Twój program, aby utworzyć dłuższe hasło.
 
 
 
-+ To create a password, you will add random characters to it, one at a time.
++ Aby utworzyć hasło, będziesz dodawać do niego pojedyncze, losowe znaki.
 
-    To start with, your `password` variable should be empty. Add this line to your code:
+    Na początku zmienna `haslo` powinna być pusta. Dodaj tę linię do swojego kodu:
 
-    ![screenshot](images/passwords-empty.png)
+    ![zrzut ekranu](images/passwords-empty.png)
 
-+ You want to choose a random character 10 times. To do this, add the following code:
++ Chcesz wybrać losowy znak 10 razy. W tym celu należy dodać następujący kod:
 
-    ![screenshot](images/passwords-repeat.png)
+    ![zrzut ekranu](images/passwords-repeat.png)
 
-+ You should also indent (move in) the line to choose a random character, so that it happens 10 times.
++ Powinieneś także wciąć (przesunąć) wiersz, aby wybrać losowy znak 10 razy.
 
-    To indent, press the 'tab' key.
+    Aby dodać wcięcie, naciśnij klawisz 'Tab'.
 
-    ![screenshot](images/passwords-indent.png)
+    ![zrzut ekranu](images/passwords-indent.png)
 
-+ You need to use `+=` to __add__ the new character to the password each time.
++ Musisz użyć `+=` aby za każdym razem __dodać__ nowy znak do hasła.
 
-    ![screenshot](images/passwords-add.png)
+    ![zrzut ekranu](images/passwords-add.png)
 
-+ Test your new code and you should see a password that's 10 characters long.
++ Gdy przetestujesz swój nowy kod, na ekranie powinno pojawić się hasło złożone z 10 znaków.
 
-    ![screenshot](images/passwords-10-test.png)
+    ![zrzut ekranu](images/passwords-10-test.png)
 
 
 
