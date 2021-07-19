@@ -1,16 +1,16 @@
 --- challenge ---
-## Challenge: Creating a better password
-Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
+## Wyzwanie: tworzenie lepszego hasła
+Czy jesteś w stanie wprowadzić hasło, którego złamanie zajęłoby komputerowi ponad 1000 lat, ale nie jest zbyt długie do wpisania?
 
-![screenshot](images/passwords-13000.png)
+![zrzut ekranu](images/passwords-13000.png)
 
-Remember that your password is harder to guess if it's:
+Pamiętaj, że Twoje hasło jest trudniejsze do odgadnięcia, jeśli:
 
-+ Long
-+ Not a word in the dictionary
-+ Contains letters, numbers and punctuation
++ Jest długie
++ Nie jest słowem ze słownika
++ Zawiera litery, liczby i znaki specjalne
 
-You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
+Za chwilę będziesz generować hasła, które są trudne do złamania dla komputera. Są one przydatne do zabezpieczania ważnych kont. Zauważ, że wielu dorosłych używa menedżerów haseł, aby ułatwić sobie zapamiętywanie wielu trudnych haseł.
 
 
 
