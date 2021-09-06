@@ -1,0 +1,28 @@
+hero_image: images/banner.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Adgangskode Generator
+description: Lav dine egne kodeord som ingen vil kunne gætte!
+original_url: https://codeclubprojects.org/en-GB/python/password-generator
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+- title: 'Introduktion: '
+- title: Hvor sikkert er din adgangskode?
+- title: 'Udfordring: Skabe en bedre adgangskode'
+- title: Tilfældige tegn
+- title: 'Udfordring: Bruge tal og tegnsætninger'
+- title: En tilfældig adgangskode
+- title: 'Udfordring: En længere adgangskode'
+- title: Vælge længden af adgangskode
+- title: Mange adgangskoder
+- title: 'Udfordring: vælge antallet af adgangskoder'
