@@ -1,5 +1,5 @@
 --- challenge ---
-## Défi : utiliser des nombres et de la ponctuation
+## Défi : utilisation des nombres et de la ponctuation
 Peux-tu améliorer ton programme pour qu'il choisisse aussi :
 
 + Lettres majuscules (A-Z)

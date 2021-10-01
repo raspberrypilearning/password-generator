@@ -1,4 +1,4 @@
-## Introduction :
+## Introduction
 
 Il est important de protéger tes informations personnelles en ligne, et dans ce projet, tu vas créer un programme pour générer des mots de passe pour toi.
 
