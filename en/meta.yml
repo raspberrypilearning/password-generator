@@ -1,3 +1,4 @@
+---
 hero_image: images/banner.png
 theme: blue
 duration: 2
@@ -15,8 +16,9 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: 'Introduction: '
+  completion: engaged
 - title: How secure is your password?
 - title: 'Challenge: Creating a better password'
 - title: Random characters
@@ -25,4 +27,5 @@ steps:
 - title: 'Challenge: A longer password'
 - title: Choosing a password length
 - title: Lots of passwords
+  completion: internal
 - title: 'Challenge: Choosing the number of passwords'

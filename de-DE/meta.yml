@@ -17,13 +17,15 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Einleitung: '
-  - title: Wie sicher ist dein Passwort?
-  - title: 'Herausforderung: Ein besseres Passwort erstellen'
-  - title: Zufällige Zeichen
-  - title: 'Herausforderung: Zahlen und Satzzeichen verwenden'
-  - title: Ein zufälliges Passwort
-  - title: 'Herausforderung: Ein längeres Passwort'
-  - title: Wähle eine Passwortlänge
-  - title: Viele Passwörter
-  - title: 'Herausforderung: Anzahl der Passwörter auswählen'
+- title: 'Einleitung: '
+  completion: engaged
+- title: Wie sicher ist dein Passwort?
+- title: 'Herausforderung: Ein besseres Passwort erstellen'
+- title: Zufällige Zeichen
+- title: 'Herausforderung: Zahlen und Satzzeichen verwenden'
+- title: Ein zufälliges Passwort
+- title: 'Herausforderung: Ein längeres Passwort'
+- title: Wähle eine Passwortlänge
+- title: Viele Passwörter
+  completion: internal
+- title: 'Herausforderung: Anzahl der Passwörter auswählen'

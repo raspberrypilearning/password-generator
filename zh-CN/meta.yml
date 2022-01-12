@@ -17,13 +17,15 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: '介绍'
-  - title: 你的密码有多安全？
-  - title: '挑战：创建更好的密码'
-  - title: 随机字符
-  - title: '挑战：使用数字和标点符号'
-  - title: 随机密码
-  - title: '挑战：让密码更长'
-  - title: 选择密码长度
-  - title: 多个密码
-  - title: '挑战：选择密码数量'
+- title: 介绍
+  completion: engaged
+- title: 你的密码有多安全？
+- title: 挑战：创建更好的密码
+- title: 随机字符
+- title: 挑战：使用数字和标点符号
+- title: 随机密码
+- title: 挑战：让密码更长
+- title: 选择密码长度
+- title: 多个密码
+  completion: internal
+- title: 挑战：选择密码数量

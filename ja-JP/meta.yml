@@ -17,13 +17,15 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'はじめに: '
-  - title: パスワードはどのくらい安全ですか？
-  - title: 'チャレンジ: もっと安全なパスワードを作る'
-  - title: ランダムな文字
-  - title: 'チャレンジ: 数字と記号を使う'
-  - title: ランダムなパスワード
-  - title: 'チャレンジ: 長いパスワード'
-  - title: パスワードの文字数を選ぶ
-  - title: たくさんのパスワード
-  - title: 'チャレンジ: パスワードの数を選ぶ'
+- title: 'はじめに: '
+  completion: engaged
+- title: パスワードはどのくらい安全ですか？
+- title: 'チャレンジ: もっと安全なパスワードを作る'
+- title: ランダムな文字
+- title: 'チャレンジ: 数字と記号を使う'
+- title: ランダムなパスワード
+- title: 'チャレンジ: 長いパスワード'
+- title: パスワードの文字数を選ぶ
+- title: たくさんのパスワード
+  completion: internal
+- title: 'チャレンジ: パスワードの数を選ぶ'
