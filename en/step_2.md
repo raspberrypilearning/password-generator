@@ -6,15 +6,15 @@ Let's find out how long it would take a computer to guess your password.
 
 
 
-+ Go to <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
 
 	![screenshot](images/passwords-secure.png)
 
-+ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password __instantly__!
++ Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password extremely quickly!
 
 	![screenshot](images/passwords-letmein.png)
 
-	You'll also see some reasons why "letmein" isn't a good password to use:
+	There are some reasons why "letmein" isn't a good password to use:
 
 	+ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
