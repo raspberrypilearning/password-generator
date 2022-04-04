@@ -6,7 +6,7 @@ Let's find out how long it would take a computer to guess your password.
 
 
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">howsecureismypassword.net</a>, which is a website for finding out how secure your passwords are.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
 	![screenshot](images/passwords-secure.png)
 
