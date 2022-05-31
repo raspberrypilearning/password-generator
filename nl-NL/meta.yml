@@ -17,13 +17,17 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Inleiding'
-  - title: Hoe veilig is je wachtwoord?
-  - title: 'Uitdaging: een beter wachtwoord maken'
-  - title: Willekeurige tekens
-  - title: 'Uitdaging: cijfers en leestekens gebruiken'
-  - title: Een willekeurig wachtwoord
-  - title: 'Uitdaging: een langer wachtwoord'
-  - title: Een wachtwoordlengte kiezen
-  - title: Veel wachtwoorden
-  - title: 'Uitdaging: het aantal wachtwoorden kiezen'
+- title: Inleiding
+- title: Hoe veilig is je wachtwoord?
+- title: 'Uitdaging: een beter wachtwoord maken'
+- title: Willekeurige tekens
+  completion:
+  - engaged
+- title: 'Uitdaging: cijfers en leestekens gebruiken'
+- title: Een willekeurig wachtwoord
+- title: 'Uitdaging: een langer wachtwoord'
+- title: Een wachtwoordlengte kiezen
+- title: Veel wachtwoorden
+  completion:
+  - internal
+- title: 'Uitdaging: het aantal wachtwoorden kiezen'
