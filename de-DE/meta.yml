@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Einleitung: '
-  completion: engaged
 - title: Wie sicher ist dein Passwort?
 - title: 'Herausforderung: Ein besseres Passwort erstellen'
 - title: Zufällige Zeichen
+  completion:
+  - engaged
 - title: 'Herausforderung: Zahlen und Satzzeichen verwenden'
 - title: Ein zufälliges Passwort
 - title: 'Herausforderung: Ein längeres Passwort'
 - title: Wähle eine Passwortlänge
 - title: Viele Passwörter
-  completion: internal
+  completion:
+  - internal
 - title: 'Herausforderung: Anzahl der Passwörter auswählen'

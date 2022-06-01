@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Hoe veilig is je wachtwoord?
 - title: 'Uitdaging: een beter wachtwoord maken'
 - title: Willekeurige tekens
+  completion:
+  - engaged
 - title: 'Uitdaging: cijfers en leestekens gebruiken'
 - title: Een willekeurig wachtwoord
 - title: 'Uitdaging: een langer wachtwoord'
 - title: Een wachtwoordlengte kiezen
 - title: Veel wachtwoorden
-  completion: internal
+  completion:
+  - internal
 - title: 'Uitdaging: het aantal wachtwoorden kiezen'

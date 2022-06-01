@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introduction '
-  completion: engaged
 - title: Quel est le niveau de sécurité de ton mot de passe ?
 - title: 'Défi : créer un meilleur mot de passe'
 - title: Caractères aléatoires
+  completion:
+  - engaged
 - title: 'Défi : utilisation des nombres et de la ponctuation'
 - title: Un mot de passe aléatoire
 - title: 'Défi : un mot de passe plus long'
 - title: Choisir une longueur de mot de passe
 - title: Beaucoup de mots de passe
-  completion: internal
+  completion:
+  - internal
 - title: 'Défi : choisir le nombre de mots de passe'

@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introducción: '
-  completion: engaged
 - title: "¿Qué tan segura es su contraseña?"
 - title: 'Desafío: Creando una mejor contraseña'
 - title: Caracteres aleatorios
+  completion:
+  - engaged
 - title: 'Desafío: Usando números y signos de puntuación'
 - title: Una contraseña aleatoria
 - title: 'Desafío: Una contraseña más larga'
 - title: Escogiendo una longitud de contraseña
 - title: Muchas contraseñas
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafío: Eligiendo el número de contraseñas'

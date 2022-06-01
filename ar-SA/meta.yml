@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'المقدمة: '
-  completion: engaged
 - title: ما مدى أمان كلمة المرور الخاصة بك؟
 - title: 'التحدي: إنشاء كلمة مرور أفضل'
 - title: أحرف عشوائية
+  completion:
+  - engaged
 - title: 'التحدي: استخدام الأرقام وعلامات الترقيم'
 - title: كلمة مرور عشوائية
 - title: 'التحدي: كلمة مرور أطول'
 - title: إختيار طول كلمة المرور
 - title: الكثير من كلمات المرور
-  completion: internal
+  completion:
+  - internal
 - title: 'التحدي: إختيار عدد كلمات المرور'

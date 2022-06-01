@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Jak bezpieczne jest Twoje hasło?
 - title: 'Wyzwanie: tworzenie lepszego hasła'
 - title: Losowe znaki
+  completion:
+  - engaged
 - title: 'Wyzwanie: używanie liczb i znaków specjalnych'
 - title: Losowe hasło
 - title: 'Wyzwanie: dłuższe hasło'
 - title: Wybór długości hasła
 - title: Mnóstwo haseł
-  completion: internal
+  completion:
+  - internal
 - title: 'Wyzwanie: wybór liczby haseł'

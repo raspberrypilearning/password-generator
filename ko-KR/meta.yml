@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: '소개: '
-  completion: engaged
 - title: 당신의 비밀번호는 얼마나 안전한가요?
 - title: '도전과제: 더 안전한 암호 만들기'
 - title: 랜덤 문자
+  completion:
+  - engaged
 - title: '도전과제: 숫자와 특수문자 사용하기'
 - title: 랜덤 암호
 - title: '도전과제: 더 긴 암호'
 - title: 암호 길이 선택하기
 - title: 많은 암호 생성하기
-  completion: internal
+  completion:
+  - internal
 - title: '도전과제: 암호 개수 선택하기'

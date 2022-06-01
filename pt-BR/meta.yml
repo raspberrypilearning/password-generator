@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introdução: '
-  completion: engaged
 - title: Quão segura é sua senha?
 - title: 'Desafio: Criando uma senha melhor'
 - title: Caracteres aleatórios
+  completion:
+  - engaged
 - title: 'Desafio: Usando números e pontuação'
 - title: Uma senha aleatória
 - title: 'Desafio: Uma senha mais longa'
 - title: Escolhendo um tamanho de senha
 - title: Muitas senhas
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafio: Escolhendo o número de senhas'
