@@ -25,6 +25,8 @@ steps:
     title: 'Herausforderung: Ein besseres Passwort erstellen'
   - 
     title: Zufällige Zeichen
+    completion:
+      - engaged
   - 
     title: 'Herausforderung: Zahlen und Satzzeichen verwenden'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Wähle eine Passwortlänge
   - 
     title: Viele Passwörter
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Anzahl der Passwörter auswählen'
