@@ -6,15 +6,15 @@
 
 
 
-+ Πήγαινε στο <a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net </a>, που είναι ένας ιστότοπος για να μάθεις πόσο ασφαλείς είναι οι δικοί σου κωδικοί πρόσβασης.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![στιγμιότυπο οθόνης](images/passwords-secure.png)
 
-+ Πληκτρολογήστε "letmein" (Let me in) ως κωδικό πρόσβασης. Θα δεις ότι ένας υπολογιστής θα μαντέψει __αμέσως__ αυτόν τον κωδικό πρόσβασης!
++ Πληκτρολογήστε "letmein" (Let me in) ως κωδικό πρόσβασης. You'll see that a computer would guess this password extremely quickly!
 
     ![στιγμιότυπο οθόνης](images/passwords-letmein.png)
 
-    Θα δεις επίσης μερικούς λόγους για τους οποίους το "letmein" δεν είναι ένας καλός κωδικός πρόσβασης για χρήση:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + Είναι πολύ __ συνηθισμένος__ κωδικός πρόσβασης (ένας από τους 15 κωδικούς πρόσβασης που χρησιμοποιούνται πιο συχνά). Ένας υπολογιστής θα μαντέψει πρώτα αυτούς τους κωδικούς.
 
