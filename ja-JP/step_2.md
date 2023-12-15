@@ -6,15 +6,15 @@
 
 
 
-+ <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a> (英語) にアクセスしましょう。これはパスワードの安全性を知るためのウェブサイトです。
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![スクリーンショット](images/passwords-secure.png)
 
-+ パスワードとして「letmein」（私を入れてください）と入力してください。 コンピューターはこのパスワードを__すぐに__当ててしまいます！
++ パスワードとして「letmein」（私を入れてください）と入力してください。 You'll see that a computer would guess this password extremely quickly!
 
     ![スクリーンショット](images/passwords-letmein.png)
 
-    また、「letmein」がなぜ安全なパスワードではないかが分かります。
+    There are some reasons why "letmein" isn't a good password to use:
 
     + とても__一般的な__パスワード（一番使われる15のパスワードの1つ）だからです。 コンピューターは、このようなパスワードをまず試します。
 
