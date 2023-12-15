@@ -6,15 +6,15 @@ Voyons combien de temps il faudrait à un ordinateur pour deviner ton mot de pas
 
 
 
-+ Vas sur <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, qui est un site Web pour savoir à quel point tes mots de passe sont sécurisés.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![capture d'écran](images/passwords-secure.png)
 
-+ Tape « letmein » (let me in = laissez-moi entrer) comme mot de passe. Tu verras qu'un ordinateur devinerait ce mot de passe __instantanément__ !
++ Tape « letmein » (let me in = laissez-moi entrer) comme mot de passe. You'll see that a computer would guess this password extremely quickly!
 
     ![capture d'écran](images/passwords-letmein.png)
 
-    Tu verras également quelques raisons pour lesquelles « letmein » n'est pas un bon mot de passe à utiliser :
+    There are some reasons why "letmein" isn't a good password to use:
 
     + C'est un mot de passe très __commun__ (un des 15 mots de passe les plus utilisés). Un ordinateur les devinerait en premier.
 
