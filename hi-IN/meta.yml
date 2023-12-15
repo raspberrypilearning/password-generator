@@ -25,6 +25,8 @@ steps:
     title: 'चुनौती: एक बेहतर पासवर्ड बनाना'
   - 
     title: अनोखे करैक्टर्स (random characters)
+    completion:
+      - engaged
   - 
     title: 'चुनौती: संख्याओं(numbers) और विराम चिह्नों(punctuation) का उपयोग करना'
   - 
@@ -35,5 +37,7 @@ steps:
     title: पासवर्ड की लंबाई चुनना
   - 
     title: बहुत सारे पासवर्ड
+    completion:
+      - internal
   - 
     title: 'चुनौती: पासवर्ड की संख्या चुनना'
