@@ -6,15 +6,15 @@ Laten we erachter komen hoe lang het duurt voor een computer je wachtwoord raadt
 
 
 
-+ Ga naar <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, een website om erachter te komen hoe veilig je wachtwoorden zijn.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![schermafbeelding](images/passwords-secure.png)
 
-+ Typ "letmein" (Let me in, laat me binnen) als wachtwoord. Je zult zien dat een computer dit wachtwoord __instantly (onmiddellijk)__ zou raden!
++ Typ "letmein" (Let me in, laat me binnen) als wachtwoord. You'll see that a computer would guess this password extremely quickly!
 
     ![schermafbeelding](images/passwords-letmein.png)
 
-    Je zult ook enkele redenen zien waarom "letmein" geen goed wachtwoord is om te gebruiken:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + Het is een zeer __vaak__ gebruikt wachtwoord (een van de 15 meest gebruikte wachtwoorden). Een computer zou deze eerst raden.
 
