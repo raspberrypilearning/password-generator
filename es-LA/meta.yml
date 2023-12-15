@@ -25,6 +25,8 @@ steps:
     title: 'Desafío: Crear una mejor contraseña'
   - 
     title: Caracteres aleatorios
+    completion:
+      - engaged
   - 
     title: 'Desafío: Usando números y signos de puntuación'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Escogiendo una longitud de contraseña
   - 
     title: Muchas contraseñas
+    completion:
+      - internal
   - 
     title: 'Desafío: Eligiendo el número de contraseñas'
