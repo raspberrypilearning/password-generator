@@ -6,15 +6,15 @@ Lass uns herausfinden, wie lange es dauern würde, bis ein Computer dein Passwor
 
 
 
-+ Gehe zu <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, einer Website, auf der man herausfinden kann, wie sicher deine Passwörter sind.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![Screenshot](images/passwords-secure.png)
 
-+ Gib "letmein" (Lass mich rein) als Passwort ein. Du wirst sehen, dass ein Computer dieses Passwort __sofort__ erraten würde!
++ Gib "letmein" (Lass mich rein) als Passwort ein. You'll see that a computer would guess this password extremely quickly!
 
     ![screenshot](images/passwords-letmein.png)
 
-    Du wirst auch einige Gründe sehen, warum "letmein" kein gutes Passwort ist:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + Es ist ein sehr __häufiges__ Passwort (eines der 15 am häufigsten verwendeten Kennwörter). Ein Computer würde diese zuerst erraten.
 
