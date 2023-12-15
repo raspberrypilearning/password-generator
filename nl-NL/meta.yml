@@ -25,6 +25,8 @@ steps:
     title: 'Uitdaging: een beter wachtwoord maken'
   - 
     title: Willekeurige tekens
+    completion:
+      - engaged
   - 
     title: 'Uitdaging: cijfers en leestekens gebruiken'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Een wachtwoordlengte kiezen
   - 
     title: Veel wachtwoorden
+    completion:
+      - internal
   - 
     title: 'Uitdaging: het aantal wachtwoorden kiezen'
