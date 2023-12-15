@@ -25,6 +25,8 @@ steps:
     title: 'チャレンジ: もっと安全なパスワードを作る'
   - 
     title: ランダムな文字
+    completion:
+      - engaged
   - 
     title: 'チャレンジ: 数字と記号を使う'
   - 
@@ -35,5 +37,7 @@ steps:
     title: パスワードの文字数を選ぶ
   - 
     title: たくさんのパスワード
+    completion:
+      - internal
   - 
     title: 'チャレンジ: パスワードの数を選ぶ'
