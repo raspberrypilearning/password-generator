@@ -6,15 +6,15 @@
 
 
 
-+ यह जानने के लिए कि आपके पासवर्ड कितने सुरक्षित हैं<a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net </a>पर जाएं, जो एक वेबसाइट है ।
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![स्क्रीनशॉट(screenshot)](images/passwords-secure.png)
 
-+ पासवर्ड के रूप में "letmein" (मुझे अंदर आने दें) टाइप करें। आप देखेंगे कि कंप्यूटर इस पासवर्ड का __ तुरन्त __ अनुमान लगाता है!
++ पासवर्ड के रूप में "letmein" (मुझे अंदर आने दें) टाइप करें। You'll see that a computer would guess this password extremely quickly!
 
     ![स्क्रीनशॉट(screenshot)](images/passwords-letmein.png)
 
-    आपको कुछ कारण भी दिखाई देंगे कि क्यों "letmein" उपयोग करने के लिए अच्छा पासवर्ड नहीं है:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + यह बहुत __ सामान्य __ पासवर्ड है (15 सबसे अधिक इस्तेमाल किए जाने वाले पासवर्ड में से एक)। एक कंप्यूटर इनका सबसे पहले अनुमान लगाएगा।
 
