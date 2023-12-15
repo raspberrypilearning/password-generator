@@ -6,15 +6,15 @@
 
 
 
-+ 당신의 비밀번호가 얼마나 안전한지 알아보기 위한 웹사이트인 <a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net</a>으로 이동하세요.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![스크린샷](images/passwords-secure.png)
 
-+ 암호로 "letmein"(Let me in)을 입력합니다. 컴퓨터가 __즉각적으로(instantly)__ 이 비밀번호를 추측할 수 있다는 것을 확인할 수 있습니다!
++ 암호로 "letmein"(Let me in)을 입력합니다. You'll see that a computer would guess this password extremely quickly!
 
     ![스크린샷](images/passwords-letmein.png)
 
-    "letmein"이 사용하기에 좋은 암호가 아닌 몇 가지 이유에 대해 알아봅시다:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + 매우 __흔한__ 암호입니다(가장 자주 사용되는 15개의 암호 중 하나입니다). 컴퓨터는 당연히 이것을 먼저 추측 할 것입니다.
 
