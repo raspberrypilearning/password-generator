@@ -6,15 +6,15 @@
 
 
 
-+ انتقل إلى <a href="https://howsecureismypassword.net/" target="_blank"> howsecureismypassword.net </a> ، وهو موقع إلكتروني لمعرفة مدى أمان كلمات المرور الخاصة بك.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![لقطة الشاشة](images/passwords-secure.png)
 
-+ اكتب "letmein" (اسمح لي بالدخول) ككلمة المرور. سترى أن الكمبيوتر سيخمن كلمة المرور هذه __ على الفور __!
++ اكتب "letmein" (اسمح لي بالدخول) ككلمة المرور. You'll see that a computer would guess this password extremely quickly!
 
     ![لقطة شاشة](images/passwords-letmein.png)
 
-    سترى أيضًا بعض الأسباب التي تجعل "letmein" ليست كلمة مرور جيدة للاستخدام:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + إنها كلمة مرور __عادية__ (واحدة من كلمات المرور الخمسة عشر الأكثر استخداماً). سوف يخمن الكمبيوتر هذه أولاً.
 
