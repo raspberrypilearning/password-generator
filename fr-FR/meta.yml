@@ -25,6 +25,8 @@ steps:
     title: 'Défi : créer un meilleur mot de passe'
   - 
     title: Caractères aléatoires
+    completion:
+      - engaged
   - 
     title: 'Défi : utilisation des nombres et de la ponctuation'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Choisir une longueur de mot de passe
   - 
     title: Beaucoup de mots de passe
+    completion:
+      - internal
   - 
     title: 'Défi : choisir le nombre de mots de passe'
