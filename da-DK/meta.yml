@@ -25,6 +25,8 @@ steps:
     title: 'Challenge: Creating a better password'
   - 
     title: Random characters
+    completion:
+      - engaged
   - 
     title: 'Challenge: Using numbers and punctuation'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Choosing a password length
   - 
     title: Lots of passwords
+    completion:
+      - internal
   - 
     title: 'Challenge: Choosing the number of passwords'
