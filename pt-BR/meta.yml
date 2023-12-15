@@ -25,6 +25,8 @@ steps:
     title: 'Desafio: Criando uma senha melhor'
   - 
     title: Caracteres aleatórios
+    completion:
+      - engaged
   - 
     title: 'Desafio: Usando números e pontuação'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Escolhendo um tamanho de senha
   - 
     title: Muitas senhas
+    completion:
+      - internal
   - 
     title: 'Desafio: Escolhendo o número de senhas'
