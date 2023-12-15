@@ -6,15 +6,15 @@ Sprawdźmy jak dużo czasu potrzebuje komputer, by odgadnąć Twoje hasło.
 
 
 
-+ Wejdź na stronę <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, dzięki której dowiesz się jak silne jest Twoje hasło.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![zrzut ekranu](images/passwords-secure.png)
 
-+ Jako hasło wpisz „letmein” (z ang. wpuść mnie). Zobaczysz, że komputer odgadnie to hasło __natychmiastowo__!
++ Jako hasło wpisz „letmein” (z ang. wpuść mnie). You'll see that a computer would guess this password extremely quickly!
 
     ![zrzut ekranu](images/passwords-letmein.png)
 
-    Zobaczysz również kilka powodów, dlaczego "letmein" nie jest dobrym hasłem:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + To bardzo __popularne__ hasło (jedno z 15 najczęściej używanych). Komputer odgadłby je od razu.
 
