@@ -1,6 +1,6 @@
 --- challenge ---
 ## Desafio: Escolhendo o número de senhas
-Em vez de sempre imprimir três senhas, você pode permitir que o usuário digite o número de senhas que desejar?
+Instead of always printing 3 passwords, can you allow the user to enter the number of passwords they want?
 
 Aqui está como seu programa deve funcionar:
 
