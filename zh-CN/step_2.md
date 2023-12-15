@@ -6,15 +6,15 @@
 
 
 
-+ 点击访问<a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>，这个网站会帮你评估密码的安全性。
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![截屏](images/passwords-secure.png)
 
-+ 输入“letmein” (让我进) 作为密码。 你会看到电脑__立刻__就能破解这个密码！
++ 输入“letmein” (让我进) 作为密码。 You'll see that a computer would guess this password extremely quickly!
 
     ![截屏](images/passwords-letmein.png)
 
-    你还会看到“letmein”不适合用作密码的几点原因：
+    There are some reasons why "letmein" isn't a good password to use:
 
     + 它是一个非常__常见的__密码 (使用最多的15个密码之一)。 计算机会最先猜这些密码。
 
