@@ -25,6 +25,8 @@ steps:
     title: 'Wyzwanie: tworzenie lepszego hasła'
   - 
     title: Losowe znaki
+    completion:
+      - engaged
   - 
     title: 'Wyzwanie: używanie liczb i znaków specjalnych'
   - 
@@ -35,5 +37,7 @@ steps:
     title: Wybór długości hasła
   - 
     title: Mnóstwo haseł
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: wybór liczby haseł'
