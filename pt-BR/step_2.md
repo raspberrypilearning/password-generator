@@ -6,15 +6,15 @@ Vamos descobrir quanto tempo levaria um computador para adivinhar sua senha.
 
 
 
-+ Vá para <a href="https://howsecureismypassword.net/" target="_blank">howsecureismypassword.net</a>, que é um site para descobrir quão seguras são suas senhas.
++ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
     ![captura de tela](images/passwords-secure.png)
 
-+ Digite "letmein" (Deixe-me entrar) como a senha. Você verá que um computador adivinharia essa senha __instantaneamente__!
++ Digite "letmein" (Deixe-me entrar) como a senha. You'll see that a computer would guess this password extremely quickly!
 
     ![captura de tela](images/passwords-letmein.png)
 
-    Você também verá alguns motivos pelos quais "letmein"(Deixe-me entrar) não é uma boa senha para usar:
+    There are some reasons why "letmein" isn't a good password to use:
 
     + É uma senha muito __comum__ (uma das 15 senhas mais usadas). Um computador adivinharia essas primeiro.
 
