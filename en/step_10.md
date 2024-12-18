@@ -11,7 +11,6 @@ Try our [Secret Messages](https://projects.raspberrypi.org/en/projects/secret-me
 --- no-print ---
 
 Press **Run** to try it out!
-
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /no-print ---
