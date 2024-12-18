@@ -17,19 +17,34 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
+<<<<<<< HEAD
 - title: What you will make
+=======
+- title: 'Introduction: '
+>>>>>>> origin/master
 - title: How secure is your password?
 - title: Create a better password
   challenge: true
   completion: engaged
 - title: Random characters
   completion:
+<<<<<<< HEAD
   - internal
 - title: Using numbers and punctuation
+=======
+  - engaged
+- title: 'Challenge: Using numbers and punctuation'
+>>>>>>> origin/master
 - title: A random password
 - title: Choosing a password length
 - title: Lots of passwords
+<<<<<<< HEAD
 - title: Choosing the number of passwords
   completion:
   - external
 - title: What can you do now?
+=======
+  completion:
+  - internal
+- title: 'Challenge: Choosing the number of passwords'
+>>>>>>> origin/master
