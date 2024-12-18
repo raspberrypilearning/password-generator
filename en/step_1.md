@@ -6,11 +6,7 @@ The passwords will be random, so no one will be able to guess them!
 
 --- no-print ---
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/08c0ad3359?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/passwords-finished.png">
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/password-generator-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /no-print ---
 
