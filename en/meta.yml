@@ -17,7 +17,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: 'Introduction: '
+- title: What you will make
 - title: How secure is your password?
 - title: 'Challenge: Creating a better password'
 - title: Random characters
@@ -31,3 +31,4 @@ steps:
   completion:
   - internal
 - title: 'Challenge: Choosing the number of passwords'
+- title: What can you do now?
