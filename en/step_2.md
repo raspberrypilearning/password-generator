@@ -4,8 +4,6 @@ A computer could try to guess your password by using 'brute force' -- this means
 
 Let's find out how long it would take a computer to guess your password.
 
-
-
 + Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
 	![screenshot](images/passwords-secure.png)
@@ -14,7 +12,7 @@ Let's find out how long it would take a computer to guess your password.
 
 	![screenshot](images/passwords-letmein.png)
 
-	There are some reasons why "letmein" isn't a good password to use:
+	There are some reasons why 'letmein' is a bad password to use:
 
 	+ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 

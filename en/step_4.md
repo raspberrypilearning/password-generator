@@ -2,36 +2,129 @@
 
 Let's create a program to choose a random character for your password.
 
+--- task ---
 
+Open the [Password Generator starter project](https://editor.raspberrypi.org/en/projects/password-generator-starter){:target="_blank"}.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
-+ Create a list of characters, stored in a variable called `chars`.
+--- /task ---
 
-	![screenshot](images/passwords-chars.png)
+--- task ---
 
-+ To choose a random character, you'll need to `import` the `random` module.
+Create a list of characters, stored in a variable called `chars`.
 
-	![screenshot](images/passwords-import.png)
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3
+---
+#!/bin/python3
 
-+ Now you can choose a random character from the list, and store it in a variable called `password`.
+chars = 'abcdefghijklmnopqrstuvwxyz'
+--- /code ---
 
-	![screenshot](images/passwords-choose.png)
+--- /task ---
 
-+ Finally, you can print your (very short!) password to the screen.
+--- task ---
 
-	![screenshot](images/passwords-print.png)
+To choose a random character, you'll need to `import` the `random` module.
 
-+ Test your project by clicking 'run'. You should see a single random character on the screen.
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2
+---
+#!/bin/python3
+import random
 
-	![screenshot](images/passwords-test-letters.png)
+chars = 'abcdefghijklmnopqrstuvwxyz'
+--- /code ---
 
-	If you run your program a few times, you should see different characters appear.
+--- /task ---
 
-+ A password isn't very secure if it only contains letters. Add some numbers to your `chars` variable.
+--- task ---
 
-	![screenshot](images/passwords-numbers.png)
+Now you can choose a random character from the list, and store it in a variable called `password`.
 
-+ Test your code again a few times, and you should see that sometimes a number is chosen.
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2
+---
+#!/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyz'
 
+password = random.choice(chars)
+--- /code ---
 
+--- /task ---
+
+--- task ---
+
+Finally, you can print your (very short!) password to the screen.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2
+---
+#!/bin/python3
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars)
+print(password)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. 
+
+You should see a single random character on the screen.
+
+If you run your program a few times, you should see different characters appear.
+
+--- /task ---
+
+A password isn't very secure if it only contains letters. 
+
+--- task ---
+
+Add some numbers to your `chars` variable.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4
+---
+#!/bin/python3
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
+
+password = random.choice(chars)
+print(password)
+--- /code ---
+
+--- /task ---
+
+**Test:** Click the **Run** button again a few times, and you should see that sometimes a number is chosen.

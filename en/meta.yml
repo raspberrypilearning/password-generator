@@ -19,16 +19,17 @@ last_tested: 2017-01-01
 steps:
 - title: What you will make
 - title: How secure is your password?
-- title: 'Challenge: Creating a better password'
+- title: Create a better password
+  challenge: true
+  completion: engaged
 - title: Random characters
   completion:
-  - engaged
-- title: 'Challenge: Using numbers and punctuation'
+  - internal
+- title: Using numbers and punctuation
 - title: A random password
-- title: 'Challenge: A longer password'
 - title: Choosing a password length
 - title: Lots of passwords
+- title: Choosing the number of passwords
   completion:
-  - internal
-- title: 'Challenge: Choosing the number of passwords'
+  - external
 - title: What can you do now?
