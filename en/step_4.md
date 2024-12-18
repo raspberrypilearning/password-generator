@@ -57,7 +57,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 2
+line_highlights: 6
 ---
 #!/bin/python3
 import random
@@ -79,7 +79,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 2
+line_highlights: 7
 ---
 #!/bin/python3
 import random
