@@ -1,20 +1,34 @@
-## Lots of passwords
+### Choosing the number of passwords
 
-Let's allow the user to create 3 passwords at once.
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ Add this code to create 3 passwords:
-
-	![screenshot](images/passwords-num-loop.png)
-
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
-
-	![screenshot](images/passwords-num-indent.png)
-
-+ Test your new code. You should now see 3 passwords of your chosen password length.
-
-	![screenshot](images/passwords-num-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-7, 12
+---
+#!/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?')
+number = int(number)
+
+length = input('password length?')
+length = int(length)
+
+for p in range(number):
+    password = ''
+    for c in range(length):
+        password += random.choice(chars)
+    print(password)
+--- /code ---
+
+--- /task ---

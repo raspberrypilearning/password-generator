@@ -17,17 +17,20 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: 'Introduction: '
+- title: What you will make
 - title: How secure is your password?
-- title: 'Challenge: Creating a better password'
-- title: Random characters
+- title: Create a better password
+  challenge: true
   completion:
   - engaged
-- title: 'Challenge: Using numbers and punctuation'
-- title: A random password
-- title: 'Challenge: A longer password'
-- title: Choosing a password length
-- title: Lots of passwords
+- title: Random characters
   completion:
   - internal
-- title: 'Challenge: Choosing the number of passwords'
+- title: Using numbers and punctuation
+- title: A random password
+- title: Choosing a password length
+- title: Lots of passwords
+- title: Choosing the number of passwords
+  completion:
+  - external
+- title: What can you do now?

@@ -1,14 +1,37 @@
---- challenge ---
-## Challenge: Using numbers and punctuation
-Can you improve your program, so that it also chooses from:
+## Using numbers and punctuation
+
+Improve your program, so that it also chooses from:
 
 + Capital letters (A-Z)
 + Numbers (0-9)
 + Punctuation (!?.,-)
 
-You'll need to add to your `chars` variable. Remember to test your improved program!
+--- task ---
+
+Add to your `chars` variable. 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4
+---
+#!/bin/python3
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+password = random.choice(chars)
+print(password)
+--- /code ---
+
+--- /task ---
 
 
+--- task ---
 
+**Test:** Click the **Run** button. 
 
---- /challenge ---
+--- /task ---
