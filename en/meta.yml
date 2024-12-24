@@ -19,8 +19,6 @@ last_tested: 2017-01-01
 steps:
 - title: What you will make
 - title: How secure is your password?
-- title: Create a better password
-  challenge: true
   completion:
   - engaged
 - title: Random characters
@@ -33,4 +31,6 @@ steps:
 - title: Choosing the number of passwords
   completion:
   - external
+- title: Create a better password
+  challenge: true
 - title: What can you do now?
