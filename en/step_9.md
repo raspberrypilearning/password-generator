@@ -1,34 +1,13 @@
-### Choosing the number of passwords
+## Create a better password
 
-Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
---- task ---
+![screenshot](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 6-7, 12
----
-#!/bin/python3
-import random
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
-
-number = input('number of passwords?')
-number = int(number)
-
-length = input('password length?')
-length = int(length)
-
-for p in range(number):
-    password = ''
-    for c in range(length):
-        password += random.choice(chars)
-    print(password)
---- /code ---
-
---- /task ---
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
