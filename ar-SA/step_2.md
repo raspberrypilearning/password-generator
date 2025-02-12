@@ -2,27 +2,34 @@
 
 يمكن للكمبيوتر محاولة تخمين كلمة المرور الخاصة بك باستخدام "brute force" - وهذا يعني تجربة الكثير من كلمات المرور حتى تخمن كلمة المرور الصحيحة.
 
-دعنا نكتشف كم من الوقت سيستغرق جهاز الكمبيوتر لتخمين كلمة المرور الخاصة بك.
+Find out how long it would take a computer to guess your password.
 
+--- task ---
 
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+--- /task ---
 
-    ![لقطة الشاشة](images/passwords-secure.png)
+--- task ---
 
-+ اكتب "letmein" (اسمح لي بالدخول) ككلمة المرور. You'll see that a computer would guess this password extremely quickly!
+اكتب "letmein" (اسمح لي بالدخول) ككلمة المرور. You'll see that a computer would guess this password extremely quickly!
 
-    ![لقطة شاشة](images/passwords-letmein.png)
+--- /task ---
 
-    There are some reasons why "letmein" isn't a good password to use:
+There are some reasons why 'letmein' is a bad password to use:
 
-    + إنها كلمة مرور __عادية__ (واحدة من كلمات المرور الخمسة عشر الأكثر استخداماً). سوف يخمن الكمبيوتر هذه أولاً.
++ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-    + يحتوي على كلمات من القاموس __ __. سيحاول الكمبيوتر أيضًا استخدام كلمات المرور هذه أولاً.
++ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-    + إنها قصيرة ____. سيستغرق الكمبيوتر وقتًا أطول لتخمين كلمة مرور أطول.
++ It's very __short__. It would take a computer more time to guess a longer password.
 
-    + تحتوي فقط على __ حروف __. تكون كلمات المرور أكثر أمانًا إذا كانت تحتوي أيضًا على أرقام وعلامات ترقيم.
++ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ حاول إدخال كلمة القاموس. كم من الوقت يستغرق الكمبيوتر لتخمين كلمة المرور هذه؟ 
+--- task ---
 
+حاول إدخال كلمة القاموس.
+
+كم من الوقت يستغرق الكمبيوتر لتخمين كلمة المرور هذه؟
+
+--- /task ---
