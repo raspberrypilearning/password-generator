@@ -1,20 +1,13 @@
-## Beaucoup de mots de passe
+## Create a better password
 
-Permettons à l'utilisateur de créer 3 mots de passe à la fois.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![capture d'écran](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ Ajoute ce code pour créer 3 mots de passe :
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![capture d'écran](images/passwords-num-loop.png)
-
-+ Mets en surbrillance le code de création d'un mot de passe et appuie sur tab pour l'indenter afin qu'il se répète 3 fois.
-
-    ![capture d'écran](images/passwords-num-indent.png)
-
-+ Teste ton nouveau code. Tu devrais maintenant voir 3 mots de passe de la longueur choisie.
-
-    ![capture d'écran](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
