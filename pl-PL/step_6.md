@@ -1,32 +1,70 @@
-## Losowe hasło
+## Choosing a password length
 
-Pojedynczy znak nie jest zbyt przydatny - ulepszmy Twój program, aby utworzyć dłuższe hasło.
+Some websites require passwords to be a certain length.
 
+Allow the user to choose the length of their password.
 
+--- task ---
 
-+ Aby utworzyć hasło, będziesz dodawać do niego pojedyncze, losowe znaki.
+Ask the user to input a password length, and store it in a variable called `length`.
 
-    Na początku zmienna `haslo` powinna być pusta. Dodaj tę linię do swojego kodu:
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
 
-    ![zrzut ekranu](images/passwords-empty.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ Chcesz wybrać losowy znak 10 razy. W tym celu należy dodać następujący kod:
+length = input('password length?')
 
-    ![zrzut ekranu](images/passwords-repeat.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
-+ Powinieneś także wciąć (przesunąć) wiersz, aby wybrać losowy znak 10 razy.
+--- /task ---
 
-    Aby dodać wcięcie, naciśnij klawisz 'Tab'.
+--- task ---
 
-    ![zrzut ekranu](images/passwords-indent.png)
+Use `int()` to turn the user's input into a whole number.
 
-+ Musisz użyć `+=` aby za każdym razem __dodać__ nowy znak do hasła.
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
 
-    ![zrzut ekranu](images/passwords-add.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ Gdy przetestujesz swój nowy kod, na ekranie powinno pojawić się hasło złożone z 10 znaków.
+length = input('password length?') length = int(length)
 
-    ![zrzut ekranu](images/passwords-10-test.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
+--- /task ---
 
+--- task ---
 
+Use your `length` variable to repeat as many times as the user entered.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 9
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+length = input('password length?') length = int(length)
+
+password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+The password created should be the length entered by the user.
+
+--- /task ---
