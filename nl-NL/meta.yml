@@ -18,26 +18,29 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Inleiding'
+    title: What you will make
   - 
     title: Hoe veilig is je wachtwoord?
-  - 
-    title: 'Uitdaging: een beter wachtwoord maken'
-  - 
-    title: Willekeurige tekens
     completion:
       - engaged
   - 
-    title: 'Uitdaging: cijfers en leestekens gebruiken'
-  - 
-    title: Een willekeurig wachtwoord
-  - 
-    title: 'Uitdaging: een langer wachtwoord'
-  - 
-    title: Een wachtwoordlengte kiezen
-  - 
-    title: Veel wachtwoorden
+    title: Random characters
     completion:
       - internal
   - 
-    title: 'Uitdaging: het aantal wachtwoorden kiezen'
+    title: Using numbers and punctuation
+  - 
+    title: A random password
+  - 
+    title: Choosing a password length
+  - 
+    title: Lots of passwords
+  - 
+    title: Choosing the number of passwords
+    completion:
+      - external
+  - 
+    title: Create a better password
+    challenge: true
+  - 
+    title: What can you do now?
