@@ -1,37 +1,31 @@
-## Losowe znaki
+## Using numbers and punctuation
 
-Stwórzmy program, który wybierze losowy znak do Twojego hasła.
+Improve your program, so that it also chooses from:
 
++ Capital letters (A-Z)
++ Numbers (0-9)
++ Punctuation (!?.,-)
 
+--- task ---
 
-+ Otwórz pusty szablon dla języka Python w edytorze Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Utwórz zbiór znaków, przechowywany w zmiennej o nazwie `znaki`.
+Add to your `chars` variable.
 
-    ![zrzut ekranu](images/passwords-chars.png)
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 3
+---
+import random
 
-+ Aby wybrać losowy znak, musisz zaimportować moduł random poprzez wpisanie `import` `random`.
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-    ![zrzut ekranu](images/passwords-import.png)
+password = random.choice(chars) print(password) --- /code ---
 
-+ Teraz możesz wybrać losowy znak ze zbioru i zapisać go w zmiennej o nazwie `haslo`.
-
-    ![zrzut ekranu](images/passwords-choose.png)
-
-+ Na koniec możesz wyświetlić swoje (bardzo krótkie!) hasło na ekranie.
-
-    ![zrzut ekranu](images/passwords-print.png)
-
-+ Przetestuj swój projekt klikając przycisk „Run”. Na ekranie powinien pojawić się jeden losowy znak.
-
-    ![zrzut ekranu](images/passwords-test-letters.png)
-
-    Jeśli uruchomisz program kilka razy, zobaczysz różne znaki pojawiające się na ekranie.
-
-+ Hasło nie jest zbyt bezpieczne, jeśli zawiera tylko litery. Dopisz kilka liczb do zmiennej `znaki`.
-
-    ![zrzut ekranu](images/passwords-numbers.png)
-
-+ Jeżeli znów przetestujesz swój kod kilka razy, czasem na ekranie powinna pojawiać się liczba.
+--- /task ---
 
 
+--- task ---
 
+**Test:** Click the **Run** button.
+
+--- /task ---
