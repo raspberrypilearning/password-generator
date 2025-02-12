@@ -1,37 +1,31 @@
-## Caracteres aleatórios
+## Using numbers and punctuation
 
-Vamos criar um programa para escolher um caractere aleatório para sua senha.
+Improve your program, so that it also chooses from:
 
++ Capital letters (A-Z)
++ Numbers (0-9)
++ Punctuation (!?.,-)
 
+--- task ---
 
-+ No Trinket abra um modelo em branco do Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Crie uma lista de caracteres, armazenados em uma variável chamada `caracteres`.
+Add to your `chars` variable.
 
-    ![captura de tela](images/passwords-chars.png)
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 3
+---
+import random
 
-+ Para escolher um caractere aleatório, você precisará `importar` o módulo `aleatório`.
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-    ![captura de tela](images/passwords-import.png)
+password = random.choice(chars) print(password) --- /code ---
 
-+ Agora você pode escolher um caractere aleatório da lista e armazená-lo em uma variável chamada `senha`.
-
-    ![captura de tela](images/passwords-choose.png)
-
-+ Finalmente, você pode imprimir sua (muito curta!) senha na tela.
-
-    ![captura de tela](images/passwords-print.png)
-
-+ Teste seu código clicando em 'Run'. Você deve ver um único caractere aleatório na tela.
-
-    ![captura de tela](images/passwords-test-letters.png)
-
-    Se você executar o programa algumas vezes, deverá aparecer caracteres diferentes.
-
-+ Uma senha não é muito segura se tiver apenas letras. Adicione alguns números a sua variável `caracteres`.
-
-    ![captura de tela](images/passwords-numbers.png)
-
-+ Teste seu código novamente algumas vezes e você verá que algumas vezes um número é escolhido.
+--- /task ---
 
 
+--- task ---
 
+**Test:** Click the **Run** button.
+
+--- /task ---
