@@ -2,27 +2,34 @@
 
 Um computador pode tentar adivinhar sua senha usando 'força bruta' -- isso significa experimentar muitas senhas até encontrar a correta.
 
-Vamos descobrir quanto tempo levaria um computador para adivinhar sua senha.
+Find out how long it would take a computer to guess your password.
 
+--- task ---
 
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+--- /task ---
 
-    ![captura de tela](images/passwords-secure.png)
+--- task ---
 
-+ Digite "letmein" (Deixe-me entrar) como a senha. You'll see that a computer would guess this password extremely quickly!
+Digite "letmein" (Deixe-me entrar) como a senha. You'll see that a computer would guess this password extremely quickly!
 
-    ![captura de tela](images/passwords-letmein.png)
+--- /task ---
 
-    There are some reasons why "letmein" isn't a good password to use:
+There are some reasons why 'letmein' is a bad password to use:
 
-    + É uma senha muito __comum__ (uma das 15 senhas mais usadas). Um computador adivinharia essas primeiro.
++ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-    + Ele contém palavras do __dicionário__. Um computador também tentaria essas senhas primeiro.
++ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-    + É muito __curta__. O computador levaria mais tempo para adivinhar uma senha mais longa.
++ It's very __short__. It would take a computer more time to guess a longer password.
 
-    + Contém apenas __letras__. As senhas são mais seguras se também tiverem números e pontuação.
++ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ Tente digitar uma palavra do dicionário. Quanto tempo levaria um computador para adivinhar essa senha? 
+--- task ---
 
+Tente digitar uma palavra do dicionário.
+
+Quanto tempo levaria um computador para adivinhar essa senha?
+
+--- /task ---
