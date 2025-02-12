@@ -18,26 +18,29 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introducción'
+    title: What you will make
   - 
     title: '¿Como es de segura tu contraseña?'
-  - 
-    title: 'Desafío: crear una contraseña mejor'
-  - 
-    title: Caracteres aleatorios
     completion:
       - engaged
   - 
-    title: 'Desafío: uso de números y signos de puntuación'
-  - 
-    title: Una contraseña aleatoria
-  - 
-    title: 'Desafío: una contraseña más larga'
-  - 
-    title: Escogiendo una longitud para la contraseña
-  - 
-    title: Muchas contraseñas
+    title: Random characters
     completion:
       - internal
   - 
-    title: 'Reto: elegir el número de contraseñas'
+    title: Using numbers and punctuation
+  - 
+    title: A random password
+  - 
+    title: Choosing a password length
+  - 
+    title: Lots of passwords
+  - 
+    title: Choosing the number of passwords
+    completion:
+      - external
+  - 
+    title: Create a better password
+    challenge: true
+  - 
+    title: What can you do now?
