@@ -1,32 +1,70 @@
-## كلمة مرور عشوائية
+## Choosing a password length
 
-الحرف الواحد ليس مفيدًا جدًا - دعنا نحسن برنامجك لإنشاء كلمة مرور أطول.
+Some websites require passwords to be a certain length.
 
+Allow the user to choose the length of their password.
 
+--- task ---
 
-+ لإنشاء كلمة مرور ، ستضيف إليها أحرفًا عشوائية ، واحدة تلو الأخرى.
+Ask the user to input a password length, and store it in a variable called `length`.
 
-    في البداية ، المتغير الخاصة بك ` password` يجب أن يكون فارغًا. أضف هذه التعليمات البرمجية إلى برنامجك:
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
 
-    ![لقطة الشاشة](images/passwords-empty.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ لإختيار حرف عشوائي 10 مرات. أضف التعليمات البرمجية التالية:
+length = input('password length?')
 
-    ![لقطة شاشة](images/passwords-repeat.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
-+ يجب عليك أيضًا وضع مسافة بادئة (نقل) الخط لاختيار حرف عشوائي ، بحيث يحدث 10 مرات.
+--- /task ---
 
-    للمسافة البادئة ، اضغط على مفتاح "tab".
+--- task ---
 
-    ![لقطة الشاشة](images/passwords-indent.png)
+Use `int()` to turn the user's input into a whole number.
 
-+ تحتاج إلى استخدام ` + = ` لإضافة __ __ الحرف الجديد لكلمة المرور في كل مرة.
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
 
-    ![لقطة للشاشة](images/passwords-add.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ اختبر الكود الجديد الخاص بك ويجب أن ترى كلمة مرور بطول 10 أحرف.
+length = input('password length?') length = int(length)
 
-    ![لقطة الشاشة](images/passwords-10-test.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
+--- /task ---
 
+--- task ---
 
+Use your `length` variable to repeat as many times as the user entered.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 9
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+length = input('password length?') length = int(length)
+
+password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+The password created should be the length entered by the user.
+
+--- /task ---
