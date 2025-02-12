@@ -1,24 +1,24 @@
-## パスワードの文字数を選ぶ
+### Choosing the number of passwords
 
-ウェブサイトによっては、パスワードを一定の文字数にする必要があります。 ユーザーがパスワードの文字数を選べるようにしましょう。
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ まずユーザーにパスワードの文字数を入力してもらい、それを `length` (長さ) という変数に格納します。
-
-    ![スクリーンショット](images/passwords-length.png)
-
-+ `int()`を使用して、ユーザーの入力を整数にします。
-
-    ![スクリーンショット](images/passwords-cast.png)
-
-+ `length` 変数を使い、ユーザーが入力した回数だけくり返します。
-
-    ![スクリーンショット](images/passwords-length-loop.png)
-
-+ コードをテストしましょう。 作成されたパスワードは、ユーザーが入力した文字数である必要があります。
-
-    ![スクリーンショット](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
