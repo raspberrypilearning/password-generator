@@ -1,37 +1,31 @@
-## أحرف عشوائية
+## Using numbers and punctuation
 
-لنقم بإنشاء برنامج لاختيار حرف عشوائي لكلمة المرور الخاصة بك.
+Improve your program, so that it also chooses from:
 
++ Capital letters (A-Z)
++ Numbers (0-9)
++ Punctuation (!?.,-)
 
+--- task ---
 
-+ افتح الـ Trinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ أنشئ قائمة بالأحرف ، مخزنة في متغير يسمى chars` `.
+Add to your `chars` variable.
 
-    ![لقطة شاشة](images/passwords-chars.png)
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 3
+---
+import random
 
-+ لاختيار حرف عشوائي ، ستحتاج إلى وحدة ` import` ` random`.
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-    ![لقطة الشاشة](images/passwords-import.png)
+password = random.choice(chars) print(password) --- /code ---
 
-+ الآن يمكنك اختيار حرف عشوائي من القائمة ، وتخزينه في متغير يسمى ` password`.
-
-    ![لقطة للشاشة](images/passwords-choose.png)
-
-+ أخيرًا ، يمكنك طباعة كلمة المرور (القصيرة جدًا!) على الشاشة.
-
-    ![لقطة الشاشة](images/passwords-print.png)
-
-+ اختبر مشروعك بالنقر فوق "تشغيل". يجب أن تشاهد حرف عشوائي واحد على الشاشة.
-
-    ![لقطة الشاشة](images/passwords-test-letters.png)
-
-    إذا قمت بتشغيل البرنامج الخاص بك عدة مرات ، يجب أن تشاهد أحرف مختلفة تظهر.
-
-+ كلمة المرور ليست آمنة للغاية إذا كانت تحتوي على أحرف فقط. أضف بعض الأرقام إلى متغير `chars` الخاص بك.
-
-    ![لقطة الشاشة](images/passwords-numbers.png)
-
-+ اختبر التعليمات البرمجية الخاصة بك مرة أخرى بضع مرات، ويجب أن ترى أنه يتم اختيار رقم في بعض الأحيان.
+--- /task ---
 
 
+--- task ---
 
+**Test:** Click the **Run** button.
+
+--- /task ---
