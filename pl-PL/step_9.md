@@ -1,20 +1,13 @@
-## Mnóstwo haseł
+## Create a better password
 
-Pozwólmy użytkownikowi stworzyć jednocześnie 3 hasła.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![zrzut ekranu](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ Dodaj ten kod, aby utworzyć 3 hasła:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![zrzut ekranu](images/passwords-num-loop.png)
-
-+ Zaznacz kod generujący hasła i naciśnij przycisk Tab, aby wciąć go, co umożliwi mu powtarzanie się 3 razy.
-
-    ![zrzut ekranu](images/passwords-num-indent.png)
-
-+ Przetestuj swój nowy kod. Teraz powinny pojawić się 3 hasła o określonej przez Ciebie długości.
-
-    ![zrzut ekranu](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
