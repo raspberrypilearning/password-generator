@@ -1,24 +1,24 @@
-## Escolhendo um tamanho de senha
+### Choosing the number of passwords
 
-Alguns sites exigem que as senhas tenham um determinado tamanho. Vamos permitir que o usuário escolha o tamanho de sua senha.
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ Primeiro, peça ao usuário para inserir um tamanho de senha e armazene-o em uma variável chamada `comprimento`.
-
-    ![captura de tela](images/passwords-length.png)
-
-+ Use `int()` para transformar a entrada do usuário em um número inteiro.
-
-    ![captura de tela](images/passwords-cast.png)
-
-+ Use sua variável `comprimento` para repetir o número de vezes determinado pelo usuário.
-
-    ![captura de tela](images/passwords-length-loop.png)
-
-+ Teste seu código. A senha criada deve ter o tamanho digitado pelo usuário.
-
-    ![captura de tela](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
