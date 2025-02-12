@@ -1,13 +1,18 @@
---- challenge ---
-## Wyzwanie: wybór liczby haseł
-Zamiast zawsze wyświetlać 3 hasła, czy jesteś w stanie umożliwić użytkownikowi wprowadzenie liczby haseł?
+## What can you do now?
 
-Tak powinien działać Twój program:
+Try our [Secret Messages](https://projects.raspberrypi.org/en/projects/secret-messages/) project where you will learn how to make your own encryption program, to send and receive secret messages with a friend.
 
-![zrzut ekranu](images/passwords-choose-number.png)
+--- print-only ---
 
-Kod, którego potrzebujesz, jest __bardzo__ podobny do kodu wczytującego wartość zmiennej `dlugosc`.
+![A Caesar cipher wheel showing the letter D is three steps from the letter A](images/messages-wheel-eg.png)
 
+--- /print-only ---
 
+--- no-print ---
 
---- /challenge ---
+Press **Run** to try it out! <iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- /no-print ---
+
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+
