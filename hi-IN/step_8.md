@@ -1,24 +1,24 @@
-## पासवर्ड की लंबाई चुनना
+### Choosing the number of passwords
 
-कुछ वेबसाइटों को एक निश्चित लंबाई के पासवर्ड की आवश्यकता होती है। आइए उपयोगकर्ता को उसके पासवर्ड की लंबाई चुनने की अनुमति दें।
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ सबसे पहले, उपयोगकर्ता से पासवर्ड लंबाई इनपुट करने के लिए कहें, और इसे `length `नामक वेरिएबल(variable) में सेव करें।
-
-    ![स्क्रीनशॉट(screenshot)](images/passwords-length.png)
-
-+ उपयोगकर्ता के इनपुट को संख्या में बदलने के लिये `int()`का उपयोग करें|
-
-    ![स्क्रीनशॉट(screenshot)](images/passwords-cast.png)
-
-+ उपयोगकर्ता जितनी बार डाले उतनी बार अपने `length` वेरिएबल(variable) का उपयोग करें।
-
-    ![स्क्रीनशॉट(screenshot)](images/passwords-length-loop.png)
-
-+ अपने कोड का परीक्षण(Test) करें। बनाया गया पासवर्ड उपयोगकर्ता द्वारा डाली गइ लंबाई जितना होना चाहिए।
-
-    ![स्क्रीनशॉट(screenshot)](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
