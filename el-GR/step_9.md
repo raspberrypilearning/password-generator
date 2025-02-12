@@ -1,20 +1,13 @@
-## Πολλοί κωδικοί πρόσβασης
+## Create a better password
 
-Ας επιτρέψουμε στον χρήστη να δημιουργήσει 3 κωδικούς ταυτόχρονα.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![στιγμιότυπο οθόνης](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ Πρόσθεσε αυτόν τον κώδικα για να δημιουργήσεις 3 κωδικούς πρόσβασης:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![στιγμιότυπο οθόνης](images/passwords-num-loop.png)
-
-+ Επίλεξε τον κώδικα για τη δημιουργία κωδικού πρόσβασης και πάτησε το πλήκτρο tab για να μπει με εσοχή, έτσι ώστε να επαναληφθεί 3 φορές.
-
-    ![στιγμιότυπο οθόνης](images/passwords-num-indent.png)
-
-+ Δοκίμασε το νέο σου κώδικα. Τώρα θα πρέπει να βλέπεις 3 κωδικούς πρόσβασης με μήκος αυτό που επέλεξες για τους κωδικούς σου.
-
-    ![στιγμιότυπο οθόνης](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
