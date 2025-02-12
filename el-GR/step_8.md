@@ -1,24 +1,24 @@
-## Επιλέγοντας το μήκος του κωδικού πρόσβασης
+### Choosing the number of passwords
 
-Ορισμένοι ιστότοποι απαιτούν κωδικούς πρόσβασης συγκεκριμένου μήκους. Ας επιτρέψουμε στον χρήστη να επιλέξει το μήκος του κωδικού πρόσβασης.
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ Αρχικά, ζήτησε από τον χρήστη να πληκτρολογήσει το μήκος του κωδικού πρόσβασης και αποθήκευσε το σε μια μεταβλητή με όνομα `length`.
-
-    ![στιγμιότυπο οθόνης](images/passwords-length.png)
-
-+ Χρησιμοποίησε την εντολή ` int()` για να μετατρέψεις αυτό που πληκτρολόγησε ο χρήστης σε ακέραιο αριθμό.
-
-    ![στιγμιότυπο οθόνης](images/passwords-cast.png)
-
-+ Χρησιμοποίησε τη μεταβλητή `length` και κάνε όσες επαναλήψεις ζήτησε ο χρήστης.
-
-    ![στιγμιότυπο οθόνης](images/passwords-length-loop.png)
-
-+ Δοκίμασε τον κώδικά σου. Ο κωδικός πρόσβασης που δημιουργείται πρέπει να έχει το μήκος που έδωσε ο χρήστης.
-
-    ![στιγμιότυπο οθόνης](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
