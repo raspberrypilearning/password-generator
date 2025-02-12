@@ -1,32 +1,70 @@
-## Τυχαίος κωδικός πρόσβασης
+## Choosing a password length
 
-Ένας μεμονωμένος χαρακτήρας δεν είναι πολύ χρήσιμος - ας βελτιώσουμε το πρόγραμμά σου για να δημιουργεί έναν κωδικό πρόσβασης με περισσότερους χαρακτήρες.
+Some websites require passwords to be a certain length.
 
+Allow the user to choose the length of their password.
 
+--- task ---
 
-+ Για να δημιουργήσεις έναν κωδικό πρόσβασης, θα προσθέσεις τυχαίους χαρακτήρες σε αυτόν, έναν κάθε φορά.
+Ask the user to input a password length, and store it in a variable called `length`.
 
-    Αρχικά, η μεταβλητή `password` πρέπει να είναι κενή. Πρόσθεσε αυτήν τη γραμμή στο πρόγραμμά σου:
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
 
-    ![στιγμιότυπο οθόνης](images/passwords-empty.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ Θέλεις να επιλέξεις έναν τυχαίο χαρακτήρα 10 φορές. Για να το κάνεις αυτό, πρόσθεσε τον ακόλουθο κώδικα:
+length = input('password length?')
 
-    ![στιγμιότυπο οθόνης](images/passwords-repeat.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
-+ Πρέπει επίσης να κάνεις εσοχή στη γραμμή για να επιλέξεις έναν τυχαίο χαρακτήρα, έτσι ώστε αυτό να συμβεί 10 φορές.
+--- /task ---
 
-    Για να δημιουργήσεις εσοχή, πάτησε το πλήκτρο 'tab'.
+--- task ---
 
-    ![στιγμιότυπο οθόνης](images/passwords-indent.png)
+Use `int()` to turn the user's input into a whole number.
 
-+ Κάθε φορά πρέπει να χρησιμοποιήσεις `+=` για την __προσθήκη__ νέου χαρακτήρα στον κωδικό πρόσβασης.
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
 
-    ![στιγμιότυπο οθόνης](images/passwords-add.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ Δοκίμασε το νέο σου κώδικα και θα πρέπει να δεις έναν κωδικό πρόσβασης μήκους 10 χαρακτήρων.
+length = input('password length?') length = int(length)
 
-    ![στιγμιότυπο οθόνης](images/passwords-10-test.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
+--- /task ---
 
+--- task ---
 
+Use your `length` variable to repeat as many times as the user entered.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 9
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+length = input('password length?') length = int(length)
+
+password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+The password created should be the length entered by the user.
+
+--- /task ---
