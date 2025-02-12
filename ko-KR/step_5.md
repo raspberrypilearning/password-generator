@@ -1,14 +1,93 @@
---- challenge ---
-## 도전과제: 숫자와 특수문자 사용하기
-다음 중에서도 문자를 선택할 수 있는 더 발전한 프로그램을 만들 수 있나요?:
+## A random password
 
-+ 대문자 알파벳 (A-Z)
-+ 숫자 (0-9)
-+ 특수 문자 (!?.,-)
+A single character isn't very useful.
 
-위의 새로운 문자들을 `chars` 변수에 추가해야 할 것입니다. 개선한 프로그램을 실행하는 것을 잊지 마세요!
+Improve your program to create a longer password.
 
+To create a password, you will add random characters to it, one at a time.
 
+--- task ---
 
+To start with, your `password` variable should be empty.
 
---- /challenge ---
+Add this line to your code:
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+password = '' password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+You want to choose a random character 10 times.
+
+To do this, add the following line:
+
+--- task ---
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+password = '' for c in range(10): password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+Indent (move in) the line to choose a random character, so that it happens 10 times.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 7
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+password = '' for c in range(10): password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+You need to use `+=` to __add__ the new character to the password each time.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 7
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+You should see a password that's 10 characters long.
+
+--- /task ---
+
+--- task ---
+
+Try changing the number `10` to a bigger number and Run your code to see the results!
+
+--- /task ---
