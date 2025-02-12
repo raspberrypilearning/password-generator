@@ -1,20 +1,13 @@
-## たくさんのパスワード
+## Create a better password
 
-ユーザーが一度に3つのパスワードを作成できるようにしましょう。
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![スクリーンショット](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ このコードを追加して、3つのパスワードを作成するようにします。
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![スクリーンショット](images/passwords-num-loop.png)
-
-+ 3回くり返されるようにするには、パスワードを作成するコードを反転表示し、Tabキーをおしてインデントします。
-
-    ![スクリーンショット](images/passwords-num-indent.png)
-
-+ 新しいコードをテストしましょう。 選んだ文字数のパスワードが3つ分表示されます。
-
-    ![スクリーンショット](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
