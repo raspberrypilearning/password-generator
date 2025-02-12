@@ -1,32 +1,70 @@
-## 随机密码
+## Choosing a password length
 
-单个字符没有什么用 - 我们来改进你的程序，创建一个长一些的密码。
+Some websites require passwords to be a certain length.
 
+Allow the user to choose the length of their password.
 
+--- task ---
 
-+ 你要每次添加一个随机字符来创建密码。
+Ask the user to input a password length, and store it in a variable called `length`.
 
-    首先，你的`password`变量应该是空的。 将这一行添加到您的代码中：
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
 
-    ![截屏](images/passwords-empty.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ 你想选择一个随机字符10次。 为此我们添加下面这行代码：
+length = input('password length?')
 
-    ![截屏](images/passwords-repeat.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
-+ 你还应缩进选择随机字符的这行代码，这样它就可以发生10次了。
+--- /task ---
 
-    按‘tab’键缩进。
+--- task ---
 
-    ![截屏](images/passwords-indent.png)
+Use `int()` to turn the user's input into a whole number.
 
-+ 你需要用`+=`符号来给password变量每次__add__ (添加) 新字符。
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
 
-    ![截屏](images/passwords-add.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ 测试你的新代码就应该能看到一个10个字符长的密码了。
+length = input('password length?') length = int(length)
 
-    ![截屏](images/passwords-10-test.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
+--- /task ---
 
+--- task ---
 
+Use your `length` variable to repeat as many times as the user entered.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 9
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+length = input('password length?') length = int(length)
+
+password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+The password created should be the length entered by the user.
+
+--- /task ---
