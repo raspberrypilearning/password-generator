@@ -1,24 +1,24 @@
-## Choisir une longueur de mot de passe
+### Choosing the number of passwords
 
-Certains sites Web exigent que les mots de passe soient d'une certaine longueur. Permettons à l'utilisateur de choisir la longueur de son mot de passe.
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ Tout d'abord, demande à l'utilisateur de saisir une longueur de mot de passe et stocke-la dans une variable appelée `longueur`.
-
-    ![capture d'écran](images/passwords-length.png)
-
-+ Utilise `int()` pour transformer la saisie de l'utilisateur en un nombre entier.
-
-    ![capture d'écran](images/passwords-cast.png)
-
-+ Utilise ta variable `longueur` pour répéter autant de fois que l'utilisateur l'a entré.
-
-    ![capture d'écran](images/passwords-length-loop.png)
-
-+ Teste ton code. Le mot de passe créé doit être la longueur saisie par l'utilisateur.
-
-    ![capture d'écran](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
