@@ -1,20 +1,13 @@
-## Lots of passwords
+## Create a better password
 
-Let's allow the user to create 3 passwords at once.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![screenshot](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ Add this code to create 3 passwords:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![screenshot](images/passwords-num-loop.png)
-
-+ Highlight the code for creating a password, and press tab to indent so that it repeats 3 times.
-
-    ![screenshot](images/passwords-num-indent.png)
-
-+ Test your new code. You should now see 3 passwords of your chosen password length.
-
-    ![screenshot](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
