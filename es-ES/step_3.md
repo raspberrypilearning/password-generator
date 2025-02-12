@@ -1,17 +1,89 @@
---- challenge ---
-## Desafío: crear una contraseña mejor
-¿Puedes introducir una contraseña que tardara más de 1.000 años en ser descifrada por un ordenador pero que no sea demasiado larga de escribir?
+## Random characters
 
-![captura de pantalla](images/passwords-13000.png)
+Let's create a program to choose a random character for your password.
 
-Recuerda que la contraseña es más difícil de adivinar si es:
+--- task ---
 
-+ Larga
-+ No es una palabra que este en el diccionario
-+ Contiene letras, números y signos de puntuación
+Open the [Password Generator starter project](https://editor.raspberrypi.org/en/projects/password-generator-starter){:target="_blank"}.
 
-Vas a generar contraseñas que son difíciles de descifrar para un ordenador. Son útiles para proteger cuentas importantes. Ten en cuenta que muchos adultos usan un programa de administración de contraseñas para ayudarlos a recordar muchas contraseñas difíciles.
+--- /task ---
 
+--- task ---
 
+Create a list of characters, stored in a variable called `chars`.
 
---- /challenge ---
+--- code ---
+---
+language: python filename: main.py line_numbers: true
+line_number_start: 3
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz' --- /code ---
+
+--- /task ---
+
+--- task ---
+
+Now you can choose a random character from the list, and store it in a variable called `password`.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+Finally, you can print your (very short!) password to the screen.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+You should see a single random character on the screen.
+
+If you run your program a few times, you should see different characters appear.
+
+--- /task ---
+
+A password isn't very secure if it only contains letters.
+
+--- task ---
+
+Add some numbers to your `chars` variable.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 3
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
+
+password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+**Test:** Click the **Run** button again a few times, and you should see that sometimes a number is chosen.
