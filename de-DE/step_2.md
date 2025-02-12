@@ -2,27 +2,34 @@
 
 Ein Computer könnte versuchen, dein Passwort mit 'brute force' zu erraten. Das bedeutet, viele Passwörter auszuprobieren, bis er das richtige erkennt.
 
-Lass uns herausfinden, wie lange es dauern würde, bis ein Computer dein Passwort errät.
+Find out how long it would take a computer to guess your password.
 
+--- task ---
 
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+--- /task ---
 
-    ![Screenshot](images/passwords-secure.png)
+--- task ---
 
-+ Gib "letmein" (Lass mich rein) als Passwort ein. You'll see that a computer would guess this password extremely quickly!
+Gib "letmein" (Lass mich rein) als Passwort ein. You'll see that a computer would guess this password extremely quickly!
 
-    ![screenshot](images/passwords-letmein.png)
+--- /task ---
 
-    There are some reasons why "letmein" isn't a good password to use:
+There are some reasons why 'letmein' is a bad password to use:
 
-    + Es ist ein sehr __häufiges__ Passwort (eines der 15 am häufigsten verwendeten Kennwörter). Ein Computer würde diese zuerst erraten.
++ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-    + Es enthält Wörter aus dem __Wörterbuch__. Ein Computer würde diese Passwörter auch zuerst ausprobieren.
++ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-    + Es ist sehr __kurz__. Ein Computer würde mehr Zeit brauchen, um ein längeres Passwort zu erraten.
++ It's very __short__. It would take a computer more time to guess a longer password.
 
-    + Es enthält nur __Buchstaben__. Passwörter sind sicherer, wenn sie auch Zahlen und Satzzeichen enthalten.
++ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ Gib ein Wort aus einem Wörterbuch ein. Wie lange braucht ein Computer, um dieses Passwort zu erraten? 
+--- task ---
 
+Gib ein Wort aus einem Wörterbuch ein.
+
+Wie lange braucht ein Computer, um dieses Passwort zu erraten?
+
+--- /task ---
