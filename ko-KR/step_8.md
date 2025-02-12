@@ -1,24 +1,24 @@
-## 암호 길이 선택하기
+### Choosing the number of passwords
 
-일부 웹사이트에서는 특정 길이의 암호를 요구합니다. 사용자가 암호 길이를 선택할 수 있도록 합시다.
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ 먼저 사용자에게 암호 길이를 입력하도록 요청하고 이를 `length`라는 변수에 저장합니다.
-
-    ![스크린샷](images/passwords-length.png)
-
-+ `int()` 함수를 이용하여 사용자의 입력을 정수로 바꿔줍니다.
-
-    ![스크린샷](images/passwords-cast.png)
-
-+ `length` 변수를 사용자가 입력 한 횟수만큼 반복하는 데에 사용하세요.
-
-    ![스크린샷](images/passwords-length-loop.png)
-
-+ 코드를 테스트해 보세요. 생성한 비밀번호는 사용자가 입력한 길이와 같아야 합니다.
-
-    ![스크린샷](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
