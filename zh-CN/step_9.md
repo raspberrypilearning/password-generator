@@ -1,20 +1,13 @@
-## 多个密码
+## Create a better password
 
-让我们允许用户一次创建3个密码。
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![截屏](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ 添加这行代码来创建3个密码。
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![截屏](images/passwords-num-loop.png)
-
-+ 选中创建密码的代码，然后按‘tab'键缩进，以使其重复3次。
-
-    ![截屏](images/passwords-num-indent.png)
-
-+ 测试你的新代码。 现在，你应该能看到3个你所选长度的密码了。
-
-    ![截屏](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
