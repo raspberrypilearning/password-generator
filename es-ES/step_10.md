@@ -1,13 +1,18 @@
---- challenge ---
-## Reto: elegir el número de contraseñas
-En lugar de imprimir siempre 3 contraseñas, ¿puede hacer que el usuario introduzca el número de contraseñas que desee?
+## What can you do now?
 
-Aquí tienes como debería funcionar el programa:
+Try our [Secret Messages](https://projects.raspberrypi.org/en/projects/secret-messages/) project where you will learn how to make your own encryption program, to send and receive secret messages with a friend.
 
-![captura de pantalla](images/passwords-choose-number.png)
+--- print-only ---
 
-El código que necesitarás es __muy__ similar al código para introducir la `longitud` de la contraseña.
+![A Caesar cipher wheel showing the letter D is three steps from the letter A](images/messages-wheel-eg.png)
 
+--- /print-only ---
 
+--- no-print ---
 
---- /challenge ---
+Press **Run** to try it out! <iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- /no-print ---
+
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+
