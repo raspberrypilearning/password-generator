@@ -1,37 +1,31 @@
-## Τυχαίοι χαρακτήρες
+## Using numbers and punctuation
 
-Ας δημιουργήσουμε ένα πρόγραμμα που θα επιλέγει έναν τυχαίο χαρακτήρα για τον δικό σου κωδικό πρόσβασης.
+Improve your program, so that it also chooses from:
 
++ Capital letters (A-Z)
++ Numbers (0-9)
++ Punctuation (!?.,-)
 
+--- task ---
 
-+ Άνοιξε το κενό πρότυπο Python Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-+ Δημιούργησε μια λίστα χαρακτήρων και αποθήκευσέ την σε μια μεταβλητή με όνομα `chars`.
+Add to your `chars` variable.
 
-    ![στιγμιότυπο οθόνης](images/passwords-chars.png)
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 3
+---
+import random
 
-+ Για να επιλέξεις έναν τυχαίο χαρακτήρα, θα πρέπει να κάνεις ` import` το module `random`.
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-    ![στιγμιότυπο οθόνης](images/passwords-import.png)
+password = random.choice(chars) print(password) --- /code ---
 
-+ Τώρα μπορείς να επιλέξεις έναν τυχαίο χαρακτήρα από τη λίστα και να τον αποθηκεύσεις σε μια μεταβλητή που ονομάζεται `password`.
-
-    ![στιγμιότυπο οθόνης](images/passwords-choose.png)
-
-+ Τέλος, μπορείς να εμφανίσεις τον (πολύ σύντομο!) κωδικό πρόσβασης στην οθόνη.
-
-    ![στιγμιότυπο οθόνης](images/passwords-print.png)
-
-+ Δοκίμασε τον κώδικά σου κάνοντας κλικ στο 'run'. Θα πρέπει να δεις έναν μόνο τυχαίο χαρακτήρα στην οθόνη.
-
-    ![στιγμιότυπο οθόνης](images/passwords-test-letters.png)
-
-    Εάν εκτελέσεις το πρόγραμμά σου μερικές φορές, θα πρέπει να εμφανίζονται διαφορετικοί χαρακτήρες.
-
-+ Ο κωδικός πρόσβασης δεν είναι πολύ ασφαλής εάν περιέχει μόνο γράμματα. Πρόσθεσε μερικούς αριθμούς στη μεταβλητή `chars`.
-
-    ![στιγμιότυπο οθόνης](images/passwords-numbers.png)
-
-+ Έλεγξε ξανά τον κώδικά σου μερικές φορές και θα πρέπει να δεις ότι μερικές φορές επιλέγεται αριθμός.
+--- /task ---
 
 
+--- task ---
 
+**Test:** Click the **Run** button.
+
+--- /task ---
