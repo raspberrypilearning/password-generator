@@ -2,27 +2,34 @@
 
 Een computer zou kunnen proberen jouw wachtwoord te raden met 'brute kracht' -- dit betekent veel wachtwoorden uitproberen totdat het de juiste raadt.
 
-Laten we erachter komen hoe lang het duurt voor een computer je wachtwoord raadt.
+Find out how long it would take a computer to guess your password.
 
+--- task ---
 
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+--- /task ---
 
-    ![schermafbeelding](images/passwords-secure.png)
+--- task ---
 
-+ Typ "letmein" (Let me in, laat me binnen) als wachtwoord. You'll see that a computer would guess this password extremely quickly!
+Typ "letmein" (Let me in, laat me binnen) als wachtwoord. You'll see that a computer would guess this password extremely quickly!
 
-    ![schermafbeelding](images/passwords-letmein.png)
+--- /task ---
 
-    There are some reasons why "letmein" isn't a good password to use:
+There are some reasons why 'letmein' is a bad password to use:
 
-    + Het is een zeer __vaak__ gebruikt wachtwoord (een van de 15 meest gebruikte wachtwoorden). Een computer zou deze eerst raden.
++ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-    + Het bevat woorden uit het __(Engelse) woordenboek__. Een computer zou deze wachtwoorden eerst ook proberen.
++ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-    + Het is erg __kort__. Het zou een computer meer tijd kosten om een langer wachtwoord te raden.
++ It's very __short__. It would take a computer more time to guess a longer password.
 
-    + Het bevat alleen __letters__. Wachtwoorden zijn veiliger als ze ook cijfers en leestekens bevatten.
++ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ Probeer een woord uit het woordenboek in te voeren. Hoe lang duurt het voordat een computer dat wachtwoord raadt? 
+--- task ---
 
+Probeer een woord uit het woordenboek in te voeren.
+
+Hoe lang duurt het voordat een computer dat wachtwoord raadt?
+
+--- /task ---
