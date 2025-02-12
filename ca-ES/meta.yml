@@ -18,26 +18,29 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: What you will make
   - 
     title: How secure is your password?
-  - 
-    title: 'Challenge: Creating a better password'
-  - 
-    title: Random characters
     completion:
       - engaged
   - 
-    title: 'Challenge: Using numbers and punctuation'
+    title: Random characters
+    completion:
+      - internal
+  - 
+    title: Using numbers and punctuation
   - 
     title: A random password
-  - 
-    title: 'Challenge: A longer password'
   - 
     title: Choosing a password length
   - 
     title: Lots of passwords
-    completion:
-      - internal
   - 
-    title: 'Challenge: Choosing the number of passwords'
+    title: Choosing the number of passwords
+    completion:
+      - external
+  - 
+    title: Create a better password
+    challenge: true
+  - 
+    title: What can you do now?
