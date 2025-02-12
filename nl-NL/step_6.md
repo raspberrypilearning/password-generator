@@ -1,32 +1,70 @@
-## Een willekeurig wachtwoord
+## Choosing a password length
 
-Een enkel teken is niet erg nuttig - laten we je programma verbeteren om een langer wachtwoord te maken.
+Some websites require passwords to be a certain length.
 
+Allow the user to choose the length of their password.
 
+--- task ---
 
-+ Om een wachtwoord te maken, voeg je er willekeurige karakters aan toe, één tegelijk.
+Ask the user to input a password length, and store it in a variable called `length`.
 
-    Om te beginnen moet je `wachtwoord` variabele leeg zijn. Voeg deze regel toe aan je code:
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
 
-    ![schermafbeelding](images/passwords-empty.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ Je wilt 10 keer een willekeurig teken kiezen. Om dit te doen, voeg de volgende code toe:
+length = input('password length?')
 
-    ![schermafbeelding](images/passwords-repeat.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
-+ Je moet ook de regel om een willekeurige teken te kiezen laten inspringen (naar rechts), zodat het 10 keer gebeurt.
+--- /task ---
 
-    Druk op de 'tab'-toets om in te springen.
+--- task ---
 
-    ![schermafbeelding](images/passwords-indent.png)
+Use `int()` to turn the user's input into a whole number.
 
-+ Je moet telkens `+=` gebruiken om het nieuwe teken __toe te voegen__ aan het wachtwoord.
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
 
-    ![schermafbeelding](images/passwords-add.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ Test je nieuwe code en je zou een wachtwoord moeten zien dat 10 tekens lang is.
+length = input('password length?') length = int(length)
 
-    ![schermafbeelding](images/passwords-10-test.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
+--- /task ---
 
+--- task ---
 
+Use your `length` variable to repeat as many times as the user entered.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 9
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+length = input('password length?') length = int(length)
+
+password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+The password created should be the length entered by the user.
+
+--- /task ---
