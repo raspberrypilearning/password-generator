@@ -1,24 +1,24 @@
-## 选择密码长度
+### Choosing the number of passwords
 
-有些网站要求对密码的长度有一定的要求。 我们来让用户可以自定义他们的密码长度。
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ 首先，请用户输入密码的长度，把用户输入的信息存到一个名为`length`的变量中。
-
-    ![截屏](images/passwords-length.png)
-
-+ 使用`int()`将用户输入的信息转换成一个整数。
-
-    ![截屏](images/passwords-cast.png)
-
-+ 使用你的`length`变量重复用户输入的次数。
-
-    ![截屏](images/passwords-length-loop.png)
-
-+ 测试你的代码。 创建的密码应该是用户输入的长度。
-
-    ![截屏](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
