@@ -1,17 +1,89 @@
---- challenge ---
-## 挑战：创建更好的密码
-您能输入一个键入时间不会太长，但会让计算机花费1000年才能破解的密码吗？
+## Random characters
 
-![截图](images/passwords-13000.png)
+Let's create a program to choose a random character for your password.
 
-要记得，你的密码若符合下列情况会比较难被猜中：
+--- task ---
 
-+ 长度长
-+ 不是词典中的一个单词
-+ 包含字母，数字和标点符号
+Open the [Password Generator starter project](https://editor.raspberrypi.org/en/projects/password-generator-starter){:target="_blank"}.
 
-你将创建让计算机难以破解的密码。 这些密码对保护重要账户信息很有帮助。 要知道，很多成年人都在使用密码管理程序来帮助他们记住大量的复杂密码。
+--- /task ---
 
+--- task ---
 
+Create a list of characters, stored in a variable called `chars`.
 
---- /challenge ---
+--- code ---
+---
+language: python filename: main.py line_numbers: true
+line_number_start: 3
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz' --- /code ---
+
+--- /task ---
+
+--- task ---
+
+Now you can choose a random character from the list, and store it in a variable called `password`.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+Finally, you can print your (very short!) password to the screen.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+You should see a single random character on the screen.
+
+If you run your program a few times, you should see different characters appear.
+
+--- /task ---
+
+A password isn't very secure if it only contains letters.
+
+--- task ---
+
+Add some numbers to your `chars` variable.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 3
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
+
+password = random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+**Test:** Click the **Run** button again a few times, and you should see that sometimes a number is chosen.
