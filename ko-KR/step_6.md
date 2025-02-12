@@ -1,32 +1,70 @@
-## 랜덤 암호
+## Choosing a password length
 
-단일 문자는 그다지 유용하지 않습니다. 더 긴 암호를 생성하도록 프로그램을 개선합시다.
+Some websites require passwords to be a certain length.
 
+Allow the user to choose the length of their password.
 
+--- task ---
 
-+ 암호를 만들려면 한 번에 하나씩 랜덤 문자를 추가합니다.
+Ask the user to input a password length, and store it in a variable called `length`.
 
-    먼저 `password` 변수는 비어있어야 합니다. 다음 코드를 프로그램에 추가해 보세요:
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 5
+---
+import random
 
-    ![스크린샷](images/passwords-empty.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ 랜덤 문자를 10번 선택하고자 합니다. 다음 코드를 추가해보세요:
+length = input('password length?')
 
-    ![스크린샷](images/passwords-repeat.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
-+ 줄을 들여써야만 랜덤 문자를 10번 반복해서 선택하게끔 할 수 있습니다.
+--- /task ---
 
-    들여 쓰려면 'tab' 키를 누르세요.
+--- task ---
 
-    ![스크린샷](images/passwords-indent.png)
+Use `int()` to turn the user's input into a whole number.
 
-+ 반복될 때마다 새로운 문자를 __더하기__ 위해서는 `+=`을 사용해야 합니다.
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6
+---
+import random
 
-    ![스크린샷](images/passwords-add.png)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-+ 새 코드를 테스트하면 10자 길이의 암호가 표시됩니다.
+length = input('password length?') length = int(length)
 
-    ![스크린샷](images/passwords-10-test.png)
+password = '' for c in range(10): password += random.choice(chars) print(password) --- /code ---
 
+--- /task ---
 
+--- task ---
 
+Use your `length` variable to repeat as many times as the user entered.
+
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 9
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+length = input('password length?') length = int(length)
+
+password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
+The password created should be the length entered by the user.
+
+--- /task ---
