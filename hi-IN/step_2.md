@@ -2,27 +2,34 @@
 
 कंप्यूटर 'ब्रूट फ़ोर्स' का उपयोग करके आपके पासवर्ड का अनुमान लगाने की कोशिश कर सकता है - इसका मतलब है कि बहुत सारे पासवर्ड आजमाना जब तक कि वह सही अनुमान न लगा ले।
 
-आइए जानते है कि आपके पासवर्ड का अनुमान लगाने में कंप्यूटर को कितना समय लगेगा।
+Find out how long it would take a computer to guess your password.
 
+--- task ---
 
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+--- /task ---
 
-    ![स्क्रीनशॉट(screenshot)](images/passwords-secure.png)
+--- task ---
 
-+ पासवर्ड के रूप में "letmein" (मुझे अंदर आने दें) टाइप करें। You'll see that a computer would guess this password extremely quickly!
+पासवर्ड के रूप में "letmein" (मुझे अंदर आने दें) टाइप करें। You'll see that a computer would guess this password extremely quickly!
 
-    ![स्क्रीनशॉट(screenshot)](images/passwords-letmein.png)
+--- /task ---
 
-    There are some reasons why "letmein" isn't a good password to use:
+There are some reasons why 'letmein' is a bad password to use:
 
-    + यह बहुत __ सामान्य __ पासवर्ड है (15 सबसे अधिक इस्तेमाल किए जाने वाले पासवर्ड में से एक)। एक कंप्यूटर इनका सबसे पहले अनुमान लगाएगा।
++ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-    + इसमें __ शब्दकोश__ के शब्द हैं । एक कंप्यूटर इन पासवर्डों को भी पहले आज़माएगा।
++ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-    + यह बहुत __ छोटा(short)__ है। एक लंबे(long) पासवर्ड का अनुमान लगाने में कंप्यूटर को अधिक समय लगेगा।
++ It's very __short__. It would take a computer more time to guess a longer password.
 
-    + इसमें केवल __ अक्षर __ होते हैं। यदि वे नंबर और विराम चिह्न(punctuation) भी रखते हैं, तो पासवर्ड अधिक सुरक्षित होते हैं।
++ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ एक शब्दकोश के शब्द उपयोग करने का प्रयास करें। उस पासवर्ड का अनुमान लगाने में कंप्यूटर को कितना समय लगेगा? 
+--- task ---
 
+एक शब्दकोश के शब्द उपयोग करने का प्रयास करें।
+
+उस पासवर्ड का अनुमान लगाने में कंप्यूटर को कितना समय लगेगा?
+
+--- /task ---
