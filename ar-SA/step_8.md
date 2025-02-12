@@ -1,24 +1,24 @@
-## إختيار طول كلمة المرور
+### Choosing the number of passwords
 
-بعض المواقع تتطلب أن تكون كلمات المرور بطول معين. دعونا نسمح للمستخدم باختيار طول كلمة المرور الخاصة به.
+Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
 
-
-
-+ أولاً ، اطلب من المستخدم إدخال طول كلمة المرور وتخزينها في متغير يسمى ` length `.
-
-    ![لقطة الشاشة](images/passwords-length.png)
-
-+ استخدم ` int () ` لتحويل إدخال المستخدم إلى عدد صحيح.
-
-    ![لقطة شاشة](images/passwords-cast.png)
-
-+ استخدم متغير ` length` لتكرار عدة مرات كما أدخل المستخدم.
-
-    ![لقطة الشاشة](images/passwords-length-loop.png)
-
-+ اختبر التعليمة البرمجية الخاص بك. يجب أن تكون كلمة المرور التي تم إنشاؤها هي الطول الذي أدخله المستخدم.
-
-    ![لقطة للشاشة](images/passwords-length-test.png)
+--- task ---
 
 
+--- code ---
+---
+language: python filename: main.py line_numbers: true line_number_start: 1
+line_highlights: 6-7, 12
+---
+# !/bin/python3
+import random
 
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+
+number = input('number of passwords?') number = int(number)
+
+length = input('password length?') length = int(length)
+
+for p in range(number): password = '' for c in range(length): password += random.choice(chars) print(password) --- /code ---
+
+--- /task ---
