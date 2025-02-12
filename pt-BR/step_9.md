@@ -1,20 +1,13 @@
-## Muitas senhas
+## Create a better password
 
-Vamos permitir que o usuário crie três senhas ao mesmo tempo.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![captura de tela](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ Adicione este código para criar três senhas:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![captura de tela](images/passwords-num-loop.png)
-
-+ Selecione o código para criar uma senha e pressione tab para indentar e fazer com que se repita 3 vezes.
-
-    ![captura de tela](images/passwords-num-indent.png)
-
-+ Teste o seu novo código. Agora você deve ver três senhas com o tamanho escolhido.
-
-    ![captura de tela](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
