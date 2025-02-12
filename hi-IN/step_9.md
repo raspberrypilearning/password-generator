@@ -1,20 +1,13 @@
-## बहुत सारे पासवर्ड
+## Create a better password
 
-आइए उपयोगकर्ता को एक साथ 3 पासवर्ड बनाने की अनुमति दें।
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![स्क्रीनशॉट(screenshot)](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ 3 पासवर्ड बनाने के लिए इस कोड को जोड़ें:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![स्क्रीनशॉट(screenshot)](images/passwords-num-loop.png)
-
-+ पासवर्ड बनाने के लिए कोड को हाइलाइट करें, और इंडेंट(indent) करने के लिए Tab को दबाएं ताकि वह 3 बार दोहराए।
-
-    ![स्क्रीनशॉट(screenshot)](images/passwords-num-indent.png)
-
-+ अपने नए कोड का परीक्षण(Test) करें। अब आपको अपनी चुनी हुई पासवर्ड लंबाई के 3 पासवर्ड दिखाइ देंगे।
-
-    ![स्क्रीनशॉट(screenshot)](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
