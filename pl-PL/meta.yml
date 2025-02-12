@@ -18,26 +18,29 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Wprowadzenie'
+    title: What you will make
   - 
     title: Jak bezpieczne jest Twoje hasło?
-  - 
-    title: 'Wyzwanie: tworzenie lepszego hasła'
-  - 
-    title: Losowe znaki
     completion:
       - engaged
   - 
-    title: 'Wyzwanie: używanie liczb i znaków specjalnych'
-  - 
-    title: Losowe hasło
-  - 
-    title: 'Wyzwanie: dłuższe hasło'
-  - 
-    title: Wybór długości hasła
-  - 
-    title: Mnóstwo haseł
+    title: Random characters
     completion:
       - internal
   - 
-    title: 'Wyzwanie: wybór liczby haseł'
+    title: Using numbers and punctuation
+  - 
+    title: A random password
+  - 
+    title: Choosing a password length
+  - 
+    title: Lots of passwords
+  - 
+    title: Choosing the number of passwords
+    completion:
+      - external
+  - 
+    title: Create a better password
+    challenge: true
+  - 
+    title: What can you do now?
