@@ -1,20 +1,13 @@
-## الكثير من كلمات المرور
+## Create a better password
 
-دعونا نسمح للمستخدم بإنشاء 3 كلمات مرور مرة واحدة.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![لقطة الشاشة](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ أضف هذه التعليمة البرمجية لإنشاء 3 كلمات مرور:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![لقطة الشاشة](images/passwords-num-loop.png)
-
-+ قم بتمييز التعليمات البرمجية الخاصة بإنشاء كلمة مرور ، واضغط على مفتاح Tab للمسافة البادئة بحيث يتكرر 3 مرات.
-
-    ![لقطة شاشة](images/passwords-num-indent.png)
-
-+ اختبر الكود البرمجي الجديد. من المفترض أن ترى الآن 3 كلمات مرور لطول كلمة المرور التي اخترتها.
-
-    ![لقطة الشاشة](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
