@@ -1,20 +1,13 @@
-## 많은 암호 생성하기
+## Create a better password
 
-사용자가 한 번에 3개의 비밀번호를 만들 수 있도록 합시다.
+Can you enter a password that would take a computer more than 1,000 years to crack but isn't too long to type?
 
+![스크린샷](images/passwords-13000.png)
 
+Remember that your password is harder to guess if it's:
 
-+ 다음 코드를 추가하여 3개의 비밀번호를 만듭니다:
++ Long
++ Not a word in the dictionary
++ Contains letters, numbers and punctuation
 
-    ![스크린샷](images/passwords-num-loop.png)
-
-+ 암호를 만들기 위한 코드를 선택하고 이 코드가 3회 반복되도록 tab 키를 눌러 들여씁니다.
-
-    ![스크린샷](images/passwords-num-indent.png)
-
-+ 새로워진 여러분의 코드를 테스트해 보세요. 이제 사용자가 선택한 비밀번호 길이를 가진 3 개의 비밀번호가 표시될 것입니다.
-
-    ![스크린샷](images/passwords-num-test.png)
-
-
-
+You're going to generate passwords that are hard for a computer to crack. These are useful for protecting important accounts. Note that many adults use a password manager program to help them remember lots of tricky passwords.
