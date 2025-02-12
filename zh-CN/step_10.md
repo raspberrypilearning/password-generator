@@ -1,13 +1,18 @@
---- challenge ---
-## 挑战：选择密码数量
-你可以让用户输入他们想要的密码数量，而不是每次总打印三个密码吗？
+## What can you do now?
 
-你的程序应如下所示：
+Try our [Secret Messages](https://projects.raspberrypi.org/en/projects/secret-messages/) project where you will learn how to make your own encryption program, to send and receive secret messages with a friend.
 
-![截屏](images/passwords-choose-number.png)
+--- print-only ---
 
-你需要的代码__非常__类似于输入密码`长度` 的代码。
+![A Caesar cipher wheel showing the letter D is three steps from the letter A](images/messages-wheel-eg.png)
 
+--- /print-only ---
 
+--- no-print ---
 
---- /challenge ---
+Press **Run** to try it out! <iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- /no-print ---
+
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+
