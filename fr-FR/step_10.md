@@ -1,13 +1,18 @@
---- challenge ---
-## Défi : choisir le nombre de mots de passe
-Au lieu d'imprimer toujours 3 mots de passe, peux-tu autoriser l'utilisateur à entrer le nombre de mots de passe qu'il souhaite ?
+## What can you do now?
 
-Voici comment ton programme devrait fonctionner :
+Try our [Secret Messages](https://projects.raspberrypi.org/en/projects/secret-messages/) project where you will learn how to make your own encryption program, to send and receive secret messages with a friend.
 
-![capture d'écran](images/passwords-choose-number.png)
+--- print-only ---
 
-Le code dont tu auras besoin est __ très __ similaire au code pour saisir la ` longueur` du mot de passe.
+![A Caesar cipher wheel showing the letter D is three steps from the letter A](images/messages-wheel-eg.png)
 
+--- /print-only ---
 
+--- no-print ---
 
---- /challenge ---
+Press **Run** to try it out! <iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- /no-print ---
+
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+
