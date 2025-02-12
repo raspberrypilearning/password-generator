@@ -1,13 +1,18 @@
---- challenge ---
-## चुनौती: पासवर्ड की संख्या चुनना
-हमेशा 3 पासवर्ड प्रिंट करने के बजाय, क्या आप उपयोगकर्ता को उनके इच्छित पासवर्ड की संख्या डालने की अनुमति दे सकते हैं?
+## What can you do now?
 
-यहां बताया गया है कि आपका प्रोग्राम कैसे काम करेगा:
+Try our [Secret Messages](https://projects.raspberrypi.org/en/projects/secret-messages/) project where you will learn how to make your own encryption program, to send and receive secret messages with a friend.
 
-![स्क्रीनशॉट(screenshot)](images/passwords-choose-number.png)
+--- print-only ---
 
-आपको जिस कोड की आवश्यकता होगी वह पासवर्ड डालने वाले कोड की लंबाई सें__बहुत__ `समान` होगी।
+![A Caesar cipher wheel showing the letter D is three steps from the letter A](images/messages-wheel-eg.png)
 
+--- /print-only ---
 
+--- no-print ---
 
---- /challenge ---
+Press **Run** to try it out! <iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- /no-print ---
+
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+
