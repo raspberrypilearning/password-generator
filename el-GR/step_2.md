@@ -2,27 +2,34 @@
 
 Ένας υπολογιστής θα μπορούσε να προσπαθήσει να μαντέψει τον δικό σου κωδικό πρόσβασης χρησιμοποιώντας το "brute force" - αυτό σημαίνει δοκιμή πολλών κωδικών πρόσβασης μέχρι να μαντέψει τον σωστό.
 
-Ας μάθουμε πόσο χρόνο θα χρειαζόταν ένας υπολογιστής για να μαντέψει τον δικό σου κωδικό πρόσβασης.
+Find out how long it would take a computer to guess your password.
 
+--- task ---
 
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
 
-+ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+--- /task ---
 
-    ![στιγμιότυπο οθόνης](images/passwords-secure.png)
+--- task ---
 
-+ Πληκτρολογήστε "letmein" (Let me in) ως κωδικό πρόσβασης. You'll see that a computer would guess this password extremely quickly!
+Πληκτρολογήστε "letmein" (Let me in) ως κωδικό πρόσβασης. You'll see that a computer would guess this password extremely quickly!
 
-    ![στιγμιότυπο οθόνης](images/passwords-letmein.png)
+--- /task ---
 
-    There are some reasons why "letmein" isn't a good password to use:
+There are some reasons why 'letmein' is a bad password to use:
 
-    + Είναι πολύ __ συνηθισμένος__ κωδικός πρόσβασης (ένας από τους 15 κωδικούς πρόσβασης που χρησιμοποιούνται πιο συχνά). Ένας υπολογιστής θα μαντέψει πρώτα αυτούς τους κωδικούς.
++ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
 
-    + Περιέχει λέξεις από το __λεξικό__. Ομοίως, ένας υπολογιστής θα δοκιμάσει πρώτα αυτούς τους κωδικούς πρόσβασης.
++ It contains words from the __dictionary__. A computer would also try these passwords first.
 
-    + Είναι πολύ __σύντομος__. Θα χρειαζόταν περισσότερος χρόνος σε έναν υπολογιστή για να μαντέψει έναν μεγαλύτερο κωδικό πρόσβασης.
++ It's very __short__. It would take a computer more time to guess a longer password.
 
-    + Περιέχει μόνο __γράμματα__. Οι κωδικοί πρόσβασης είναι πιο ασφαλείς εάν περιέχουν επίσης αριθμούς και σημεία στίξης.
++ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
 
-+ Δοκίμασε να δώσεις μια λέξη από το λεξικό. Πόσο χρόνο θα χρειαζόταν ένας υπολογιστής για να μαντέψει αυτόν τον κωδικό πρόσβασης; 
+--- task ---
 
+Δοκίμασε να δώσεις μια λέξη από το λεξικό.
+
+Πόσο χρόνο θα χρειαζόταν ένας υπολογιστής για να μαντέψει αυτόν τον κωδικό πρόσβασης;
+
+--- /task ---
