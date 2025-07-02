@@ -30,4 +30,3 @@ steps:
 - title: الكثير من كلمات المرور
   completion:
   - internal
-- title: 'التحدي: إختيار عدد كلمات المرور'

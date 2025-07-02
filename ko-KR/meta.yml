@@ -30,4 +30,3 @@ steps:
 - title: 많은 암호 생성하기
   completion:
   - internal
-- title: '도전과제: 암호 개수 선택하기'
