@@ -30,4 +30,3 @@ steps:
 - title: たくさんのパスワード
   completion:
   - internal
-- title: 'チャレンジ: パスワードの数を選ぶ'

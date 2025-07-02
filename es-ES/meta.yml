@@ -30,4 +30,3 @@ steps:
 - title: Muchas contraseñas
   completion:
   - internal
-- title: 'Desafío: elegir el número de contraseñas'
